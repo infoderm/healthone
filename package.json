@@ -25,7 +25,12 @@
   "bugs": {
     "url": "https://github.com/aureooms/healthone/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@aureooms/js-cardinality": "^2.0.0",
+    "@aureooms/js-itertools": "^3.4.0",
+    "date-fns": "^1.29.0",
+    "lodash.merge": "^4.6.1"
+  },
   "devDependencies": {
     "@babel/cli": "7.2.0",
     "@babel/core": "7.2.0",
@@ -49,7 +54,12 @@
     "lib"
   ],
   "homepage": "https://aureooms.github.io/healthone",
-  "keywords": ["Health", "One", "format", "parser"],
+  "keywords": [
+    "Health",
+    "One",
+    "format",
+    "parser"
+  ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
