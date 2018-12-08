@@ -23,7 +23,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/healthone/issues"
+    "url": "https://github.com/dermatodoc/healthone/issues"
   },
   "dependencies": {
     "@aureooms/js-cardinality": "^2.0.0",
@@ -53,7 +53,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://aureooms.github.io/healthone",
+  "homepage": "https://dermatodoc.github.io/healthone",
   "keywords": [
     "Health",
     "One",
@@ -64,7 +64,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/healthone"
+    "url": "https://github.com/dermatodoc/healthone"
   },
   "scripts": {
     "build": "rm -rf lib && babel src -d lib",
