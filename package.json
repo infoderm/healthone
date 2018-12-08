@@ -29,7 +29,7 @@
     "@aureooms/js-cardinality": "^2.0.0",
     "@aureooms/js-itertools": "^3.4.0",
     "date-fns": "^1.29.0",
-    "lodash.merge": "^4.6.1"
+    "lodash.mergewith": "^4.6.1"
   },
   "devDependencies": {
     "@babel/cli": "7.2.0",

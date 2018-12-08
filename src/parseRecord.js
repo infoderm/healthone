@@ -8,7 +8,9 @@ import parseL1 from './parseL1';
 import parseL5 from './parseL5';
 
 export default function parseRecord(parts) {
-	const descriptor = parts[0];
+	let [descriptor, ...rest] = parts;
+	descriptor = parts[0].trim(); // To remove <feff> byte order mark
+	parts = [descriptor, ...rest];
 
 	switch (descriptor) {
 		case 'A1':

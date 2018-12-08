@@ -1,0 +1,686 @@
+[
+  {
+    "descriptor": "L1",
+    "reference": "1234567",
+    "identifier": "Test Laboratory",
+    "mutuality": {
+       "coverage": "",
+       "holder": "",
+       "id": "940",
+       "kg1": "130",
+       "kg2": "130"
+    },
+    "source": [
+      "A1\\1234567\\Test Laboratory\\",
+      "A2\\1234567\\DOE\\Jane\\F\\27031992\\",
+      "A3\\1234567\\Test Avenue, 247\\0681\\Ciel\\",
+      "A4\\1234567\\98765432100\\03102018\\1234\\C\\",
+      "A5\\1234567\\940\\45011629184\\\\\\130\\130\\",
+      "L1\\1234567\\t_HEMATO\\ HEMATOLOGIE\\\\\\\\\\",
+      "L1\\1234567\\t_HEMOGRAMME\\Hemogramme\\\\\\\\\\",
+      "L1\\1234567\\327\\Hemoglobine\\11,5 - 17,0\\g/dl\\\\13,0\\",
+      "L1\\1234567\\325\\Hematies\\4,0 - 5,2\\10e6/mme3\\\\4,3\\",
+      "L1\\1234567\\328\\Hematocrite\\34,0 - 53,0\\%\\\\38,6\\",
+      "L1\\1234567\\329\\   t.c.m.h.\\24 - 34\\pg\\\\30\\",
+      "L1\\1234567\\330\\   c.c.m.h.\\32 - 36\\g/dl\\\\34\\",
+      "L1\\1234567\\331\\   volume globulaire moyen\\78 - 98\\fl\\\\90\\",
+      "L1\\1234567\\1980\\   Index d'anisocytose\\11 - 15\\%\\\\13\\",
+      "L1\\1234567\\376\\Reticulocytes\\\\\\C\\sans objet\\",
+      "L1\\1234567\\332\\Leucocytes\\3750 - 13000\\/mme3\\\\4530\\",
+      "L1\\1234567\\t_FO\\    Formule\\\\\\\\\\",
+      "L1\\1234567\\366\\Neutrophiles\\37 - 75\\%\\\\50\\",
+      "L1\\1234567\\367\\Eosinophiles\\< 5,0\\%\\\\2,4\\",
+      "L1\\1234567\\368\\Basophiles\\< 2,0\\%\\\\0,6\\",
+      "L1\\1234567\\369\\Monocytes\\1,0 - 10,0\\%\\\\6,7\\",
+      "L1\\1234567\\370\\Lymphocytes\\20 - 45\\%\\\\40\\",
+      "L1\\1234567\\371\\Neutrophiles\\1400 - 7700\\/mme3\\\\2265\\",
+      "L1\\1234567\\372\\Eosinophiles\\< 600\\/mme3\\\\109\\",
+      "L1\\1234567\\373\\Basophiles\\< 150\\/mme3\\\\27\\",
+      "L1\\1234567\\374\\Monocytes\\< 900\\/mme3\\\\304\\",
+      "L1\\1234567\\375\\Lymphocytes\\1000 - 4800\\/mme3\\\\1812\\",
+      "L1\\1234567\\t_COAG\\ HEMOSTASE\\\\\\\\\\",
+      "L1\\1234567\\334\\Thrombocytes\\160 - 440\\10e3/mm³\\\\230\\",
+      "L1\\1234567\\t_CHIMIE\\  BIOCHIMIE\\\\\\\\\\",
+      "L1\\1234567\\t_ASPECT\\  Index seriques\\\\\\\\\\",
+      "L1\\1234567\\2053\\Indice d'hemolyse\\< 1\\Index\\\\< 1\\",
+      "L1\\1234567\\2055\\Indice de lactescence\\< 1\\Index\\\\< 1\\",
+      "L1\\1234567\\2054\\Indice d'ictere\\< 1\\Index\\\\< 1\\",
+      "L1\\1234567\\t_ANEMIE\\Bilan biochimique de l'anemie\\\\\\\\\\",
+      "L1\\1234567\\610\\Fer\\37 - 150\\mcg/dl\\\\93\\",
+      "L1\\1234567\\614\\Capacite fixation de la transferrine\\220 - 440\\mcg/dl\\\\397\\",
+      "L1\\1234567\\615\\Saturation de la transferrine\\28 - 50\\%\\*\\23\\",
+      "L1\\1234567\\611\\Ferritine\\10 - 180\\mcg/l\\\\11\\",
+      "L1\\1234567\\t_HEPAT\\Fonction hepatique\\\\\\\\\\",
+      "L1\\1234567\\558\\Transaminase GO  (ASAT)\\< 35\\U /l\\\\23\\",
+      "L1\\1234567\\557\\Transaminase GP  (ALAT)\\< 41\\U /l\\\\14\\",
+      "L1\\1234567\\559\\g GT\\4 - 24\\U /l\\\\19\\",
+      "L1\\1234567\\2906\\Phosphatases alcalines\\28 - 116\\U  /l\\\\87\\",
+      "L1\\1234567\\561\\Lactate deshydrogenase (LDH)\\< 248\\U /l\\\\151\\",
+      "L1\\1234567\\570\\Bilirubine  totale\\< 0,90\\mg /dl\\\\0,65\\",
+      "L1\\1234567\\571\\Bilirubine conjuguee\\< 0,30\\mg /dl\\\\0,13\\",
+      "L1\\1234567\\572\\Bilirubine libre\\< 0,80\\mg /dl\\\\0,52\\",
+      "L1\\1234567\\t_RENAL\\Fonction renale\\\\\\\\\\",
+      "L1\\1234567\\581\\Creatinine\\5,5 - 10,2\\mg /l\\\\6,7\\",
+      "L1\\1234567\\t_PANC\\Fonction pancreatique\\\\\\\\\\",
+      "L1\\1234567\\622\\Lipase\\< 67\\U  /l\\\\17\\",
+      "L1\\1234567\\t_2250\\Facteurs de risque cardiovasculaire\\\\\\\\\\",
+      "L1\\1234567\\t_LIPI\\ Lipides\\\\\\\\\\",
+      "L1\\1234567\\541\\Cholesterol total\\1,10 - 1,90\\g/l\\\\1,76\\",
+      "L1\\1234567\\549\\Cholesterol VLDL (calcule)\\0,05 - 0,40\\g/l\\\\0,09\\",
+      "L1\\1234567\\2189\\Cholesterol LDL\\0,40 - 1,40\\g/l\\\\1,25\\",
+      "L1\\1234567\\542\\HDL Cholesterol\\0,45 - 0,90\\g/l\\*\\0,42\\",
+      "L1\\1234567\\540\\Triglycerides\\0,20 - 1,40\\g/l\\\\0,47\\",
+      "L1\\1234567\\t_ENDO\\ENDOCRINOLOGIE\\\\\\\\\\",
+      "L1\\1234567\\t_SEX/SS\\Axe gonadotrope\\\\\\\\\\",
+      "L1\\1234567\\864\\Oestradiol\\\\ng/l\\\\20\\",
+      "L1\\1234567\\864\\Commentaires\\\\\\C\\prepuberte\t.\t20\t\\",
+      "L1\\1234567\\864\\Commentaires\\\\\\C\\ph. follicul. debut\t11\t69\t\\",
+      "L1\\1234567\\864\\Commentaires\\\\\\C\\                 fin\t50\t180\t\\",
+      "L1\\1234567\\864\\Commentaires\\\\\\C\\ovulation\t140\t530\t\\",
+      "L1\\1234567\\864\\Commentaires\\\\\\C\\ph. luteale\t33\t200\t\\",
+      "L1\\1234567\\864\\Commentaires\\\\\\C\\menopause\t.\t37\t\\",
+      "L1\\1234567\\865\\Progesterone\\\\mcg/l\\\\0,7\\",
+      "L1\\1234567\\865\\Commentaires\\\\\\C\\prepuberte\t0.1\t0.3\t\\",
+      "L1\\1234567\\865\\Commentaires\\\\\\C\\phase  folliculaire\t0.1\t1.5\t\\",
+      "L1\\1234567\\865\\Commentaires\\\\\\C\\ovulation\t1.5\t5\t\\",
+      "L1\\1234567\\865\\Commentaires\\\\\\C\\phase luteale\t4\t30\t\\",
+      "L1\\1234567\\859\\HCG\\< 4\\UI /l\\\\< 4\\",
+      "L1\\1234567\\2753\\Prelevement(s)\\\\\\C\\Identification sur  prelevement(s) : oui\\",
+      "L1\\1234567\\TEXTEF\\Texte de fin de protocole\\\\\\\\Validation biologique informatique\\",
+      "L1\\1234567\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                              Avec l'expression de nos sentiments confraternellement devoues\\"
+    ],
+    "patient": {
+      "lastname": "DOE",
+      "firstname": "Jane",
+      "sex": "female",
+      "birthdate": "1992-03-26T23:00:00.000Z",
+      "streetandnumber": "Test Avenue, 247",
+      "zip": "0681",
+      "municipality": "Ciel",
+      "nn": "45011629184"
+    },
+    "kind": "lab",
+    "requestor": "98765432100",
+    "datetime": "2018-10-03T10:34:00.000Z",
+    "status": "complete",
+    "results": [
+      {
+        "code": "t_HEMATO",
+        "name": " HEMATOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_HEMOGRAMME",
+        "name": "Hemogramme",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "327",
+        "name": "Hemoglobine",
+        "normal": "11,5 - 17,0",
+        "unit": "g/dl",
+        "flag": "",
+        "measure": "13,0"
+      },
+      {
+        "code": "325",
+        "name": "Hematies",
+        "normal": "4,0 - 5,2",
+        "unit": "10e6/mme3",
+        "flag": "",
+        "measure": "4,3"
+      },
+      {
+        "code": "328",
+        "name": "Hematocrite",
+        "normal": "34,0 - 53,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "38,6"
+      },
+      {
+        "code": "329",
+        "name": "   t.c.m.h.",
+        "normal": "24 - 34",
+        "unit": "pg",
+        "flag": "",
+        "measure": "30"
+      },
+      {
+        "code": "330",
+        "name": "   c.c.m.h.",
+        "normal": "32 - 36",
+        "unit": "g/dl",
+        "flag": "",
+        "measure": "34"
+      },
+      {
+        "code": "331",
+        "name": "   volume globulaire moyen",
+        "normal": "78 - 98",
+        "unit": "fl",
+        "flag": "",
+        "measure": "90"
+      },
+      {
+        "code": "1980",
+        "name": "   Index d'anisocytose",
+        "normal": "11 - 15",
+        "unit": "%",
+        "flag": "",
+        "measure": "13"
+      },
+      {
+        "code": "376",
+        "name": "Reticulocytes",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "sans objet"
+      },
+      {
+        "code": "332",
+        "name": "Leucocytes",
+        "normal": "3750 - 13000",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "4530"
+      },
+      {
+        "code": "t_FO",
+        "name": "    Formule",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "366",
+        "name": "Neutrophiles",
+        "normal": "37 - 75",
+        "unit": "%",
+        "flag": "",
+        "measure": "50"
+      },
+      {
+        "code": "367",
+        "name": "Eosinophiles",
+        "normal": "< 5,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "2,4"
+      },
+      {
+        "code": "368",
+        "name": "Basophiles",
+        "normal": "< 2,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "0,6"
+      },
+      {
+        "code": "369",
+        "name": "Monocytes",
+        "normal": "1,0 - 10,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "6,7"
+      },
+      {
+        "code": "370",
+        "name": "Lymphocytes",
+        "normal": "20 - 45",
+        "unit": "%",
+        "flag": "",
+        "measure": "40"
+      },
+      {
+        "code": "371",
+        "name": "Neutrophiles",
+        "normal": "1400 - 7700",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "2265"
+      },
+      {
+        "code": "372",
+        "name": "Eosinophiles",
+        "normal": "< 600",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "109"
+      },
+      {
+        "code": "373",
+        "name": "Basophiles",
+        "normal": "< 150",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "27"
+      },
+      {
+        "code": "374",
+        "name": "Monocytes",
+        "normal": "< 900",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "304"
+      },
+      {
+        "code": "375",
+        "name": "Lymphocytes",
+        "normal": "1000 - 4800",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "1812"
+      },
+      {
+        "code": "t_COAG",
+        "name": " HEMOSTASE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "334",
+        "name": "Thrombocytes",
+        "normal": "160 - 440",
+        "unit": "10e3/mm³",
+        "flag": "",
+        "measure": "230"
+      },
+      {
+        "code": "t_CHIMIE",
+        "name": "  BIOCHIMIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_ASPECT",
+        "name": "  Index seriques",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "2053",
+        "name": "Indice d'hemolyse",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "2055",
+        "name": "Indice de lactescence",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "2054",
+        "name": "Indice d'ictere",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "t_ANEMIE",
+        "name": "Bilan biochimique de l'anemie",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "610",
+        "name": "Fer",
+        "normal": "37 - 150",
+        "unit": "mcg/dl",
+        "flag": "",
+        "measure": "93"
+      },
+      {
+        "code": "614",
+        "name": "Capacite fixation de la transferrine",
+        "normal": "220 - 440",
+        "unit": "mcg/dl",
+        "flag": "",
+        "measure": "397"
+      },
+      {
+        "code": "615",
+        "name": "Saturation de la transferrine",
+        "normal": "28 - 50",
+        "unit": "%",
+        "flag": "*",
+        "measure": "23"
+      },
+      {
+        "code": "611",
+        "name": "Ferritine",
+        "normal": "10 - 180",
+        "unit": "mcg/l",
+        "flag": "",
+        "measure": "11"
+      },
+      {
+        "code": "t_HEPAT",
+        "name": "Fonction hepatique",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "558",
+        "name": "Transaminase GO  (ASAT)",
+        "normal": "< 35",
+        "unit": "U /l",
+        "flag": "",
+        "measure": "23"
+      },
+      {
+        "code": "557",
+        "name": "Transaminase GP  (ALAT)",
+        "normal": "< 41",
+        "unit": "U /l",
+        "flag": "",
+        "measure": "14"
+      },
+      {
+        "code": "559",
+        "name": "g GT",
+        "normal": "4 - 24",
+        "unit": "U /l",
+        "flag": "",
+        "measure": "19"
+      },
+      {
+        "code": "2906",
+        "name": "Phosphatases alcalines",
+        "normal": "28 - 116",
+        "unit": "U  /l",
+        "flag": "",
+        "measure": "87"
+      },
+      {
+        "code": "561",
+        "name": "Lactate deshydrogenase (LDH)",
+        "normal": "< 248",
+        "unit": "U /l",
+        "flag": "",
+        "measure": "151"
+      },
+      {
+        "code": "570",
+        "name": "Bilirubine  totale",
+        "normal": "< 0,90",
+        "unit": "mg /dl",
+        "flag": "",
+        "measure": "0,65"
+      },
+      {
+        "code": "571",
+        "name": "Bilirubine conjuguee",
+        "normal": "< 0,30",
+        "unit": "mg /dl",
+        "flag": "",
+        "measure": "0,13"
+      },
+      {
+        "code": "572",
+        "name": "Bilirubine libre",
+        "normal": "< 0,80",
+        "unit": "mg /dl",
+        "flag": "",
+        "measure": "0,52"
+      },
+      {
+        "code": "t_RENAL",
+        "name": "Fonction renale",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "581",
+        "name": "Creatinine",
+        "normal": "5,5 - 10,2",
+        "unit": "mg /l",
+        "flag": "",
+        "measure": "6,7"
+      },
+      {
+        "code": "t_PANC",
+        "name": "Fonction pancreatique",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "622",
+        "name": "Lipase",
+        "normal": "< 67",
+        "unit": "U  /l",
+        "flag": "",
+        "measure": "17"
+      },
+      {
+        "code": "t_2250",
+        "name": "Facteurs de risque cardiovasculaire",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_LIPI",
+        "name": " Lipides",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "541",
+        "name": "Cholesterol total",
+        "normal": "1,10 - 1,90",
+        "unit": "g/l",
+        "flag": "",
+        "measure": "1,76"
+      },
+      {
+        "code": "549",
+        "name": "Cholesterol VLDL (calcule)",
+        "normal": "0,05 - 0,40",
+        "unit": "g/l",
+        "flag": "",
+        "measure": "0,09"
+      },
+      {
+        "code": "2189",
+        "name": "Cholesterol LDL",
+        "normal": "0,40 - 1,40",
+        "unit": "g/l",
+        "flag": "",
+        "measure": "1,25"
+      },
+      {
+        "code": "542",
+        "name": "HDL Cholesterol",
+        "normal": "0,45 - 0,90",
+        "unit": "g/l",
+        "flag": "*",
+        "measure": "0,42"
+      },
+      {
+        "code": "540",
+        "name": "Triglycerides",
+        "normal": "0,20 - 1,40",
+        "unit": "g/l",
+        "flag": "",
+        "measure": "0,47"
+      },
+      {
+        "code": "t_ENDO",
+        "name": "ENDOCRINOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_SEX/SS",
+        "name": "Axe gonadotrope",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "864",
+        "name": "Oestradiol",
+        "normal": "",
+        "unit": "ng/l",
+        "flag": "",
+        "measure": "20"
+      },
+      {
+        "code": "864",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "prepuberte\t.\t20\t"
+      },
+      {
+        "code": "864",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "ph. follicul. debut\t11\t69\t"
+      },
+      {
+        "code": "864",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "                 fin\t50\t180\t"
+      },
+      {
+        "code": "864",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "ovulation\t140\t530\t"
+      },
+      {
+        "code": "864",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "ph. luteale\t33\t200\t"
+      },
+      {
+        "code": "864",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "menopause\t.\t37\t"
+      },
+      {
+        "code": "865",
+        "name": "Progesterone",
+        "normal": "",
+        "unit": "mcg/l",
+        "flag": "",
+        "measure": "0,7"
+      },
+      {
+        "code": "865",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "prepuberte\t0.1\t0.3\t"
+      },
+      {
+        "code": "865",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "phase  folliculaire\t0.1\t1.5\t"
+      },
+      {
+        "code": "865",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "ovulation\t1.5\t5\t"
+      },
+      {
+        "code": "865",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "phase luteale\t4\t30\t"
+      },
+      {
+        "code": "859",
+        "name": "HCG",
+        "normal": "< 4",
+        "unit": "UI /l",
+        "flag": "",
+        "measure": "< 4"
+      },
+      {
+        "code": "2753",
+        "name": "Prelevement(s)",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "Identification sur  prelevement(s) : oui"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "Validation biologique informatique"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                              Avec l'expression de nos sentiments confraternellement devoues"
+      }
+    ],
+    "anomalies": 2
+  }
+]

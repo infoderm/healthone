@@ -1,4 +1,10 @@
-import merge from 'lodash.merge';
+import mergeWith from 'lodash.mergewith';
+
+function customizer(objValue, srcValue) {
+	if (Array.isArray(objValue)) {
+		return objValue.concat(srcValue);
+	}
+}
 
 export default function insertRecord(report, record) {
 	let {kind} = report;
@@ -28,7 +34,10 @@ export default function insertRecord(report, record) {
 				throw new Error(
 					`Invalid record descriptor '${record.descriptor}' for a lab document.`
 				);
-			if (record.speciality !== report.speciality) {
+			if (
+				report.speciality !== undefined &&
+				record.speciality !== report.speciality
+			) {
 				throw new Error(
 					`Invalid record speciality '${
 						record.speciality
@@ -42,7 +51,7 @@ export default function insertRecord(report, record) {
 	}
 
 	return {
-		...merge({}, report, record),
+		...mergeWith({}, report, record, customizer),
 		kind
 	};
 }

@@ -35,6 +35,8 @@ function* parseLines(lines) {
 			report = insertLine(report, line);
 		}
 	}
+
+	if (report !== null) yield sanitizeReport(report);
 }
 
 function sanitizeReport(report) {
