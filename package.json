@@ -28,27 +28,27 @@
   "dependencies": {
     "@aureooms/js-cardinality": "^2.0.0",
     "@aureooms/js-itertools": "^3.4.0",
-    "date-fns": "^1.29.0",
+    "date-fns": "^1.30.1",
     "lodash.mergewith": "^4.6.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.2.0",
-    "@babel/core": "7.2.0",
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.3",
     "@babel/plugin-proposal-async-generator-functions": "7.2.0",
-    "@babel/polyfill": "7.0.0",
-    "@babel/preset-env": "7.2.0",
+    "@babel/polyfill": "7.2.5",
+    "@babel/preset-env": "7.3.1",
     "@babel/register": "7.0.0",
-    "ava": "1.0.0-rc.2",
+    "ava": "1.2.1",
     "codeclimate-test-reporter": "0.5.1",
-    "coveralls": "3.0.2",
+    "coveralls": "3.0.3",
     "esdoc": "1.1.0",
     "esdoc-ecmascript-proposal-plugin": "1.0.0",
     "esdoc-inject-script-plugin": "1.0.0",
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
-    "np": "3.0.4",
-    "nyc": "13.1.0",
-    "xo": "0.23.0"
+    "np": "4.0.2",
+    "nyc": "13.3.0",
+    "xo": "0.24.0"
   },
   "files": [
     "lib"

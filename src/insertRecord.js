@@ -44,6 +44,7 @@ export default function insertRecord(report, record) {
 					}'. Current speciality is '${report.speciality}'.`
 				);
 			}
+
 			kind = 'report';
 			break;
 		default:

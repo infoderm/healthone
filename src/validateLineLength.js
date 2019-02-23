@@ -6,6 +6,7 @@ export default function validateLineLength(parts, kind, length) {
 			}, expected ${length + 1}.`
 		);
 	}
+
 	if (parts[length] !== '') {
 		throw new Error(
 			`parse${kind}: wrong last part, got ${parts[length]}, expected ''.`

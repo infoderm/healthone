@@ -46,5 +46,6 @@ function sanitizeReport(report) {
 			anomalies: count(filter(result => result.flag === '*', report.results))
 		};
 	}
+
 	return report;
 }

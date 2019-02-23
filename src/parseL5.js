@@ -3,7 +3,7 @@
 export default function parseL5(parts) {
 	validateLineLength(parts, 'L5', 8);
 
-	const [descriptor, reference, speciality, , , , , text] = parts;
+	const {0: descriptor, 1: reference, 2: speciality, 7: text} = parts;
 
 	return {
 		descriptor,
