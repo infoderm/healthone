@@ -5,7 +5,7 @@ import parseSex from './parseSex';
 import parseDate from './parseDate';
 
 export default function parseA2(parts) {
-	validateLineLength(parts, 'A2', 6);
+	validateLineLength(parts, 'A2', [6, 7]);
 
 	validateRequiredField(parts, 'lastname', 2);
 	validateRequiredField(parts, 'firstname', 3);
@@ -18,7 +18,8 @@ export default function parseA2(parts) {
 		lastname,
 		firstname,
 		sexstring,
-		datestring
+		datestring,
+		nn
 	] = parts;
 
 	const sex = parseSex(sexstring);
@@ -28,6 +29,7 @@ export default function parseA2(parts) {
 		descriptor,
 		reference,
 		patient: {
+			nn: nn || undefined,
 			lastname,
 			firstname,
 			sex,

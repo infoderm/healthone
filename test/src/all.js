@@ -3,23 +3,31 @@ import test from 'ava';
 
 import parse from '../../src/parse';
 
+function parseDates(documents) {
+	for (const document of documents) {
+		document.datetime = new Date(document.datetime);
+		document.patient.birthdate = new Date(document.patient.birthdate);
+	}
+}
+
 function file(t, filename) {
 	const source = fs.readFileSync(`test/data/hlt/${filename}`).toString();
 	const expected = JSON.parse(
 		fs.readFileSync(`test/data/json/${filename}`).toString()
 	);
 
-	for (const document of expected) {
-		document.datetime = new Date(document.datetime);
-		document.patient.birthdate = new Date(document.patient.birthdate);
-	}
+	const documents = JSON.parse(JSON.stringify(parse(source)));
 
-	const documents = parse(source);
+	parseDates(expected);
+	parseDates(documents);
 
-	t.deepEqual(documents, expected);
+	t.deepEqual(expected, documents);
 }
 
 file.title = (title, filename) => filename;
 
-test(file, '1234567');
-test(file, '4848289');
+const testFileDir = 'test/data/hlt';
+const testFiles = fs.readdirSync(testFileDir);
+for (const filename of testFiles) {
+	test(file, filename);
+}

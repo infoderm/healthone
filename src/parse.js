@@ -17,6 +17,8 @@ function* parseLines(lines) {
 	for (const [lineno, line] of enumerate(lines, 1)) {
 		const parts = line.split('\\');
 
+		if (parts.length === 1 && parts[0] === 'END') break;
+
 		if (parts.length < 3) {
 			throw new Error(
 				`Line ${lineno} consists of less than three parts separated by '\\'`

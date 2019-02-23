@@ -1,15 +1,14 @@
 import dateparse from 'date-fns/parse';
 
 import parseDate from './parseDate';
+import sliceTime from './sliceTime';
+import sliceDate from './sliceDate';
 
-export default function parseDateTime(date, time) {
-	if (!time) return parseDate(date);
+export default function parseDateTime(datestring, timestring) {
+	if (!timestring) return parseDate(datestring);
 
-	const day = date.slice(0, 2);
-	const month = date.slice(2, 4);
-	const year = date.slice(4, 8);
-	const hour = time.slice(0, 2);
-	const minute = time.slice(2, 4);
+	const {year, month, day} = sliceDate(datestring);
+	const {hour, minute} = sliceTime(timestring);
 
 	return dateparse(`${year}-${month}-${day}T${hour}:${minute}:00`);
 }
