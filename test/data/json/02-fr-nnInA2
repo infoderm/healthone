@@ -1,0 +1,210 @@
+[
+  {
+    "descriptor": "L1",
+    "reference": "99667696",
+    "identifier": "Renner, Schroeder and Spencer",
+    "source": [
+      "A1\\99667696\\Renner, Schroeder and Spencer\\",
+      "A2\\99667696\\Stark\\Declan\\M\\01022019\\19020189729\\",
+      "A3\\99667696\\2401 Halvorson Neck\\05254-8909\\Justusstad\\",
+      "A4\\99667696\\Bartell\\08012019\\0913\\C\\",
+      "L1\\99667696\\t_BACTE\\ MICROBIOLOGIE\\\\\\\\\\",
+      "L1\\99667696\\t_PVT\\Prelevement :  Frottis des voies genitales\\\\\\\\\\",
+      "L1\\99667696\\t_EDM\\Examen microscopique (Gram)\\\\\\\\\\",
+      "L1\\99667696\\17\\Leucocytes\\\\\\C\\non detecte(e)s\\",
+      "L1\\99667696\\15\\Cellules epitheliales\\\\\\C\\rares  \\",
+      "L1\\99667696\\22\\Cocci Gram (+)\\\\\\C\\rares  \\",
+      "L1\\99667696\\t_CULTURE\\Culture\\\\\\\\\\",
+      "L1\\99667696\\228\\Culture aerobie\\\\\\C\\Croissance de\\",
+      "L1\\99667696\\ANTIB\\Antibiogramme\\\\\\C\\SOUCHE\\",
+      "L1\\99667696\\strgrb\\g_Streptococcus agalactiae (groupe B)\\\\\\\\+\\",
+      "L1\\99667696\\strgrb\\g_Streptococcus agalactiae (groupe B)\\\\\\C\\(portage probable)\\",
+      "L1\\99667696\\SOUCHE\\\\\\\\C\\\\",
+      "L1\\99667696\\t_MYCOB\\Mycologie\\\\\\\\\\",
+      "L1\\99667696\\277\\Culture de levures\\\\\\C\\Croissance de\\",
+      "L1\\99667696\\ANTIB\\Antibiogramme\\\\\\C\\SOUCHE\\",
+      "L1\\99667696\\canalb\\g_Candida albicans\\\\\\\\+\\",
+      "L1\\99667696\\SOUCHE\\\\\\\\C\\\\",
+      "L1\\99667696\\TEXTEF\\Texte de fin de protocole\\\\\\\\  Validation biologique informatique\\",
+      "L1\\99667696\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                              Avec l'expression de nos sentiments confraternellement devoues\\",
+      "L1\\99667696\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                       \\"
+    ],
+    "patient": {
+      "nn": "19020189729",
+      "lastname": "Stark",
+      "firstname": "Declan",
+      "sex": "male",
+      "birthdate": "2019-01-31T23:00:00.000Z",
+      "streetandnumber": "2401 Halvorson Neck",
+      "zip": "05254-8909",
+      "municipality": "Justusstad"
+    },
+    "kind": "lab",
+    "requestor": "Bartell",
+    "datetime": "2019-01-08T08:13:00.000Z",
+    "status": "complete",
+    "results": [
+      {
+        "code": "t_BACTE",
+        "name": " MICROBIOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_PVT",
+        "name": "Prelevement :  Frottis des voies genitales",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_EDM",
+        "name": "Examen microscopique (Gram)",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "17",
+        "name": "Leucocytes",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "non detecte(e)s"
+      },
+      {
+        "code": "15",
+        "name": "Cellules epitheliales",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "rares  "
+      },
+      {
+        "code": "22",
+        "name": "Cocci Gram (+)",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "rares  "
+      },
+      {
+        "code": "t_CULTURE",
+        "name": "Culture",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "228",
+        "name": "Culture aerobie",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "Croissance de"
+      },
+      {
+        "code": "ANTIB",
+        "name": "Antibiogramme",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "SOUCHE"
+      },
+      {
+        "code": "strgrb",
+        "name": "g_Streptococcus agalactiae (groupe B)",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "+"
+      },
+      {
+        "code": "strgrb",
+        "name": "g_Streptococcus agalactiae (groupe B)",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "(portage probable)"
+      },
+      {
+        "code": "SOUCHE",
+        "name": "",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": ""
+      },
+      {
+        "code": "t_MYCOB",
+        "name": "Mycologie",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "277",
+        "name": "Culture de levures",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "Croissance de"
+      },
+      {
+        "code": "ANTIB",
+        "name": "Antibiogramme",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "SOUCHE"
+      },
+      {
+        "code": "canalb",
+        "name": "g_Candida albicans",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "+"
+      },
+      {
+        "code": "SOUCHE",
+        "name": "",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": ""
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "  Validation biologique informatique"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                              Avec l'expression de nos sentiments confraternellement devoues"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                       "
+      }
+    ],
+    "anomalies": 0
+  }
+]

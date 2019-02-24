@@ -1,0 +1,138 @@
+[
+  {
+    "descriptor": "L1",
+    "reference": "51239077",
+    "identifier": "Bernier, Lakin and Sanford",
+    "source": [
+      "A1\\51239077\\Bernier, Lakin and Sanford\\",
+      "A2\\51239077\\Windler\\Jaron\\M\\02061950\\50060236512\\",
+      "A3\\51239077\\2782 Jakubowski Underpass\\56321\\Cheyanneton\\",
+      "A4\\51239077\\Collins\\19012019\\0913\\C\\",
+      "L1\\51239077\\t_BACTE\\ MICROBIOLOGIE\\\\\\\\\\",
+      "L1\\51239077\\t_PVT\\Prelevement :  Plaie superficielle  Precision :  cheville\\\\\\\\\\",
+      "L1\\51239077\\t_EDM\\Examen microscopique (Gram)\\\\\\\\\\",
+      "L1\\51239077\\17\\Leucocytes\\\\\\C\\rares  \\",
+      "L1\\51239077\\15\\Cellules epitheliales\\\\\\C\\non detecte(e)s\\",
+      "L1\\51239077\\1968\\Germes\\\\\\C\\Germes non detectes\\",
+      "L1\\51239077\\t_CULTURE\\Culture\\\\\\\\\\",
+      "L1\\51239077\\228\\Culture aerobie\\\\\\C\\Aucune croissance bacterienne.\\",
+      "L1\\51239077\\ANTIB\\Antibiogramme\\\\\\C\\SOUCHE\\",
+      "L1\\51239077\\TEXTEF\\Texte de fin de protocole\\\\\\\\  Validation biologique informatique\\",
+      "L1\\51239077\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                              Avec l'expression de nos sentiments confraternellement devoues\\",
+      "L1\\51239077\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                       \\"
+    ],
+    "patient": {
+      "nn": "50060236512",
+      "lastname": "Windler",
+      "firstname": "Jaron",
+      "sex": "male",
+      "birthdate": "1950-06-01T23:00:00.000Z",
+      "streetandnumber": "2782 Jakubowski Underpass",
+      "zip": "56321",
+      "municipality": "Cheyanneton"
+    },
+    "kind": "lab",
+    "requestor": "Collins",
+    "datetime": "2019-01-19T08:13:00.000Z",
+    "status": "complete",
+    "results": [
+      {
+        "code": "t_BACTE",
+        "name": " MICROBIOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_PVT",
+        "name": "Prelevement :  Plaie superficielle  Precision :  cheville",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_EDM",
+        "name": "Examen microscopique (Gram)",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "17",
+        "name": "Leucocytes",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "rares  "
+      },
+      {
+        "code": "15",
+        "name": "Cellules epitheliales",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "non detecte(e)s"
+      },
+      {
+        "code": "1968",
+        "name": "Germes",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "Germes non detectes"
+      },
+      {
+        "code": "t_CULTURE",
+        "name": "Culture",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "228",
+        "name": "Culture aerobie",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "Aucune croissance bacterienne."
+      },
+      {
+        "code": "ANTIB",
+        "name": "Antibiogramme",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "SOUCHE"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "  Validation biologique informatique"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                              Avec l'expression de nos sentiments confraternellement devoues"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                       "
+      }
+    ],
+    "anomalies": 0
+  }
+]

@@ -1,0 +1,651 @@
+[
+  {
+    "descriptor": "L1",
+    "reference": "33685173",
+    "identifier": "Satterfield, Rogahn and Bernier",
+    "source": [
+      "A1\\33685173\\Satterfield, Rogahn and Bernier\\",
+      "A2\\33685173\\Erdman\\Oma\\M\\02011932\\32010263920\\",
+      "A3\\33685173\\42881 Melyssa Islands\\37368\\New Ewald\\",
+      "A4\\33685173\\Keebler\\02022019\\1152\\P\\",
+      "L1\\33685173\\t_HEMATO\\ HEMATOLOGIE\\\\\\\\\\",
+      "L1\\33685173\\t_HEMOGRAMME\\Hemogramme\\\\\\\\\\",
+      "L1\\33685173\\327\\Hemoglobine\\11,5 - 17,0\\g/dl\\\\12,2\\",
+      "L1\\33685173\\325\\Hematies\\4,0 - 5,2\\10e6/mme3\\\\4,2\\",
+      "L1\\33685173\\328\\Hematocrite\\34,0 - 53,0\\%\\\\38,4\\",
+      "L1\\33685173\\329\\   t.c.m.h.\\24 - 34\\pg\\\\29\\",
+      "L1\\33685173\\330\\   c.c.m.h.\\32 - 36\\g/dl\\\\32\\",
+      "L1\\33685173\\331\\   volume globulaire moyen\\78 - 98\\fl\\\\91\\",
+      "L1\\33685173\\1980\\   Index d'anisocytose\\11 - 15\\%\\\\13\\",
+      "L1\\33685173\\376\\Reticulocytes\\\\\\C\\sans objet\\",
+      "L1\\33685173\\332\\Leucocytes\\3750 - 13000\\/mme3\\\\9410\\",
+      "L1\\33685173\\t_FO\\    Formule\\\\\\\\\\",
+      "L1\\33685173\\366\\Neutrophiles\\37 - 75\\%\\\\64\\",
+      "L1\\33685173\\367\\Eosinophiles\\< 5,0\\%\\\\2,9\\",
+      "L1\\33685173\\368\\Basophiles\\< 2,0\\%\\\\0,2\\",
+      "L1\\33685173\\369\\Monocytes\\1,0 - 10,0\\%\\\\6,7\\",
+      "L1\\33685173\\370\\Lymphocytes\\20 - 45\\%\\\\26\\",
+      "L1\\33685173\\371\\Neutrophiles\\1400 - 7700\\/mme3\\\\6022\\",
+      "L1\\33685173\\372\\Eosinophiles\\< 600\\/mme3\\\\273\\",
+      "L1\\33685173\\373\\Basophiles\\< 150\\/mme3\\\\19\\",
+      "L1\\33685173\\374\\Monocytes\\< 900\\/mme3\\\\630\\",
+      "L1\\33685173\\375\\Lymphocytes\\1300 - 4500\\/mme3\\\\2447\\",
+      "L1\\33685173\\t_COAG\\ HEMOSTASE\\\\\\\\\\",
+      "L1\\33685173\\334\\Thrombocytes\\160 - 440\\10e3/mm�\\\\248\\",
+      "L1\\33685173\\t_CHIMIE\\  BIOCHIMIE\\\\\\\\\\",
+      "L1\\33685173\\t_ASPECT\\  Index seriques\\\\\\\\\\",
+      "L1\\33685173\\2053\\Indice d'hemolyse\\< 1\\Index\\\\< 1\\",
+      "L1\\33685173\\2055\\Indice de lactescence\\< 1\\Index\\\\< 1\\",
+      "L1\\33685173\\2054\\Indice d'ictere\\< 1\\Index\\\\< 1\\",
+      "L1\\33685173\\t_MET.GLUC\\Metabolisme des glucides\\\\\\\\\\",
+      "L1\\33685173\\532\\Glycemie a jeun\\0,74 - 1,06\\g/l\\\\0,77\\",
+      "L1\\33685173\\t_HEPAT\\Fonction hepatique\\\\\\\\\\",
+      "L1\\33685173\\557\\Transaminase GP  (ALAT)\\< 41\\U /l\\\\15\\",
+      "L1\\33685173\\559\\g GT\\4 - 24\\U /l\\\\21\\",
+      "L1\\33685173\\570\\Bilirubine  totale\\< 0,90\\mg /dl\\\\0,51\\",
+      "L1\\33685173\\571\\Bilirubine conjuguee\\< 0,30\\mg /dl\\\\0,11\\",
+      "L1\\33685173\\572\\Bilirubine libre\\< 0,80\\mg /dl\\\\0,40\\",
+      "L1\\33685173\\t_RENAL\\Fonction renale\\\\\\\\\\",
+      "L1\\33685173\\581\\Creatinine\\3,9 - 8,4\\mg /l\\\\7,9\\",
+      "L1\\33685173\\t_PANC\\Fonction pancreatique\\\\\\\\\\",
+      "L1\\33685173\\622\\Lipase\\< 67\\U  /l\\\\16\\",
+      "L1\\33685173\\t_PROT_INFL\\Proteines\\\\\\\\\\",
+      "L1\\33685173\\585\\Proteines totales\\57,0 - 76,0\\g/l\\*\\79,9\\",
+      "L1\\33685173\\t_6350\\   Electrophorese\\\\\\\\\\",
+      "L1\\33685173\\969\\Albumine\\55 - 66\\%\\\\53\\",
+      "L1\\33685173\\970\\... soit (en valeur absolue)\\34 - 50\\g/l\\\\42\\",
+      "L1\\33685173\\971\\a-1 globulines\\3,5 - 7,5\\%\\\\4,9\\",
+      "L1\\33685173\\973\\a-2 globulines\\8 - 13\\%\\\\11\\",
+      "L1\\33685173\\975\\b-globulines\\8 - 13\\%\\\\13\\",
+      "L1\\33685173\\977\\g-globulines\\10 - 18\\%\\\\18\\",
+      "L1\\33685173\\978\\... soit (en valeur absolue)\\6 - 15\\g/l\\\\14\\",
+      "L1\\33685173\\t_6360\\Immunoelectrophorese des proteines\\\\\\\\\\",
+      "L1\\33685173\\986\\Interpretation\\\\\\C\\non effectue\\",
+      "L1\\33685173\\936\\CRP (C-reactive proteine) us\\< 3,0\\mg /l\\\\1,1\\",
+      "L1\\33685173\\t_ENDO\\ENDOCRINOLOGIE\\\\\\\\\\",
+      "L1\\33685173\\t_THYR\\Axe thyreotrope\\\\\\\\\\",
+      "L1\\33685173\\827\\TSH\\0,50 - 4,00\\mU /l\\\\0,85\\",
+      "L1\\33685173\\t_IMMUNO\\AUTO-IMMUNITE\\\\\\\\\\",
+      "L1\\33685173\\t_RHEU\\Maladies rhumatismales\\\\\\\\\\",
+      "L1\\33685173\\889\\Anti-noyau et cytoplasme  (IF)\\\\\\\\\\",
+      "L1\\33685173\\2213\\Anti-nucleaires (quantitatif)\\< 80\\Titre\\\\\\",
+      "L1\\33685173\\t_ALLERGIE2\\ALLERGIE\\\\\\\\\\",
+      "L1\\33685173\\1044\\IgE totales\\< 120\\kU /l\\\\113\\",
+      "L1\\33685173\\2753\\Prelevement(s)\\\\\\C\\Identification sur  prelevement(s) : oui\\",
+      "L1\\33685173\\TEXTEF\\Texte de fin de protocole\\\\\\\\  Validation biologique informatique\\",
+      "L1\\33685173\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                              Avec l'expression de nos sentiments confraternellement devoues\\",
+      "L1\\33685173\\TEXTEF\\Texte de fin de protocole\\\\\\\\                       Retour des conditions hivernales : nous attirons votre attention sur la sensibilite des prelevements sanguins \\",
+      "L1\\33685173\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                                   au froid, particulierement pour des analyses telles que PTT (INR), potassium ...\\",
+      "L1\\33685173\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                                                        En aucun cas,  le sang ne peut etre expose au gel.\\"
+    ],
+    "patient": {
+      "nn": "32010263920",
+      "lastname": "Erdman",
+      "firstname": "Oma",
+      "sex": "male",
+      "birthdate": "1932-01-02T00:00:00.000Z",
+      "streetandnumber": "42881 Melyssa Islands",
+      "zip": "37368",
+      "municipality": "New Ewald"
+    },
+    "kind": "lab",
+    "requestor": "Keebler",
+    "datetime": "2019-02-02T10:52:00.000Z",
+    "status": "partial",
+    "results": [
+      {
+        "code": "t_HEMATO",
+        "name": " HEMATOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_HEMOGRAMME",
+        "name": "Hemogramme",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "327",
+        "name": "Hemoglobine",
+        "normal": "11,5 - 17,0",
+        "unit": "g/dl",
+        "flag": "",
+        "measure": "12,2"
+      },
+      {
+        "code": "325",
+        "name": "Hematies",
+        "normal": "4,0 - 5,2",
+        "unit": "10e6/mme3",
+        "flag": "",
+        "measure": "4,2"
+      },
+      {
+        "code": "328",
+        "name": "Hematocrite",
+        "normal": "34,0 - 53,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "38,4"
+      },
+      {
+        "code": "329",
+        "name": "   t.c.m.h.",
+        "normal": "24 - 34",
+        "unit": "pg",
+        "flag": "",
+        "measure": "29"
+      },
+      {
+        "code": "330",
+        "name": "   c.c.m.h.",
+        "normal": "32 - 36",
+        "unit": "g/dl",
+        "flag": "",
+        "measure": "32"
+      },
+      {
+        "code": "331",
+        "name": "   volume globulaire moyen",
+        "normal": "78 - 98",
+        "unit": "fl",
+        "flag": "",
+        "measure": "91"
+      },
+      {
+        "code": "1980",
+        "name": "   Index d'anisocytose",
+        "normal": "11 - 15",
+        "unit": "%",
+        "flag": "",
+        "measure": "13"
+      },
+      {
+        "code": "376",
+        "name": "Reticulocytes",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "sans objet"
+      },
+      {
+        "code": "332",
+        "name": "Leucocytes",
+        "normal": "3750 - 13000",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "9410"
+      },
+      {
+        "code": "t_FO",
+        "name": "    Formule",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "366",
+        "name": "Neutrophiles",
+        "normal": "37 - 75",
+        "unit": "%",
+        "flag": "",
+        "measure": "64"
+      },
+      {
+        "code": "367",
+        "name": "Eosinophiles",
+        "normal": "< 5,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "2,9"
+      },
+      {
+        "code": "368",
+        "name": "Basophiles",
+        "normal": "< 2,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "0,2"
+      },
+      {
+        "code": "369",
+        "name": "Monocytes",
+        "normal": "1,0 - 10,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "6,7"
+      },
+      {
+        "code": "370",
+        "name": "Lymphocytes",
+        "normal": "20 - 45",
+        "unit": "%",
+        "flag": "",
+        "measure": "26"
+      },
+      {
+        "code": "371",
+        "name": "Neutrophiles",
+        "normal": "1400 - 7700",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "6022"
+      },
+      {
+        "code": "372",
+        "name": "Eosinophiles",
+        "normal": "< 600",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "273"
+      },
+      {
+        "code": "373",
+        "name": "Basophiles",
+        "normal": "< 150",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "19"
+      },
+      {
+        "code": "374",
+        "name": "Monocytes",
+        "normal": "< 900",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "630"
+      },
+      {
+        "code": "375",
+        "name": "Lymphocytes",
+        "normal": "1300 - 4500",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "2447"
+      },
+      {
+        "code": "t_COAG",
+        "name": " HEMOSTASE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "334",
+        "name": "Thrombocytes",
+        "normal": "160 - 440",
+        "unit": "10e3/mm�",
+        "flag": "",
+        "measure": "248"
+      },
+      {
+        "code": "t_CHIMIE",
+        "name": "  BIOCHIMIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_ASPECT",
+        "name": "  Index seriques",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "2053",
+        "name": "Indice d'hemolyse",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "2055",
+        "name": "Indice de lactescence",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "2054",
+        "name": "Indice d'ictere",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "t_MET.GLUC",
+        "name": "Metabolisme des glucides",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "532",
+        "name": "Glycemie a jeun",
+        "normal": "0,74 - 1,06",
+        "unit": "g/l",
+        "flag": "",
+        "measure": "0,77"
+      },
+      {
+        "code": "t_HEPAT",
+        "name": "Fonction hepatique",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "557",
+        "name": "Transaminase GP  (ALAT)",
+        "normal": "< 41",
+        "unit": "U /l",
+        "flag": "",
+        "measure": "15"
+      },
+      {
+        "code": "559",
+        "name": "g GT",
+        "normal": "4 - 24",
+        "unit": "U /l",
+        "flag": "",
+        "measure": "21"
+      },
+      {
+        "code": "570",
+        "name": "Bilirubine  totale",
+        "normal": "< 0,90",
+        "unit": "mg /dl",
+        "flag": "",
+        "measure": "0,51"
+      },
+      {
+        "code": "571",
+        "name": "Bilirubine conjuguee",
+        "normal": "< 0,30",
+        "unit": "mg /dl",
+        "flag": "",
+        "measure": "0,11"
+      },
+      {
+        "code": "572",
+        "name": "Bilirubine libre",
+        "normal": "< 0,80",
+        "unit": "mg /dl",
+        "flag": "",
+        "measure": "0,40"
+      },
+      {
+        "code": "t_RENAL",
+        "name": "Fonction renale",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "581",
+        "name": "Creatinine",
+        "normal": "3,9 - 8,4",
+        "unit": "mg /l",
+        "flag": "",
+        "measure": "7,9"
+      },
+      {
+        "code": "t_PANC",
+        "name": "Fonction pancreatique",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "622",
+        "name": "Lipase",
+        "normal": "< 67",
+        "unit": "U  /l",
+        "flag": "",
+        "measure": "16"
+      },
+      {
+        "code": "t_PROT_INFL",
+        "name": "Proteines",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "585",
+        "name": "Proteines totales",
+        "normal": "57,0 - 76,0",
+        "unit": "g/l",
+        "flag": "*",
+        "measure": "79,9"
+      },
+      {
+        "code": "t_6350",
+        "name": "   Electrophorese",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "969",
+        "name": "Albumine",
+        "normal": "55 - 66",
+        "unit": "%",
+        "flag": "",
+        "measure": "53"
+      },
+      {
+        "code": "970",
+        "name": "... soit (en valeur absolue)",
+        "normal": "34 - 50",
+        "unit": "g/l",
+        "flag": "",
+        "measure": "42"
+      },
+      {
+        "code": "971",
+        "name": "a-1 globulines",
+        "normal": "3,5 - 7,5",
+        "unit": "%",
+        "flag": "",
+        "measure": "4,9"
+      },
+      {
+        "code": "973",
+        "name": "a-2 globulines",
+        "normal": "8 - 13",
+        "unit": "%",
+        "flag": "",
+        "measure": "11"
+      },
+      {
+        "code": "975",
+        "name": "b-globulines",
+        "normal": "8 - 13",
+        "unit": "%",
+        "flag": "",
+        "measure": "13"
+      },
+      {
+        "code": "977",
+        "name": "g-globulines",
+        "normal": "10 - 18",
+        "unit": "%",
+        "flag": "",
+        "measure": "18"
+      },
+      {
+        "code": "978",
+        "name": "... soit (en valeur absolue)",
+        "normal": "6 - 15",
+        "unit": "g/l",
+        "flag": "",
+        "measure": "14"
+      },
+      {
+        "code": "t_6360",
+        "name": "Immunoelectrophorese des proteines",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "986",
+        "name": "Interpretation",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "non effectue"
+      },
+      {
+        "code": "936",
+        "name": "CRP (C-reactive proteine) us",
+        "normal": "< 3,0",
+        "unit": "mg /l",
+        "flag": "",
+        "measure": "1,1"
+      },
+      {
+        "code": "t_ENDO",
+        "name": "ENDOCRINOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_THYR",
+        "name": "Axe thyreotrope",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "827",
+        "name": "TSH",
+        "normal": "0,50 - 4,00",
+        "unit": "mU /l",
+        "flag": "",
+        "measure": "0,85"
+      },
+      {
+        "code": "t_IMMUNO",
+        "name": "AUTO-IMMUNITE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_RHEU",
+        "name": "Maladies rhumatismales",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "889",
+        "name": "Anti-noyau et cytoplasme  (IF)",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "2213",
+        "name": "Anti-nucleaires (quantitatif)",
+        "normal": "< 80",
+        "unit": "Titre",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_ALLERGIE2",
+        "name": "ALLERGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "1044",
+        "name": "IgE totales",
+        "normal": "< 120",
+        "unit": "kU /l",
+        "flag": "",
+        "measure": "113"
+      },
+      {
+        "code": "2753",
+        "name": "Prelevement(s)",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "Identification sur  prelevement(s) : oui"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "  Validation biologique informatique"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                              Avec l'expression de nos sentiments confraternellement devoues"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                       Retour des conditions hivernales : nous attirons votre attention sur la sensibilite des prelevements sanguins "
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                                   au froid, particulierement pour des analyses telles que PTT (INR), potassium ..."
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                                                        En aucun cas,  le sang ne peut etre expose au gel."
+      }
+    ],
+    "anomalies": 1
+  }
+]

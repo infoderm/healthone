@@ -1,0 +1,579 @@
+[
+  {
+    "descriptor": "L1",
+    "reference": "58464556",
+    "identifier": "Labadie Group",
+    "source": [
+      "A1\\58464556\\Labadie Group\\",
+      "A2\\58464556\\O'Keefe\\Mariane\\F\\30122004\\04123051684\\",
+      "A3\\58464556\\402 Cary Well\\37143-5833\\Albertaborough\\",
+      "A4\\58464556\\Mitchell\\13122018\\1042\\C\\",
+      "L1\\58464556\\t_HEMATO\\ HEMATOLOGIE\\\\\\\\\\",
+      "L1\\58464556\\t_HEMOGRAMME\\Hemogramme\\\\\\\\\\",
+      "L1\\58464556\\327\\Hemoglobine\\13,0 - 18,0\\g/dl\\\\16,1\\",
+      "L1\\58464556\\325\\Hematies\\4,3 - 6,0\\10e6/mme3\\\\5,4\\",
+      "L1\\58464556\\328\\Hematocrite\\39,0 - 53,0\\%\\\\47,3\\",
+      "L1\\58464556\\329\\   t.c.m.h.\\24 - 34\\pg\\\\30\\",
+      "L1\\58464556\\330\\   c.c.m.h.\\32 - 36\\g/dl\\\\34\\",
+      "L1\\58464556\\331\\   volume globulaire moyen\\82 - 98\\fl\\\\88\\",
+      "L1\\58464556\\1980\\   Index d'anisocytose\\11 - 15\\%\\\\14\\",
+      "L1\\58464556\\376\\Reticulocytes\\\\\\C\\non realise\\",
+      "L1\\58464556\\332\\Leucocytes\\3800 - 11000\\/mme3\\\\7840\\",
+      "L1\\58464556\\t_FO\\    Formule\\\\\\\\\\",
+      "L1\\58464556\\366\\Neutrophiles\\37 - 75\\%\\\\48\\",
+      "L1\\58464556\\367\\Eosinophiles\\< 5,0\\%\\\\7,5\\",
+      "L1\\58464556\\368\\Basophiles\\< 2,0\\%\\\\0,6\\",
+      "L1\\58464556\\369\\Monocytes\\1,0 - 10,0\\%\\\\5,8\\",
+      "L1\\58464556\\370\\Lymphocytes\\20 - 45\\%\\\\38\\",
+      "L1\\58464556\\371\\Neutrophiles\\1400 - 7700\\/mme3\\\\3763\\",
+      "L1\\58464556\\372\\Eosinophiles\\< 600\\/mme3\\\\588\\",
+      "L1\\58464556\\373\\Basophiles\\< 150\\/mme3\\\\47\\",
+      "L1\\58464556\\374\\Monocytes\\< 900\\/mme3\\\\455\\",
+      "L1\\58464556\\375\\Lymphocytes\\1000 - 4800\\/mme3\\\\2979\\",
+      "L1\\58464556\\t_COAG\\ HEMOSTASE\\\\\\\\\\",
+      "L1\\58464556\\334\\Thrombocytes\\140 - 440\\10e3/mm�\\\\234\\",
+      "L1\\58464556\\502\\Tps de Quick    (PTT)\\80 - 120\\%\\\\> 100\\",
+      "L1\\58464556\\t_CHIMIE\\  BIOCHIMIE\\\\\\\\\\",
+      "L1\\58464556\\t_ASPECT\\  Index seriques\\\\\\\\\\",
+      "L1\\58464556\\2053\\Indice d'hemolyse\\< 1\\Index\\\\< 1\\",
+      "L1\\58464556\\2055\\Indice de lactescence\\< 1\\Index\\\\< 1\\",
+      "L1\\58464556\\2054\\Indice d'ictere\\< 1\\Index\\\\< 1\\",
+      "L1\\58464556\\t_PROT_INFL\\Proteines\\\\\\\\\\",
+      "L1\\58464556\\936\\CRP (C-reactive proteine) us\\< 3,0\\mg /l\\\\2,8\\",
+      "L1\\58464556\\t_2250\\Facteurs de risque cardiovasculaire\\\\\\\\\\",
+      "L1\\58464556\\t_THROMBOT\\  Thrombophilie\\\\\\\\\\",
+      "L1\\58464556\\517\\Proteine S libre\\\\\\C\\non fait (voir anteriorite)\\",
+      "L1\\58464556\\515\\Resistance a la prot.C active  APCR\\\\\\C\\non realise\\",
+      "L1\\58464556\\515\\Commentaires\\\\\\C\\connu\\",
+      "L1\\58464556\\529\\Mutation  facteur V (FV506Q Leiden)\\\\\\C\\n'est recherchee qu'en cas d'APCR abaissee\\",
+      "L1\\58464556\\t_SERO\\SEROLOGIE\\\\\\\\\\",
+      "L1\\58464556\\t_HIV\\Immunodeficience humaine\\\\\\\\\\",
+      "L1\\58464556\\1049\\HIV 1+2  ac. (4e gen)\\< 0,9\\Index\\\\< 0,8\\",
+      "L1\\58464556\\1054\\HIV 1+2  ag.\\< 0,9\\Index\\\\< 0,5\\",
+      "L1\\58464556\\1054\\Commentaires\\\\\\C\\(negatif) \\",
+      "L1\\58464556\\t_VHC\\Hepatite C\\\\\\\\\\",
+      "L1\\58464556\\1176\\HCV  anticorps  (depistage)\\< 0,9\\Index\\\\< 0,1\\",
+      "L1\\58464556\\t_VHB\\Hepatite B\\\\\\\\\\",
+      "L1\\58464556\\2824\\Antigene HBs\\< 0,05\\UI /ml\\\\< 0,03\\",
+      "L1\\58464556\\1171\\HBs anticorps (protecteurs)\\< 11\\UI /l\\\\153\\",
+      "L1\\58464556\\t_BACT\\Serologies bacteriennes\\\\\\\\\\",
+      "L1\\58464556\\t_TREPO\\Treponematose\\\\\\\\\\",
+      "L1\\58464556\\1074\\Cardiolipide (VDRL - RPR)\\\\\\C\\sans objet\\",
+      "L1\\58464556\\1077\\Treponema pallidum (Ac.tot. CLIA)\\< 0,9\\Index\\\\< 0,8\\",
+      "L1\\58464556\\t_BACTE\\ MICROBIOLOGIE\\\\\\\\\\",
+      "L1\\58464556\\t_PVT\\Prelevement :       Urines  (echantillon)\\\\\\\\\\",
+      "L1\\58464556\\t_BIOMOL\\Amplification genique (PCR)\\\\\\\\\\",
+      "L1\\58464556\\298\\Chlamydia trachomatis\\\\\\C\\NEG\\",
+      "L1\\58464556\\315\\Neisseria gonorrhoeae\\\\\\C\\NEG\\",
+      "L1\\58464556\\2753\\Prelevement(s)\\\\\\C\\Identification sur  prelevement(s) : oui\\",
+      "L1\\58464556\\TEXTEF\\Texte de fin de protocole\\\\\\\\  Validation biologique informatique\\",
+      "L1\\58464556\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                              Avec l'expression de nos sentiments confraternellement devoues\\",
+      "L1\\58464556\\TEXTEF\\Texte de fin de protocole\\\\\\\\                                       \\"
+    ],
+    "patient": {
+      "nn": "04123051684",
+      "lastname": "O'Keefe",
+      "firstname": "Mariane",
+      "sex": "female",
+      "birthdate": "2004-12-29T23:00:00.000Z",
+      "streetandnumber": "402 Cary Well",
+      "zip": "37143-5833",
+      "municipality": "Albertaborough"
+    },
+    "kind": "lab",
+    "requestor": "Mitchell",
+    "datetime": "2018-12-13T09:42:00.000Z",
+    "status": "complete",
+    "results": [
+      {
+        "code": "t_HEMATO",
+        "name": " HEMATOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_HEMOGRAMME",
+        "name": "Hemogramme",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "327",
+        "name": "Hemoglobine",
+        "normal": "13,0 - 18,0",
+        "unit": "g/dl",
+        "flag": "",
+        "measure": "16,1"
+      },
+      {
+        "code": "325",
+        "name": "Hematies",
+        "normal": "4,3 - 6,0",
+        "unit": "10e6/mme3",
+        "flag": "",
+        "measure": "5,4"
+      },
+      {
+        "code": "328",
+        "name": "Hematocrite",
+        "normal": "39,0 - 53,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "47,3"
+      },
+      {
+        "code": "329",
+        "name": "   t.c.m.h.",
+        "normal": "24 - 34",
+        "unit": "pg",
+        "flag": "",
+        "measure": "30"
+      },
+      {
+        "code": "330",
+        "name": "   c.c.m.h.",
+        "normal": "32 - 36",
+        "unit": "g/dl",
+        "flag": "",
+        "measure": "34"
+      },
+      {
+        "code": "331",
+        "name": "   volume globulaire moyen",
+        "normal": "82 - 98",
+        "unit": "fl",
+        "flag": "",
+        "measure": "88"
+      },
+      {
+        "code": "1980",
+        "name": "   Index d'anisocytose",
+        "normal": "11 - 15",
+        "unit": "%",
+        "flag": "",
+        "measure": "14"
+      },
+      {
+        "code": "376",
+        "name": "Reticulocytes",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "non realise"
+      },
+      {
+        "code": "332",
+        "name": "Leucocytes",
+        "normal": "3800 - 11000",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "7840"
+      },
+      {
+        "code": "t_FO",
+        "name": "    Formule",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "366",
+        "name": "Neutrophiles",
+        "normal": "37 - 75",
+        "unit": "%",
+        "flag": "",
+        "measure": "48"
+      },
+      {
+        "code": "367",
+        "name": "Eosinophiles",
+        "normal": "< 5,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "7,5"
+      },
+      {
+        "code": "368",
+        "name": "Basophiles",
+        "normal": "< 2,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "0,6"
+      },
+      {
+        "code": "369",
+        "name": "Monocytes",
+        "normal": "1,0 - 10,0",
+        "unit": "%",
+        "flag": "",
+        "measure": "5,8"
+      },
+      {
+        "code": "370",
+        "name": "Lymphocytes",
+        "normal": "20 - 45",
+        "unit": "%",
+        "flag": "",
+        "measure": "38"
+      },
+      {
+        "code": "371",
+        "name": "Neutrophiles",
+        "normal": "1400 - 7700",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "3763"
+      },
+      {
+        "code": "372",
+        "name": "Eosinophiles",
+        "normal": "< 600",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "588"
+      },
+      {
+        "code": "373",
+        "name": "Basophiles",
+        "normal": "< 150",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "47"
+      },
+      {
+        "code": "374",
+        "name": "Monocytes",
+        "normal": "< 900",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "455"
+      },
+      {
+        "code": "375",
+        "name": "Lymphocytes",
+        "normal": "1000 - 4800",
+        "unit": "/mme3",
+        "flag": "",
+        "measure": "2979"
+      },
+      {
+        "code": "t_COAG",
+        "name": " HEMOSTASE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "334",
+        "name": "Thrombocytes",
+        "normal": "140 - 440",
+        "unit": "10e3/mm�",
+        "flag": "",
+        "measure": "234"
+      },
+      {
+        "code": "502",
+        "name": "Tps de Quick    (PTT)",
+        "normal": "80 - 120",
+        "unit": "%",
+        "flag": "",
+        "measure": "> 100"
+      },
+      {
+        "code": "t_CHIMIE",
+        "name": "  BIOCHIMIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_ASPECT",
+        "name": "  Index seriques",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "2053",
+        "name": "Indice d'hemolyse",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "2055",
+        "name": "Indice de lactescence",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "2054",
+        "name": "Indice d'ictere",
+        "normal": "< 1",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 1"
+      },
+      {
+        "code": "t_PROT_INFL",
+        "name": "Proteines",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "936",
+        "name": "CRP (C-reactive proteine) us",
+        "normal": "< 3,0",
+        "unit": "mg /l",
+        "flag": "",
+        "measure": "2,8"
+      },
+      {
+        "code": "t_2250",
+        "name": "Facteurs de risque cardiovasculaire",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_THROMBOT",
+        "name": "  Thrombophilie",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "517",
+        "name": "Proteine S libre",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "non fait (voir anteriorite)"
+      },
+      {
+        "code": "515",
+        "name": "Resistance a la prot.C active  APCR",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "non realise"
+      },
+      {
+        "code": "515",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "connu"
+      },
+      {
+        "code": "529",
+        "name": "Mutation  facteur V (FV506Q Leiden)",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "n'est recherchee qu'en cas d'APCR abaissee"
+      },
+      {
+        "code": "t_SERO",
+        "name": "SEROLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_HIV",
+        "name": "Immunodeficience humaine",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "1049",
+        "name": "HIV 1+2  ac. (4e gen)",
+        "normal": "< 0,9",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 0,8"
+      },
+      {
+        "code": "1054",
+        "name": "HIV 1+2  ag.",
+        "normal": "< 0,9",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 0,5"
+      },
+      {
+        "code": "1054",
+        "name": "Commentaires",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "(negatif) "
+      },
+      {
+        "code": "t_VHC",
+        "name": "Hepatite C",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "1176",
+        "name": "HCV  anticorps  (depistage)",
+        "normal": "< 0,9",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 0,1"
+      },
+      {
+        "code": "t_VHB",
+        "name": "Hepatite B",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "2824",
+        "name": "Antigene HBs",
+        "normal": "< 0,05",
+        "unit": "UI /ml",
+        "flag": "",
+        "measure": "< 0,03"
+      },
+      {
+        "code": "1171",
+        "name": "HBs anticorps (protecteurs)",
+        "normal": "< 11",
+        "unit": "UI /l",
+        "flag": "",
+        "measure": "153"
+      },
+      {
+        "code": "t_BACT",
+        "name": "Serologies bacteriennes",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_TREPO",
+        "name": "Treponematose",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "1074",
+        "name": "Cardiolipide (VDRL - RPR)",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "sans objet"
+      },
+      {
+        "code": "1077",
+        "name": "Treponema pallidum (Ac.tot. CLIA)",
+        "normal": "< 0,9",
+        "unit": "Index",
+        "flag": "",
+        "measure": "< 0,8"
+      },
+      {
+        "code": "t_BACTE",
+        "name": " MICROBIOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_PVT",
+        "name": "Prelevement :       Urines  (echantillon)",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "t_BIOMOL",
+        "name": "Amplification genique (PCR)",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "298",
+        "name": "Chlamydia trachomatis",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "NEG"
+      },
+      {
+        "code": "315",
+        "name": "Neisseria gonorrhoeae",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "NEG"
+      },
+      {
+        "code": "2753",
+        "name": "Prelevement(s)",
+        "normal": "",
+        "unit": "",
+        "flag": "C",
+        "measure": "Identification sur  prelevement(s) : oui"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "  Validation biologique informatique"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                              Avec l'expression de nos sentiments confraternellement devoues"
+      },
+      {
+        "code": "TEXTEF",
+        "name": "Texte de fin de protocole",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": "                                       "
+      }
+    ],
+    "anomalies": 0
+  }
+]
