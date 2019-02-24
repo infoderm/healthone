@@ -3,7 +3,7 @@ import defaultOptions from './defaultOptions';
 
 export default function stringify(records, options) {
 	options = Object.assign({}, defaultOptions, options);
-	return [...stringifyRecords(records, options), ''].join('\n');
+	return [...stringifyRecords(records, options), ''].join(options.newline);
 }
 
 function* stringifyRecords(records, options) {

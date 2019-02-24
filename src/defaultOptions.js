@@ -4,7 +4,8 @@ const options = {
 	lang: 'nl',
 	separator: '\\',
 	end: '',
-	nnInA2: false
+	nnInA2: false,
+	newline: '\n'
 };
 
 export default options;
