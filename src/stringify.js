@@ -9,7 +9,8 @@ export default function stringify(records, options) {
 function* stringifyRecords(records, options) {
 	for (const record of records) {
 		for (const line of stringifyRecord(record, options)) {
-			yield line.join(options.separator) + options.separator;
+			yield line.filter(x => x !== undefined).join(options.separator) +
+				options.separator;
 		}
 	}
 
