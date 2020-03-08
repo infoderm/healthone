@@ -4,6 +4,6 @@
 	for (const result of results) {
 		const {code, name, normal, unit, flag, measure} = result;
 
-		yield ['L1', reference, code, name, normal, unit, flag, measure];
+		yield ['L1', reference, code, name, normal, unit, flag, measure, ''];
 	}
 }

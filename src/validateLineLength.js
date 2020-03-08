@@ -1,4 +1,9 @@
-export default function validateLineLength(parts, kind, validLengths) {
+export default function validateLineLength(
+	parts,
+	kind,
+	validLengths,
+	trailingSlash = true
+) {
 	if (typeof validLengths === 'number') validLengths = [validLengths];
 	validLengths = new Set(validLengths.map(x => x + 1));
 
@@ -9,11 +14,13 @@ export default function validateLineLength(parts, kind, validLengths) {
 		);
 	}
 
-	// Last part must be empty
-	const last = parts.length - 1;
-	if (parts[last] !== '') {
-		throw new Error(
-			`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`
-		);
+	if (trailingSlash) {
+		// Last part must be empty
+		const last = parts.length - 1;
+		if (parts[last] !== '') {
+			throw new Error(
+				`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`
+			);
+		}
 	}
 }

@@ -4,5 +4,5 @@ export default function stringifyA3(record) {
 		patient: {streetandnumber, zip, municipality}
 	} = record;
 
-	return ['A3', reference, streetandnumber, zip, municipality];
+	return ['A3', reference, streetandnumber, zip, municipality, ''];
 }

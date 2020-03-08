@@ -1,0 +1,72 @@
+[
+  {
+    "descriptor": "L5",
+    "reference": "15583713",
+    "identifier": "Tillman - Armstrong",
+    "source": [
+      "A1\\15583713\\Tillman - Armstrong\\",
+      "A2\\15583713\\Grady\\Blake\\M\\17042004\\",
+      "A3\\15583713\\0404 McGlynn Crest\\31521\\Pollichmouth\\",
+      "A4\\15583713\\Daniel\\08112019\\\\\\",
+      "A5\\15583713\\797\\04041739921\\\\\\721\\47",
+      "L5\\15583713\\DIVER\\\\\\\\\\Hospitalisation - Dr Tillman - Armstrong\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\\t\t\t\t\t\t\t\t\t\t\tHalle, 08/11/2019\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Destinataire : Au Docteur DODO Laflute\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Chère Consoeur,\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Je vous remercie de m'avoir adressé votre patient Grady Blake né le\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\17/04/2004 , pour avis ORL.\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Des tests allergiques cutanés sont demandé pour prurigo au niveau des bras\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\depuis plusieurs années.\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Poly-médication suite à un trauma/accident.\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Prurigo va mieux avec Dermovate et Xyzall.\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Les tests allergiques cutanés sont négatifs pour les aéro-allergènes les\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\plus courants (il y a une réaction discrète pour armois et frêne mais pas\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\significant).\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Je remplace Xyzall par Aerius comme il est fatigué avec le Xyzall.\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Je vous prie de recevoir, Chère Consoeur,l'expression de mes salutations\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\distinguées.\\",
+      "L5\\15583713\\DIVER\\\\\\\\\\Dr. Tillman - Armstrong\\"
+    ],
+    "patient": {
+      "nn": "04041739921",
+      "lastname": "Grady",
+      "firstname": "Blake",
+      "sex": "male",
+      "birthdate": "2004-04-16T22:00:00.000Z",
+      "streetandnumber": "0404 McGlynn Crest",
+      "zip": "31521",
+      "municipality": "Pollichmouth"
+    },
+    "kind": "report",
+    "requestor": "Daniel",
+    "datetime": "2019-11-07T23:00:00.000Z",
+    "status": "unknown",
+    "mutuality": {
+      "id": "797",
+      "coverage": "",
+      "holder": "",
+      "kg1": "721",
+      "kg2": "47"
+    },
+    "speciality": "DIVER",
+    "text": [
+      "Hospitalisation - Dr Tillman - Armstrong",
+      "\t\t\t\t\t\t\t\t\t\t\tHalle, 08/11/2019",
+      "Destinataire : Au Docteur DODO Laflute",
+      "Chère Consoeur,",
+      "Je vous remercie de m'avoir adressé votre patient Grady Blake né le",
+      "17/04/2004 , pour avis ORL.",
+      "Des tests allergiques cutanés sont demandé pour prurigo au niveau des bras",
+      "depuis plusieurs années.",
+      "Poly-médication suite à un trauma/accident.",
+      "Prurigo va mieux avec Dermovate et Xyzall.",
+      "Les tests allergiques cutanés sont négatifs pour les aéro-allergènes les",
+      "plus courants (il y a une réaction discrète pour armois et frêne mais pas",
+      "significant).",
+      "Je remplace Xyzall par Aerius comme il est fatigué avec le Xyzall.",
+      "Je vous prie de recevoir, Chère Consoeur,l'expression de mes salutations",
+      "distinguées.",
+      "Dr. Tillman - Armstrong"
+    ]
+  }
+]

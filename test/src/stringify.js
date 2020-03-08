@@ -23,6 +23,7 @@ const testFiles = fs.readdirSync(testFileDir);
 for (const filename of testFiles) {
 	const options = {
 		nnInA2: filename.match(/nnInA2/),
+		ntA5: filename.match(/ntA5/),
 		lang: filename.match(/nl/) ? 'nl' : 'fr'
 	};
 

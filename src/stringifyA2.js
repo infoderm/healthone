@@ -14,5 +14,7 @@ export default function stringifyA2(record, options) {
 
 	if (options.nnInA2 && nn) parts.push(nn);
 
+	parts.push('');
+
 	return parts;
 }
