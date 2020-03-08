@@ -5793,7 +5793,7 @@
       "lastname": "Gibson",
       "firstname": "Beatrice",
       "sex": "female",
-      "birthdate": "1938-11-28T00:00:00.000Z",
+      "birthdate": "1938-11-27T23:00:00.000Z",
       "streetandnumber": "100 Eric Roads",
       "zip": "59698",
       "municipality": "South Vergieshire"
@@ -9824,7 +9824,7 @@
       "lastname": "Hane",
       "firstname": "Rick",
       "sex": "male",
-      "birthdate": "1934-11-07T00:00:00.000Z",
+      "birthdate": "1934-11-06T23:00:00.000Z",
       "streetandnumber": "20091 Sadie Port",
       "zip": "71320-1907",
       "municipality": "West Urielberg"

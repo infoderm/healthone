@@ -1,5 +1,6 @@
-import dateformat from 'date-fns/format';
+import dateFormat from 'date-fns/format';
+import dateParseISO from 'date-fns/parseISO';
 
 export default function stringifyDate(date, options) {
-	return dateformat(date, options.dateFormat);
+	return dateFormat(dateParseISO(date), options.dateFormat);
 }

@@ -83,7 +83,7 @@
       "lastname": "Erdman",
       "firstname": "Oma",
       "sex": "male",
-      "birthdate": "1932-01-02T00:00:00.000Z",
+      "birthdate": "1932-01-01T23:00:00.000Z",
       "streetandnumber": "42881 Melyssa Islands",
       "zip": "37368",
       "municipality": "New Ewald"

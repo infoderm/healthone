@@ -1,4 +1,4 @@
-import dateparse from 'date-fns/parse';
+import dateParseISO from 'date-fns/parseISO';
 
 import parseDate from './parseDate';
 import sliceTime from './sliceTime';
@@ -10,5 +10,5 @@ export default function parseDateTime(datestring, timestring) {
 	const {year, month, day} = sliceDate(datestring);
 	const {hour, minute} = sliceTime(timestring);
 
-	return dateparse(`${year}-${month}-${day}T${hour}:${minute}:00`);
+	return dateParseISO(`${year}-${month}-${day}T${hour}:${minute}:00`);
 }

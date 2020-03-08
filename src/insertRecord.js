@@ -11,9 +11,7 @@ export default function insertRecord(report, record) {
 
 	if (record.reference !== report.reference) {
 		throw new Error(
-			`Invalid record reference '${record.reference}'. Current reference is '${
-				report.reference
-			}'.`
+			`Invalid record reference '${record.reference}'. Current reference is '${report.reference}'.`
 		);
 	}
 
@@ -21,9 +19,7 @@ export default function insertRecord(report, record) {
 		case 'L1':
 			if (kind === 'report')
 				throw new Error(
-					`Invalid record descriptor '${
-						record.descriptor
-					}' for a report document.`
+					`Invalid record descriptor '${record.descriptor}' for a report document.`
 				);
 			kind = 'lab';
 			break;
@@ -39,9 +35,7 @@ export default function insertRecord(report, record) {
 				record.speciality !== report.speciality
 			) {
 				throw new Error(
-					`Invalid record speciality '${
-						record.speciality
-					}'. Current speciality is '${report.speciality}'.`
+					`Invalid record speciality '${record.speciality}'. Current speciality is '${report.speciality}'.`
 				);
 			}
 

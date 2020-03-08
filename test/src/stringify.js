@@ -5,7 +5,7 @@ import stringify from '../../src/stringify';
 
 function file(t, filename, options) {
 	let expected = fs.readFileSync(`test/data/hlt/${filename}`).toString();
-	expected = expected.trimLeft();
+	expected = expected.trimStart();
 
 	const json = JSON.parse(
 		fs.readFileSync(`test/data/json/${filename}`).toString()
@@ -26,7 +26,7 @@ for (const filename of testFiles) {
 		lang: filename.match(/nl/) ? 'nl' : 'fr'
 	};
 
-	if (filename.match(/yy/)) options.dateFormat = 'DDMMYY';
+	if (filename.match(/yy/)) options.dateFormat = 'ddMMyy';
 	if (filename.match(/end/)) options.end = 'END';
 	if (filename.match(/cr/)) options.newline = '\r\n';
 

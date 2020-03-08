@@ -1,5 +1,5 @@
 const options = {
-	dateFormat: 'DDMMYYYY',
+	dateFormat: 'ddMMyyyy',
 	timeFormat: 'HHmm',
 	lang: 'nl',
 	separator: '\\',

@@ -5,9 +5,7 @@ export default function validateLineLength(parts, kind, validLengths) {
 	if (!validLengths.has(parts.length)) {
 		const expected = `any of ${JSON.stringify([...validLengths])}`;
 		throw new Error(
-			`parse${kind}: wrong number of parts, got ${
-				parts.length
-			}, expected ${expected}.`
+			`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`
 		);
 	}
 
