@@ -17,7 +17,7 @@ export default function validateLineLength(
 	if (trailingSlash) {
 		// Last part must be empty
 		const last = parts.length - 1;
-		if (parts[last] !== '') {
+		if (parts[last].trimStart() !== '') {
 			throw new Error(
 				`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`
 			);

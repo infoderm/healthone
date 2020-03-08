@@ -1,0 +1,37 @@
+[
+  {
+    "descriptor": "L5",
+    "reference": "53666903",
+    "identifier": "Parisian - Nicolas",
+    "source": [
+      "A1\\53666903\\Parisian - Nicolas\\",
+      "A2\\53666903\\Purdy\\Marisol\\M\\25011950\\",
+      "A3\\53666903\\4157 Oberbrunner Island\\31443\\Glennaton\\",
+      "A4\\53666903\\Wiza\\27092019\\\\P\\",
+      "L5\\53666903\\DIVER\\\\\\\\\\\\",
+      "L5\\53666903\\DIVER\\\\\\\\\\\\",
+      "L5\\53666903\\DIVER\\\\\\\\\\\\",
+      "L5\\53666903\\DIVER\\\\\\\\\\\\ "
+    ],
+    "patient": {
+      "lastname": "Purdy",
+      "firstname": "Marisol",
+      "sex": "male",
+      "birthdate": "1950-01-24T23:00:00.000Z",
+      "streetandnumber": "4157 Oberbrunner Island",
+      "zip": "31443",
+      "municipality": "Glennaton"
+    },
+    "kind": "report",
+    "requestor": "Wiza",
+    "datetime": "2019-09-26T22:00:00.000Z",
+    "status": "partial",
+    "speciality": "DIVER",
+    "text": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+]

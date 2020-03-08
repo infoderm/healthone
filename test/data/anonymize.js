@@ -12,6 +12,7 @@ function anonymizeFile(filename, options) {
 	for (const document of documents) {
 		anonymize(document);
 	}
+
 	const modified = stringify(documents, options);
 	fs.writeFileSync(`hlt/${filename}`, modified);
 }

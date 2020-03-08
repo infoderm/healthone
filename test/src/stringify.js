@@ -2,10 +2,13 @@ import fs from 'fs';
 import test from 'ava';
 
 import stringify from '../../src/stringify';
+import defaultOptions from '../../src/defaultOptions';
 
 function file(t, filename, options) {
 	let expected = fs.readFileSync(`test/data/hlt/${filename}`).toString();
-	expected = expected.trimStart();
+	expected =
+		expected.trimStart().trimEnd() +
+		(options.newline || defaultOptions.newline);
 
 	const json = JSON.parse(
 		fs.readFileSync(`test/data/json/${filename}`).toString()
