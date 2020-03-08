@@ -7,7 +7,7 @@
       "A1\\18651560\\Effertz - Grimes\\",
       "A2\\18651560\\Schmitt\\Leilani\\M\\25031948\\48032570538\\",
       "A3\\18651560\\96233 Schulist Falls\\78998-3152\\Dawsonberg\\",
-      "A4\\18651560\\Lubowitz\\03012018\\1521\\C\\",
+      "A4\\18651560\\Lubowitz\\03012018\\1521\\\\",
       "L1\\18651560\\t_HEMATO\\ HEMATOLOGIE\\\\\\\\\\",
       "L1\\18651560\\t_HEMOGRAMME\\Hemogramme\\\\\\\\\\",
       "L1\\18651560\\327\\Hemoglobine\\13,0 - 18,0\\g/dl\\\\15,0\\",
@@ -80,7 +80,7 @@
     "kind": "lab",
     "requestor": "Lubowitz",
     "datetime": "2018-01-03T14:21:00.000Z",
-    "status": "complete",
+    "status": "unknown",
     "results": [
       {
         "code": "t_HEMATO",
