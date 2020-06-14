@@ -1,23 +1,30 @@
 ﻿import {count} from '@aureooms/js-cardinality';
 import {filter, enumerate} from '@aureooms/js-itertools';
 
+import defaultParseOptions from './defaultParseOptions';
+import expandAndMergeOptions from './expandAndMergeOptions';
+
 import parseRecord from './parseRecord';
 import insertRecord from './insertRecord';
 import insertLine from './insertLine';
 
-export default function parse(string) {
-	const lines = string.match(/[^\r\n]+/g);
-
-	return [...parseLines(lines)];
+export default function parse(string, options) {
+	options = expandAndMergeOptions(defaultParseOptions, options);
+	const lines = string.match(options.newline);
+	return [...parseLines(lines, options)];
 }
 
-function* parseLines(lines) {
+function* parseLines(lines, options) {
 	let report = null;
 
 	for (const [lineno, line] of enumerate(lines, 1)) {
-		const parts = line.split('\\');
+		const parts = line.split(options.separator);
 
-		if (parts.length === 1 && parts[0] === 'END') break;
+		if (parts.length === 1) {
+			if (options.end.constructor.prototype === String.prototype)
+				if (parts[0] === options.end) break;
+				else if (options.end === undefined) break; // Accept any ending
+		}
 
 		if (parts.length < 3) {
 			throw new Error(
@@ -25,7 +32,7 @@ function* parseLines(lines) {
 			);
 		}
 
-		const record = parseRecord(parts);
+		const record = parseRecord(parts, options);
 
 		if (record.descriptor === 'A1') {
 			if (report !== null) yield sanitizeReport(report);
@@ -45,7 +52,7 @@ function sanitizeReport(report) {
 	if (report.kind === 'lab') {
 		return {
 			...report,
-			anomalies: count(filter(result => result.flag === '*', report.results))
+			anomalies: count(filter((result) => result.flag === '*', report.results))
 		};
 	}
 

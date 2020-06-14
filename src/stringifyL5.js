@@ -1,7 +1,11 @@
-﻿export default function* stringifyL5(record) {
+﻿export default function* stringifyL5(record, options) {
 	const {reference, speciality, text} = record;
 
 	for (const line of text) {
-		yield ['L5', reference, speciality, '', '', '', '', line, ''];
+		const parts = ['L5', reference, speciality, '', '', '', '', line];
+
+		if (options.trailing.L5) parts.push('');
+
+		yield parts;
 	}
 }

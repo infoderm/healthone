@@ -9,5 +9,9 @@ export default function stringifyA4(record, options) {
 	const time = stringifyTime(datetime, options);
 	const statusString = stringifyStatus(status, options);
 
-	return ['A4', reference, requestor, date, time, statusString, ''];
+	const parts = ['A4', reference, requestor, date, time, statusString];
+
+	if (options.trailing.A4) parts.push('');
+
+	return parts;
 }

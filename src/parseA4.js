@@ -4,8 +4,8 @@ import validateRequiredField from './validateRequiredField';
 import parseDateTime from './parseDateTime';
 import parseStatus from './parseStatus';
 
-export default function parseA4(parts) {
-	validateLineLength(parts, 'A4', 6);
+export default function parseA4(parts, options) {
+	validateLineLength(parts, 'A4', 6, options.trailing.A4);
 	validateRequiredField(parts, 'date', 4);
 
 	const [descriptor, reference, requestor, date, time, statusString] = parts;

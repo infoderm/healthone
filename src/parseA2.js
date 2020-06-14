@@ -4,8 +4,8 @@ import validateRequiredField from './validateRequiredField';
 import parseSex from './parseSex';
 import parseDate from './parseDate';
 
-export default function parseA2(parts) {
-	validateLineLength(parts, 'A2', [6, 7]);
+export default function parseA2(parts, options) {
+	validateLineLength(parts, 'A2', [6, 7], options.trailing.A2);
 
 	validateRequiredField(parts, 'lastname', 2);
 	validateRequiredField(parts, 'firstname', 3);

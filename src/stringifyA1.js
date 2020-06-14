@@ -1,5 +1,9 @@
-export default function stringifyA1(record) {
+export default function stringifyA1(record, options) {
 	const {reference, identifier} = record;
 
-	return ['A1', reference, identifier, ''];
+	const parts = ['A1', reference, identifier];
+
+	if (options.trailing.A1) parts.push('');
+
+	return parts;
 }

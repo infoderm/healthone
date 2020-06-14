@@ -7,28 +7,28 @@ import parseA5 from './parseA5';
 import parseL1 from './parseL1';
 import parseL5 from './parseL5';
 
-export default function parseRecord(parts) {
+export default function parseRecord(parts, options) {
 	let [descriptor, ...rest] = parts;
 	descriptor = parts[0].trim(); // To remove <feff> byte order mark
 	parts = [descriptor, ...rest];
 
 	switch (descriptor) {
 		case 'A1':
-			return parseA1(parts);
+			return parseA1(parts, options);
 		case 'A2':
-			return parseA2(parts);
+			return parseA2(parts, options);
 		case 'A3':
-			return parseA3(parts);
+			return parseA3(parts, options);
 		case 'A4':
-			return parseA4(parts);
+			return parseA4(parts, options);
 		case 'A5':
-			return parseA5(parts);
+			return parseA5(parts, options);
 		case 'L1':
-			return parseL1(parts);
+			return parseL1(parts, options);
 		case 'L2':
 		case 'L3':
 		case 'L5':
-			return parseL5(parts);
+			return parseL5(parts, options);
 		default:
 			throw new Error(`Unknown record descriptor '${descriptor}'`);
 	}
