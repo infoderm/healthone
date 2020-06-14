@@ -2,13 +2,13 @@ import fs from 'fs';
 import test from 'ava';
 
 import stringify from '../../src/stringify';
-import defaultOptions from '../../src/defaultOptions';
+import defaultStringifyOptions from '../../src/defaultStringifyOptions';
 
 function file(t, filename, options) {
-	let expected = fs.readFileSync(`test/data/hlt/${filename}`).toString();
+	let expected = fs.readFileSync(`test/data/output/${filename}`).toString();
 	expected =
 		expected.trimStart().trimEnd() +
-		(options.newline || defaultOptions.newline);
+		(options.newline || defaultStringifyOptions.newline);
 
 	const json = JSON.parse(
 		fs.readFileSync(`test/data/json/${filename}`).toString()
@@ -25,14 +25,17 @@ const testFileDir = 'test/data/json';
 const testFiles = fs.readdirSync(testFileDir);
 for (const filename of testFiles) {
 	const options = {
-		nnInA2: filename.match(/nnInA2/),
-		ntA5: filename.match(/ntA5/),
-		lang: filename.match(/nl/) ? 'nl' : 'fr'
+		nnInA2: /nnInA2/.test(filename),
+		trailing: {
+			A2: !/ntA2/.test(filename),
+			A5: !/ntA5/.test(filename)
+		},
+		lang: /nl/.test(filename) ? 'nl' : 'fr'
 	};
 
-	if (filename.match(/yy/)) options.dateFormat = 'ddMMyy';
-	if (filename.match(/end/)) options.end = 'END';
-	if (filename.match(/cr/)) options.newline = '\r\n';
+	if (/yy/.test(filename)) options.dateFormat = 'ddMMyy';
+	if (/end/.test(filename)) options.end = 'END';
+	if (/cr/.test(filename)) options.newline = '\r\n';
 
 	test(file, filename, options);
 }

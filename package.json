@@ -43,6 +43,7 @@
     "@babel/preset-env": "7.10.2",
     "@babel/register": "7.10.1",
     "ava": "3.8.2",
+    "chardet": "^1.1.0",
     "codeclimate-test-reporter": "0.5.1",
     "coveralls": "3.1.0",
     "esdoc": "1.1.0",
@@ -50,6 +51,7 @@
     "esdoc-inject-script-plugin": "1.0.0",
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
+    "iconv-lite": "^0.6.0",
     "np": "6.2.4",
     "nyc": "15.1.0",
     "xo": "0.32.0"

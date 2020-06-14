@@ -10,13 +10,13 @@ function parseDates(documents) {
 	}
 }
 
-function file(t, filename) {
-	const source = fs.readFileSync(`test/data/hlt/${filename}`).toString();
+function file(t, filename, options) {
+	const source = fs.readFileSync(`test/data/input/${filename}`).toString();
 	const expected = JSON.parse(
 		fs.readFileSync(`test/data/json/${filename}`).toString()
 	);
 
-	const documents = JSON.parse(JSON.stringify(parse(source)));
+	const documents = JSON.parse(JSON.stringify(parse(source, options)));
 
 	parseDates(expected);
 	parseDates(documents);
@@ -26,8 +26,17 @@ function file(t, filename) {
 
 file.title = (title, filename) => filename;
 
-const testFileDir = 'test/data/hlt';
+const testFileDir = 'test/data/input';
 const testFiles = fs.readdirSync(testFileDir);
 for (const filename of testFiles) {
-	test(file, filename);
+	const options = {
+		nnInA2: /nnInA2/.test(filename),
+		trailing: {
+			A2: !/ntA2/.test(filename),
+			A5: !/ntA5/.test(filename),
+			L1: undefined
+		},
+		lang: /nl/.test(filename) ? 'nl' : 'fr'
+	};
+	test(file, filename, options);
 }
