@@ -1,8 +1,8 @@
 import mergeWith from 'lodash.mergewith';
 
-function customizer(objValue, srcValue) {
-	if (Array.isArray(objValue)) {
-		return objValue.concat(srcValue);
+function customizer(objectValue, srcValue) {
+	if (Array.isArray(objectValue)) {
+		return objectValue.concat(srcValue);
 	}
 }
 

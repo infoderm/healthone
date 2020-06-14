@@ -5,7 +5,7 @@ const AGE_MAX = 93;
 const SEX_ALLOWED = ['male', 'female'];
 
 function fakenn(birthdate, sex) {
-	const yymmdd = parseInt(dateformat(birthdate, 'yyMMdd'), 10);
+	const yymmdd = Number.parseInt(dateformat(birthdate, 'yyMMdd'), 10);
 	const xxx =
 		faker.random.number({min: 0, max: 499}) * 2 + (sex === 'male' ? 1 : 0);
 	const yymmddxxx = yymmdd * 1000 + xxx;

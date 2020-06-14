@@ -5,7 +5,7 @@ export default function sliceDate(datestring) {
 	const month = datestring.slice(2, 4);
 	let year = datestring.slice(4, 8);
 	if (year.length === 2) {
-		const yearNumber = parseInt(year, 10);
+		const yearNumber = Number.parseInt(year, 10);
 		const now = new Date();
 		const thisYear = getYear(now);
 		const cutOff = thisYear % 100;
