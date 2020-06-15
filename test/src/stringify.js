@@ -31,7 +31,7 @@ for (const filename of testFiles) {
 			A5: !/ntA5/.test(filename)
 		},
 		lang: /nl/.test(filename) ? 'nl' : 'fr',
-		timeZone: 'Europe/Brussels'
+		timeZone: 'Europe/Copenhagen'
 	};
 
 	if (/yy/.test(filename)) options.dateFormat = 'ddMMyy';

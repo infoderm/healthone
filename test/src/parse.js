@@ -37,7 +37,7 @@ for (const filename of testFiles) {
 			L1: undefined
 		},
 		lang: /nl/.test(filename) ? 'nl' : 'fr',
-		timeZone: 'Europe/Brussels'
+		timeZone: 'Europe/Copenhagen'
 	};
 	test(file, filename, options);
 }
