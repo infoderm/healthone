@@ -9,6 +9,7 @@ const options = {
 	separator: '\\',
 	dateFormat: 'ddMMyyyy',
 	timeFormat: 'HHmm',
+	timeZone: undefined,
 	lang: 'nl',
 	end: '',
 	nnInA2: true,

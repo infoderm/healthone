@@ -10,7 +10,7 @@ export default function parseA4(parts, options) {
 
 	const [descriptor, reference, requestor, date, time, statusString] = parts;
 
-	const datetime = parseDateTime(date, time);
+	const datetime = parseDateTime(date, time, options);
 	const status = parseStatus(statusString);
 
 	return {

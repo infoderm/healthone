@@ -32,6 +32,7 @@
     "@aureooms/js-cardinality": "^2.0.0",
     "@aureooms/js-itertools": "^4.0.0",
     "date-fns": "^2.14.0",
+    "date-fns-tz": "^1.0.10",
     "faker": "^4.1.0",
     "lodash.mergewith": "^4.6.2"
   },

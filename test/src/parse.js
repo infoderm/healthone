@@ -36,7 +36,8 @@ for (const filename of testFiles) {
 			A5: !/ntA5/.test(filename),
 			L1: undefined
 		},
-		lang: /nl/.test(filename) ? 'nl' : 'fr'
+		lang: /nl/.test(filename) ? 'nl' : 'fr',
+		timeZone: 'Europe/Brussels'
 	};
 	test(file, filename, options);
 }

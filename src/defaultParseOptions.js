@@ -9,6 +9,7 @@ const options = {
 	separator: '\\',
 	dateFormat: undefined,
 	timeFormat: undefined,
+	timeZone: undefined,
 	lang: undefined,
 	end: 'END', // Specified but optional
 	nnInA2: undefined,
