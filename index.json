@@ -1,0 +1,2502 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/anonymize.js",
+    "content": "import faker from 'faker';\nimport dateformat from 'date-fns/format';\n\nconst AGE_MAX = 93;\nconst SEX_ALLOWED = ['male', 'female'];\n\nfunction fakenn(birthdate, sex) {\n\tconst yymmdd = Number.parseInt(dateformat(birthdate, 'yyMMdd'), 10);\n\tconst xxx =\n\t\tfaker.random.number({min: 0, max: 499}) * 2 + (sex === 'male' ? 1 : 0);\n\tconst yymmddxxx = yymmdd * 1000 + xxx;\n\tconst _cd = yymmddxxx % 97;\n\tconst cd = _cd === 0 ? 97 : _cd;\n\tconst yymmddxxxcd = yymmddxxx * 100 + cd;\n\tconst nn = String(yymmddxxxcd).padStart(11, '0');\n\treturn nn;\n}\n\nexport default function anonymize(document) {\n\tdocument.identifier = faker.company.companyName();\n\tdocument.reference = String(\n\t\tfaker.random.number({min: 10000000, max: 99999999})\n\t);\n\tdocument.requestor = faker.name.lastName();\n\n\tdocument.patient.lastname = faker.name.lastName();\n\tdocument.patient.firstname = faker.name.firstName();\n\tdocument.patient.sex = faker.random.arrayElement(SEX_ALLOWED);\n\tdocument.patient.birthdate = faker.date.past(AGE_MAX);\n\tdocument.patient.municipality = faker.address.city();\n\tdocument.patient.streetandnumber = faker.address.streetAddress();\n\tdocument.patient.zip = faker.address.zipCode();\n\tdocument.patient.nn = fakenn(\n\t\tdocument.patient.birthdate,\n\t\tdocument.patient.sex\n\t);\n\n\tif (document.mutuality) {\n\t\tdocument.mutuality.id = String(faker.random.number({min: 0, max: 999}));\n\t\tdocument.mutuality.coverage = '';\n\t\tdocument.mutuality.holder = '';\n\t\tdocument.mutuality.kg1 = String(faker.random.number({min: 0, max: 999}));\n\t\tdocument.mutuality.kg2 = String(faker.random.number({min: 0, max: 999}));\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/anonymize.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "AGE_MAX",
+    "memberof": "src/anonymize.js",
+    "static": true,
+    "longname": "src/anonymize.js~AGE_MAX",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/anonymize.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "SEX_ALLOWED",
+    "memberof": "src/anonymize.js",
+    "static": true,
+    "longname": "src/anonymize.js~SEX_ALLOWED",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/anonymize.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "fakenn",
+    "memberof": "src/anonymize.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/anonymize.js~fakenn",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/anonymize.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "birthdate",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "sex",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "anonymize",
+    "memberof": "src/anonymize.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/anonymize.js~anonymize",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/anonymize.js",
+    "importStyle": "anonymize",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "document",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/defaultParseOptions.js",
+    "content": "/**\n * True means always\n * false means never\n * undefined means optional or all\n * any other type is used as a value\n */\nconst options = {\n\tnewline: /[^\\r\\n]+/g,\n\tseparator: '\\\\',\n\tdateFormat: undefined,\n\ttimeFormat: undefined,\n\tlang: undefined,\n\tend: 'END', // Specified but optional\n\tnnInA2: undefined,\n\ttrailing: undefined\n};\n\nexport default options;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/defaultParseOptions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "options",
+    "memberof": "src/defaultParseOptions.js",
+    "static": true,
+    "longname": "src/defaultParseOptions.js~options",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/defaultParseOptions.js",
+    "importStyle": "options",
+    "description": "True means always\nfalse means never\nundefined means optional or all\nany other type is used as a value",
+    "lineNumber": 7,
+    "type": {
+      "types": [
+        "{\"newline\": *, \"separator\": string, \"dateFormat\": *, \"timeFormat\": *, \"lang\": *, \"end\": string, \"nnInA2\": *, \"trailing\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/defaultStringifyOptions.js",
+    "content": "/**\n * True means always\n * false means never\n * undefined means optional\n * any other type is used as a value\n */\nconst options = {\n\tnewline: '\\n',\n\tseparator: '\\\\',\n\tdateFormat: 'ddMMyyyy',\n\ttimeFormat: 'HHmm',\n\tlang: 'nl',\n\tend: '',\n\tnnInA2: true,\n\ttrailing: true\n};\n\nexport default options;\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/defaultStringifyOptions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "options",
+    "memberof": "src/defaultStringifyOptions.js",
+    "static": true,
+    "longname": "src/defaultStringifyOptions.js~options",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/defaultStringifyOptions.js",
+    "importStyle": "options",
+    "description": "True means always\nfalse means never\nundefined means optional\nany other type is used as a value",
+    "lineNumber": 7,
+    "type": {
+      "types": [
+        "{\"newline\": string, \"separator\": string, \"dateFormat\": string, \"timeFormat\": string, \"lang\": string, \"end\": *, \"nnInA2\": boolean, \"trailing\": boolean}"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/expandAndMergeOptions.js",
+    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction expandOptions(options) {\n\tconst copy = Object.assign({}, options);\n\tif (\n\t\tcopy.trailing === undefined ||\n\t\tcopy.trailing.constructor.prototype !== Object.prototype\n\t) {\n\t\tconst value = copy.trailing;\n\t\tcopy.trailing = {\n\t\t\tA1: value,\n\t\t\tA2: value,\n\t\t\tA3: value,\n\t\t\tA4: value,\n\t\t\tA5: value,\n\t\t\tL1: value,\n\t\t\tL5: value\n\t\t};\n\t}\n\n\treturn copy;\n}\n\nexport default function expandAndMergeOptions(...options) {\n\treturn mergeWith({}, ...options.map((x) => expandOptions(x)));\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/expandAndMergeOptions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "expandOptions",
+    "memberof": "src/expandAndMergeOptions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/expandAndMergeOptions.js~expandOptions",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/expandAndMergeOptions.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "expandAndMergeOptions",
+    "memberof": "src/expandAndMergeOptions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/expandAndMergeOptions.js~expandAndMergeOptions",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/expandAndMergeOptions.js",
+    "importStyle": "expandAndMergeOptions",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "options",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/insertLine.js",
+    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction customizer(objectValue, srcValue) {\n\tif (Array.isArray(objectValue)) {\n\t\treturn objectValue.concat(srcValue);\n\t}\n}\n\nexport default function insertLine(report, line) {\n\treturn mergeWith({}, report, {source: [line]}, customizer);\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/insertLine.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "customizer",
+    "memberof": "src/insertLine.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/insertLine.js~customizer",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/insertLine.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectValue",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "srcValue",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "insertLine",
+    "memberof": "src/insertLine.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/insertLine.js~insertLine",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/insertLine.js",
+    "importStyle": "insertLine",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "report",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "line",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/insertRecord.js",
+    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction customizer(objectValue, srcValue) {\n\tif (Array.isArray(objectValue)) {\n\t\treturn objectValue.concat(srcValue);\n\t}\n}\n\nexport default function insertRecord(report, record) {\n\tlet {kind} = report;\n\n\tif (record.reference !== report.reference) {\n\t\tthrow new Error(\n\t\t\t`Invalid record reference '${record.reference}'. Current reference is '${report.reference}'.`\n\t\t);\n\t}\n\n\tswitch (record.descriptor) {\n\t\tcase 'L1':\n\t\t\tif (kind === 'report')\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record descriptor '${record.descriptor}' for a report document.`\n\t\t\t\t);\n\t\t\tkind = 'lab';\n\t\t\tbreak;\n\t\tcase 'L2':\n\t\tcase 'L3':\n\t\tcase 'L5':\n\t\t\tif (kind === 'lab')\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record descriptor '${record.descriptor}' for a lab document.`\n\t\t\t\t);\n\t\t\tif (\n\t\t\t\treport.speciality !== undefined &&\n\t\t\t\trecord.speciality !== report.speciality\n\t\t\t) {\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record speciality '${record.speciality}'. Current speciality is '${report.speciality}'.`\n\t\t\t\t);\n\t\t\t}\n\n\t\t\tkind = 'report';\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tbreak; // Do nothing\n\t}\n\n\treturn {\n\t\t...mergeWith({}, report, record, customizer),\n\t\tkind\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/insertRecord.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "customizer",
+    "memberof": "src/insertRecord.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/insertRecord.js~customizer",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/insertRecord.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectValue",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "srcValue",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "insertRecord",
+    "memberof": "src/insertRecord.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/insertRecord.js~insertRecord",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/insertRecord.js",
+    "importStyle": "insertRecord",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "report",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{...undefined: Object, \"kind\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/parse.js",
+    "content": "﻿import {count} from '@aureooms/js-cardinality';\nimport {filter, enumerate} from '@aureooms/js-itertools';\n\nimport defaultParseOptions from './defaultParseOptions';\nimport expandAndMergeOptions from './expandAndMergeOptions';\n\nimport parseRecord from './parseRecord';\nimport insertRecord from './insertRecord';\nimport insertLine from './insertLine';\n\nexport default function parse(string, options) {\n\toptions = expandAndMergeOptions(defaultParseOptions, options);\n\tconst lines = string.match(options.newline);\n\treturn [...parseLines(lines, options)];\n}\n\nfunction* parseLines(lines, options) {\n\tlet report = null;\n\n\tfor (const [lineno, line] of enumerate(lines, 1)) {\n\t\tconst parts = line.split(options.separator);\n\n\t\tif (parts.length === 1) {\n\t\t\tif (options.end.constructor.prototype === String.prototype)\n\t\t\t\tif (parts[0] === options.end) break;\n\t\t\t\telse if (options.end === undefined) break; // Accept any ending\n\t\t}\n\n\t\tif (parts.length < 3) {\n\t\t\tthrow new Error(\n\t\t\t\t`Line ${lineno} consists of less than three parts separated by '\\\\'`\n\t\t\t);\n\t\t}\n\n\t\tconst record = parseRecord(parts, options);\n\n\t\tif (record.descriptor === 'A1') {\n\t\t\tif (report !== null) yield sanitizeReport(report);\n\t\t\treport = {...record, source: [line]};\n\t\t} else if (report === null) {\n\t\t\tthrow new Error(`Document did not start with 'A1\\\\': ${lineno}`);\n\t\t} else {\n\t\t\treport = insertRecord(report, record);\n\t\t\treport = insertLine(report, line);\n\t\t}\n\t}\n\n\tif (report !== null) yield sanitizeReport(report);\n}\n\nfunction sanitizeReport(report) {\n\tif (report.kind === 'lab') {\n\t\treturn {\n\t\t\t...report,\n\t\t\tanomalies: count(filter((result) => result.flag === '*', report.results))\n\t\t};\n\t}\n\n\treturn report;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parse.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "parse",
+    "memberof": "src/parse.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parse.js~parse",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parse.js",
+    "importStyle": "parse",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "string",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "undefined[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "parseLines",
+    "memberof": "src/parse.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/parse.js~parseLines",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/parse.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [
+      {
+        "name": "lines",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "sanitizeReport",
+    "memberof": "src/parse.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parse.js~sanitizeReport",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/parse.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "params": [
+      {
+        "name": "report",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/parseA1.js",
+    "content": "import validateLineLength from './validateLineLength';\nimport validateRequiredField from './validateRequiredField';\n\nexport default function parseA1(parts, options) {\n\tvalidateLineLength(parts, 'A1', 3, options.trailing.A1);\n\n\tvalidateRequiredField(parts, 'reference', 1);\n\n\tconst [descriptor, reference, identifier] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tidentifier\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "parseA1",
+    "memberof": "src/parseA1.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseA1.js~parseA1",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseA1.js",
+    "importStyle": "parseA1",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"descriptor\": *, \"reference\": *, \"identifier\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/parseA2.js",
+    "content": "import validateLineLength from './validateLineLength';\nimport validateRequiredField from './validateRequiredField';\n\nimport parseSex from './parseSex';\nimport parseDate from './parseDate';\n\nexport default function parseA2(parts, options) {\n\tvalidateLineLength(parts, 'A2', [6, 7], options.trailing.A2);\n\n\tvalidateRequiredField(parts, 'lastname', 2);\n\tvalidateRequiredField(parts, 'firstname', 3);\n\tvalidateRequiredField(parts, 'sex', 4);\n\tvalidateRequiredField(parts, 'birthdate', 5);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tlastname,\n\t\tfirstname,\n\t\tsexstring,\n\t\tdatestring,\n\t\tnn\n\t] = parts;\n\n\tconst sex = parseSex(sexstring);\n\tconst birthdate = parseDate(datestring);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tpatient: {\n\t\t\tnn: nn || undefined,\n\t\t\tlastname,\n\t\t\tfirstname,\n\t\t\tsex,\n\t\t\tbirthdate\n\t\t}\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA2.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "parseA2",
+    "memberof": "src/parseA2.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseA2.js~parseA2",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseA2.js",
+    "importStyle": "parseA2",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"descriptor\": *, \"reference\": *, \"patient\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/parseA3.js",
+    "content": "import validateLineLength from './validateLineLength';\n\nexport default function parseA3(parts, options) {\n\tvalidateLineLength(parts, 'A3', [2, 3, 4, 5], options.trailing.A3);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tstreetandnumber,\n\t\tzip,\n\t\tmunicipality\n\t] = parts.slice(0, -1);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tpatient: {\n\t\t\tstreetandnumber,\n\t\t\tzip,\n\t\t\tmunicipality\n\t\t}\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA3.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "parseA3",
+    "memberof": "src/parseA3.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseA3.js~parseA3",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseA3.js",
+    "importStyle": "parseA3",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"descriptor\": *, \"reference\": *, \"patient\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/parseA4.js",
+    "content": "import validateLineLength from './validateLineLength';\nimport validateRequiredField from './validateRequiredField';\n\nimport parseDateTime from './parseDateTime';\nimport parseStatus from './parseStatus';\n\nexport default function parseA4(parts, options) {\n\tvalidateLineLength(parts, 'A4', 6, options.trailing.A4);\n\tvalidateRequiredField(parts, 'date', 4);\n\n\tconst [descriptor, reference, requestor, date, time, statusString] = parts;\n\n\tconst datetime = parseDateTime(date, time);\n\tconst status = parseStatus(statusString);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\trequestor,\n\t\tdatetime,\n\t\tstatus\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA4.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "parseA4",
+    "memberof": "src/parseA4.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseA4.js~parseA4",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseA4.js",
+    "importStyle": "parseA4",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"descriptor\": *, \"reference\": *, \"requestor\": *, \"datetime\": *, \"status\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/parseA5.js",
+    "content": "import validateLineLength from './validateLineLength';\n\nexport default function parseA5(parts, options) {\n\tvalidateLineLength(parts, 'A5', [7, 8], options.trailing.A5);\n\n\tconst [descriptor, reference, id, nn, coverage, holder, kg1, kg2] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tmutuality: {\n\t\t\tid,\n\t\t\tcoverage,\n\t\t\tholder,\n\t\t\tkg1,\n\t\t\tkg2\n\t\t},\n\t\tpatient: {\n\t\t\tnn\n\t\t}\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA5.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "parseA5",
+    "memberof": "src/parseA5.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseA5.js~parseA5",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseA5.js",
+    "importStyle": "parseA5",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"descriptor\": *, \"reference\": *, \"mutuality\": *, \"patient\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/parseDate.js",
+    "content": "import dateParseISO from 'date-fns/parseISO';\n\nimport sliceDate from './sliceDate';\n\nexport default function parseDate(datestring) {\n\tconst {year, month, day} = sliceDate(datestring);\n\n\treturn dateParseISO(`${year}-${month}-${day}`);\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseDate.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "parseDate",
+    "memberof": "src/parseDate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseDate.js~parseDate",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseDate.js",
+    "importStyle": "parseDate",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "datestring",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/parseDateTime.js",
+    "content": "import dateParseISO from 'date-fns/parseISO';\n\nimport parseDate from './parseDate';\nimport sliceTime from './sliceTime';\nimport sliceDate from './sliceDate';\n\nexport default function parseDateTime(datestring, timestring) {\n\tif (!timestring) return parseDate(datestring);\n\n\tconst {year, month, day} = sliceDate(datestring);\n\tconst {hour, minute} = sliceTime(timestring);\n\n\treturn dateParseISO(`${year}-${month}-${day}T${hour}:${minute}:00`);\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseDateTime.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "parseDateTime",
+    "memberof": "src/parseDateTime.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseDateTime.js~parseDateTime",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseDateTime.js",
+    "importStyle": "parseDateTime",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "datestring",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "timestring",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "name": "src/parseL1.js",
+    "content": "﻿import validateLineLength from './validateLineLength';\n\nexport default function parseL1(parts, options) {\n\tvalidateLineLength(parts, 'L1', [7, 8], options.trailing.L1);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tcode,\n\t\tname,\n\t\tnormal,\n\t\tunit,\n\t\tflag,\n\t\tmeasure\n\t] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tresults: [\n\t\t\t{\n\t\t\t\tcode,\n\t\t\t\tname,\n\t\t\t\tnormal,\n\t\t\t\tunit,\n\t\t\t\tflag,\n\t\t\t\tmeasure\n\t\t\t}\n\t\t]\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseL1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "parseL1",
+    "memberof": "src/parseL1.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseL1.js~parseL1",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseL1.js",
+    "importStyle": "parseL1",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"descriptor\": *, \"reference\": *, \"results\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/parseL5.js",
+    "content": "﻿import validateLineLength from './validateLineLength';\n\nexport default function parseL5(parts, options) {\n\tvalidateLineLength(parts, 'L5', 8, options.trailing.L5);\n\n\tconst {0: descriptor, 1: reference, 2: speciality, 7: text} = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tspeciality,\n\t\ttext: [text]\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseL5.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "parseL5",
+    "memberof": "src/parseL5.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseL5.js~parseL5",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseL5.js",
+    "importStyle": "parseL5",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"descriptor\": *, \"reference\": *, \"speciality\": *, \"text\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/parseRecord.js",
+    "content": "import parseA1 from './parseA1';\nimport parseA2 from './parseA2';\nimport parseA3 from './parseA3';\nimport parseA4 from './parseA4';\nimport parseA5 from './parseA5';\n\nimport parseL1 from './parseL1';\nimport parseL5 from './parseL5';\n\nexport default function parseRecord(parts, options) {\n\tlet [descriptor, ...rest] = parts;\n\tdescriptor = parts[0].trim(); // To remove <feff> byte order mark\n\tparts = [descriptor, ...rest];\n\n\tswitch (descriptor) {\n\t\tcase 'A1':\n\t\t\treturn parseA1(parts, options);\n\t\tcase 'A2':\n\t\t\treturn parseA2(parts, options);\n\t\tcase 'A3':\n\t\t\treturn parseA3(parts, options);\n\t\tcase 'A4':\n\t\t\treturn parseA4(parts, options);\n\t\tcase 'A5':\n\t\t\treturn parseA5(parts, options);\n\t\tcase 'L1':\n\t\t\treturn parseL1(parts, options);\n\t\tcase 'L2':\n\t\tcase 'L3':\n\t\tcase 'L5':\n\t\t\treturn parseL5(parts, options);\n\t\tdefault:\n\t\t\tthrow new Error(`Unknown record descriptor '${descriptor}'`);\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseRecord.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "parseRecord",
+    "memberof": "src/parseRecord.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseRecord.js~parseRecord",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseRecord.js",
+    "importStyle": "parseRecord",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "src/parseSex.js",
+    "content": "export default function parseSex(letter) {\n\tswitch (letter) {\n\t\tcase 'F':\n\t\tcase 'V':\n\t\t\treturn 'female';\n\t\tcase 'M':\n\t\t\treturn 'male';\n\t\tdefault:\n\t\t\treturn 'other';\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseSex.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "parseSex",
+    "memberof": "src/parseSex.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseSex.js~parseSex",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseSex.js",
+    "importStyle": "parseSex",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "letter",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/parseStatus.js",
+    "content": "export default function parseStatus(letter) {\n\tswitch (letter) {\n\t\tcase 'P':\n\t\t\treturn 'partial';\n\t\tcase 'C':\n\t\t\treturn 'complete';\n\t\tdefault:\n\t\t\treturn 'unknown';\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseStatus.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "parseStatus",
+    "memberof": "src/parseStatus.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseStatus.js~parseStatus",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/parseStatus.js",
+    "importStyle": "parseStatus",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "letter",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/sliceDate.js",
+    "content": "import getYear from 'date-fns/getYear';\n\nexport default function sliceDate(datestring) {\n\tconst day = datestring.slice(0, 2);\n\tconst month = datestring.slice(2, 4);\n\tlet year = datestring.slice(4, 8);\n\tif (year.length === 2) {\n\t\tconst yearNumber = Number.parseInt(year, 10);\n\t\tconst now = new Date();\n\t\tconst thisYear = getYear(now);\n\t\tconst cutOff = thisYear % 100;\n\t\t// The logic is that dates can only be in the past with\n\t\t// those documents\n\t\t// stops working 01 Jan 2100\n\t\t// hopefully I'll be dead by then\n\t\tif (yearNumber <= cutOff) {\n\t\t\tyear = `20${year}`;\n\t\t} else {\n\t\t\tyear = `19${year}`;\n\t\t}\n\t}\n\n\treturn {year, month, day};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/sliceDate.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "sliceDate",
+    "memberof": "src/sliceDate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/sliceDate.js~sliceDate",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/sliceDate.js",
+    "importStyle": "sliceDate",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "datestring",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"year\": *, \"month\": *, \"day\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "src/sliceTime.js",
+    "content": "export default function sliceTime(timestring) {\n\tconst hour = timestring.slice(0, 2);\n\tconst minute = timestring.slice(2, 4);\n\n\treturn {hour, minute};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/sliceTime.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "function",
+    "name": "sliceTime",
+    "memberof": "src/sliceTime.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/sliceTime.js~sliceTime",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/sliceTime.js",
+    "importStyle": "sliceTime",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "timestring",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"hour\": *, \"minute\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "src/stringify.js",
+    "content": "﻿import stringifyRecord from './stringifyRecord';\nimport defaultStringifyOptions from './defaultStringifyOptions';\nimport expandAndMergeOptions from './expandAndMergeOptions';\n\nexport default function stringify(records, options) {\n\toptions = expandAndMergeOptions(defaultStringifyOptions, options);\n\treturn [...stringifyRecords(records, options), ''].join(options.newline);\n}\n\nfunction* stringifyRecords(records, options) {\n\tfor (const record of records) {\n\t\tfor (const line of stringifyRecord(record, options)) {\n\t\t\tyield line.filter((x) => x !== undefined).join(options.separator);\n\t\t}\n\t}\n\n\tif (options.end) yield options.end;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringify.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "stringify",
+    "memberof": "src/stringify.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringify.js~stringify",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringify.js",
+    "importStyle": "stringify",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "records",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "stringifyRecords",
+    "memberof": "src/stringify.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stringify.js~stringifyRecords",
+    "access": "public",
+    "export": false,
+    "importPath": "healthone/src/stringify.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "records",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "file",
+    "name": "src/stringifyA1.js",
+    "content": "export default function stringifyA1(record, options) {\n\tconst {reference, identifier} = record;\n\n\tconst parts = ['A1', reference, identifier];\n\n\tif (options.trailing.A1) parts.push('');\n\n\treturn parts;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "stringifyA1",
+    "memberof": "src/stringifyA1.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyA1.js~stringifyA1",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyA1.js",
+    "importStyle": "stringifyA1",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "file",
+    "name": "src/stringifyA2.js",
+    "content": "import stringifySex from './stringifySex';\nimport stringifyDate from './stringifyDate';\n\nexport default function stringifyA2(record, options) {\n\tconst {\n\t\treference,\n\t\tpatient: {nn, lastname, firstname, sex, birthdate}\n\t} = record;\n\n\tconst sexstring = stringifySex(sex, options);\n\tconst datestring = stringifyDate(birthdate, options);\n\n\tconst parts = ['A2', reference, lastname, firstname, sexstring, datestring];\n\n\tif (options.nnInA2 && nn) parts.push(nn);\n\n\tif (options.trailing.A2) parts.push('');\n\n\treturn parts;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA2.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "stringifyA2",
+    "memberof": "src/stringifyA2.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyA2.js~stringifyA2",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyA2.js",
+    "importStyle": "stringifyA2",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "file",
+    "name": "src/stringifyA3.js",
+    "content": "export default function stringifyA3(record, options) {\n\tconst {\n\t\treference,\n\t\tpatient: {streetandnumber, zip, municipality}\n\t} = record;\n\n\tconst parts = ['A3', reference, streetandnumber, zip, municipality];\n\n\tif (options.trailing.A3) parts.push('');\n\n\treturn parts;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA3.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "name": "stringifyA3",
+    "memberof": "src/stringifyA3.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyA3.js~stringifyA3",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyA3.js",
+    "importStyle": "stringifyA3",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "file",
+    "name": "src/stringifyA4.js",
+    "content": "import stringifyDate from './stringifyDate';\nimport stringifyTime from './stringifyTime';\nimport stringifyStatus from './stringifyStatus';\n\nexport default function stringifyA4(record, options) {\n\tconst {reference, requestor, datetime, status} = record;\n\n\tconst date = stringifyDate(datetime, options);\n\tconst time = stringifyTime(datetime, options);\n\tconst statusString = stringifyStatus(status, options);\n\n\tconst parts = ['A4', reference, requestor, date, time, statusString];\n\n\tif (options.trailing.A4) parts.push('');\n\n\treturn parts;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA4.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 108,
+    "kind": "function",
+    "name": "stringifyA4",
+    "memberof": "src/stringifyA4.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyA4.js~stringifyA4",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyA4.js",
+    "importStyle": "stringifyA4",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "file",
+    "name": "src/stringifyA5.js",
+    "content": "export default function stringifyA5(record, options) {\n\tconst {\n\t\treference,\n\t\tmutuality: {id, coverage, holder, kg1, kg2},\n\t\tpatient: {nn}\n\t} = record;\n\n\tconst parts = ['A5', reference, id, nn, coverage, holder, kg1, kg2];\n\n\tif (options.trailing.A5) parts.push('');\n\n\treturn parts;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA5.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 110,
+    "kind": "function",
+    "name": "stringifyA5",
+    "memberof": "src/stringifyA5.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyA5.js~stringifyA5",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyA5.js",
+    "importStyle": "stringifyA5",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "name": "src/stringifyDate.js",
+    "content": "import dateFormat from 'date-fns/format';\nimport dateParseISO from 'date-fns/parseISO';\n\nexport default function stringifyDate(datestring, options) {\n\tconst date =\n\t\tdatestring instanceof Date ? datestring : dateParseISO(datestring);\n\treturn dateFormat(date, options.dateFormat);\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyDate.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 112,
+    "kind": "function",
+    "name": "stringifyDate",
+    "memberof": "src/stringifyDate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyDate.js~stringifyDate",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyDate.js",
+    "importStyle": "stringifyDate",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "datestring",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 113,
+    "kind": "file",
+    "name": "src/stringifyL1.js",
+    "content": "﻿export default function* stringifyL1(record) {\n\tconst {reference, results} = record;\n\n\tfor (const result of results) {\n\t\tconst {code, name, normal, unit, flag, measure} = result;\n\n\t\tyield ['L1', reference, code, name, normal, unit, flag, measure, ''];\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyL1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "stringifyL1",
+    "memberof": "src/stringifyL1.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyL1.js~stringifyL1",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyL1.js",
+    "importStyle": "stringifyL1",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 115,
+    "kind": "file",
+    "name": "src/stringifyL5.js",
+    "content": "﻿export default function* stringifyL5(record, options) {\n\tconst {reference, speciality, text} = record;\n\n\tfor (const line of text) {\n\t\tconst parts = ['L5', reference, speciality, '', '', '', '', line];\n\n\t\tif (options.trailing.L5) parts.push('');\n\n\t\tyield parts;\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyL5.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 116,
+    "kind": "function",
+    "name": "stringifyL5",
+    "memberof": "src/stringifyL5.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyL5.js~stringifyL5",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyL5.js",
+    "importStyle": "stringifyL5",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 117,
+    "kind": "file",
+    "name": "src/stringifyRecord.js",
+    "content": "import stringifyA1 from './stringifyA1';\nimport stringifyA2 from './stringifyA2';\nimport stringifyA3 from './stringifyA3';\nimport stringifyA4 from './stringifyA4';\nimport stringifyA5 from './stringifyA5';\n\nimport stringifyL1 from './stringifyL1';\nimport stringifyL5 from './stringifyL5';\n\nexport default function* stringifyRecord(record, options) {\n\tyield stringifyA1(record, options);\n\tyield stringifyA2(record, options);\n\tyield stringifyA3(record, options);\n\tyield stringifyA4(record, options);\n\tif (record.mutuality) yield stringifyA5(record, options);\n\n\tswitch (record.kind) {\n\t\tcase 'lab':\n\t\t\tyield* stringifyL1(record, options);\n\t\t\tbreak;\n\t\tcase 'report':\n\t\t\tyield* stringifyL5(record, options);\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tthrow new Error(`Unknown record kind '${record.kind}'`);\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyRecord.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 118,
+    "kind": "function",
+    "name": "stringifyRecord",
+    "memberof": "src/stringifyRecord.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyRecord.js~stringifyRecord",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyRecord.js",
+    "importStyle": "stringifyRecord",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "record",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 119,
+    "kind": "file",
+    "name": "src/stringifySex.js",
+    "content": "export default function stringifySex(sex, options) {\n\tswitch (sex) {\n\t\tcase 'female':\n\t\t\treturn options.lang === 'nl' ? 'V' : 'F';\n\t\tcase 'male':\n\t\t\treturn 'M';\n\t\tdefault:\n\t\t\treturn '';\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifySex.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 120,
+    "kind": "function",
+    "name": "stringifySex",
+    "memberof": "src/stringifySex.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifySex.js~stringifySex",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifySex.js",
+    "importStyle": "stringifySex",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "sex",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "file",
+    "name": "src/stringifyStatus.js",
+    "content": "export default function stringifyStatus(status) {\n\tswitch (status) {\n\t\tcase 'partial':\n\t\t\treturn 'P';\n\t\tcase 'complete':\n\t\t\treturn 'C';\n\t\tdefault:\n\t\t\treturn '';\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyStatus.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 122,
+    "kind": "function",
+    "name": "stringifyStatus",
+    "memberof": "src/stringifyStatus.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyStatus.js~stringifyStatus",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyStatus.js",
+    "importStyle": "stringifyStatus",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "status",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "file",
+    "name": "src/stringifyTime.js",
+    "content": "import dateFormat from 'date-fns/format';\nimport dateParseISO from 'date-fns/parseISO';\n\nexport default function stringifyTime(datestring, options) {\n\tconst date =\n\t\tdatestring instanceof Date ? datestring : dateParseISO(datestring);\n\tconst timeString = dateFormat(date, options.timeFormat);\n\n\treturn timeString === '0000' ? '' : timeString;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyTime.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 124,
+    "kind": "function",
+    "name": "stringifyTime",
+    "memberof": "src/stringifyTime.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stringifyTime.js~stringifyTime",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/stringifyTime.js",
+    "importStyle": "stringifyTime",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "datestring",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "name": "src/validateLineLength.js",
+    "content": "export default function validateLineLength(\n\tparts,\n\tkind,\n\tvalidLengths,\n\ttrailingSlash\n) {\n\tif (typeof validLengths === 'number') validLengths = [validLengths];\n\tlet validLengthsWithTrailingSlash =\n\t\ttrailingSlash === false ? [] : validLengths.map((x) => x + 1);\n\tvalidLengths = trailingSlash === true ? [] : validLengths;\n\tvalidLengths = new Set(validLengths);\n\tvalidLengthsWithTrailingSlash = new Set(validLengthsWithTrailingSlash);\n\n\tconst isValidLength = validLengths.has(parts.length);\n\tconst isValidLengthWithTrailingSlash = validLengthsWithTrailingSlash.has(\n\t\tparts.length\n\t);\n\n\tif (!isValidLength && !isValidLengthWithTrailingSlash) {\n\t\tconst expectedLengths = [\n\t\t\t...new Set([...validLengths, ...validLengthsWithTrailingSlash])\n\t\t];\n\t\texpectedLengths.sort();\n\t\tconst expected = `any of ${JSON.stringify(expectedLengths)}`;\n\t\tthrow new Error(\n\t\t\t`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`\n\t\t);\n\t}\n\n\tif (\n\t\ttrailingSlash === true ||\n\t\t(isValidLengthWithTrailingSlash && !isValidLength)\n\t) {\n\t\t// Last part MUST be empty\n\t\tconst last = parts.length - 1;\n\t\tif (parts[last].trimStart() !== '') {\n\t\t\tthrow new Error(\n\t\t\t\t`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`\n\t\t\t);\n\t\t}\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/validateLineLength.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 126,
+    "kind": "function",
+    "name": "validateLineLength",
+    "memberof": "src/validateLineLength.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/validateLineLength.js~validateLineLength",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/validateLineLength.js",
+    "importStyle": "validateLineLength",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "kind",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "validLengths",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "trailingSlash",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 127,
+    "kind": "file",
+    "name": "src/validateRequiredField.js",
+    "content": "export default function validateRequiredField(parts, name, position) {\n\tif (parts[position - 1] === '') {\n\t\tthrow new Error(\n\t\t\t`Request ${name} is a required field on position ${position}`\n\t\t);\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/validateRequiredField.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 128,
+    "kind": "function",
+    "name": "validateRequiredField",
+    "memberof": "src/validateRequiredField.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/validateRequiredField.js~validateRequiredField",
+    "access": "public",
+    "export": true,
+    "importPath": "healthone/src/validateRequiredField.js",
+    "importStyle": "validateRequiredField",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "parts",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "position",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "[healthone](https://dermatodoc.github.io/healthone)\n==\n\nHealth One format library for JavaScript.\nSee [docs](https://dermatodoc.github.io/healthone/index.html).\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\n[![License](https://img.shields.io/github/license/dermatodoc/healthone.svg)](https://raw.githubusercontent.com/dermatodoc/healthone/master/LICENSE)\n[![Version](https://img.shields.io/npm/v/healthone.svg)](https://www.npmjs.org/package/healthone)\n[![Build](https://img.shields.io/travis/dermatodoc/healthone/master.svg)](https://travis-ci.org/dermatodoc/healthone/branches)\n[![Dependencies](https://img.shields.io/david/dermatodoc/healthone.svg)](https://david-dm.org/dermatodoc/healthone)\n[![Dev dependencies](https://img.shields.io/david/dev/dermatodoc/healthone.svg)](https://david-dm.org/dermatodoc/healthone?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/dermatodoc/healthone.svg)](https://github.com/dermatodoc/healthone/issues)\n[![Downloads](https://img.shields.io/npm/dm/healthone.svg)](https://www.npmjs.org/package/healthone)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/github/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/github/dermatodoc/healthone.svg)](https://codecov.io/gh/dermatodoc/healthone)\n[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage-letter/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/test_coverage_new_code)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/technical_debt)\n[![Documentation](https://dermatodoc.github.io/healthone/badge.svg)](https://dermatodoc.github.io/healthone/source.html)\n",
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"healthone\",\n  \"description\": \"Health One format library for JavaScript\",\n  \"version\": \"2.0.0\",\n  \"author\": \"aureooms\",\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"@babel/polyfill\",\n      \"@babel/register\"\n    ]\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n      \"@babel/plugin-proposal-async-generator-functions\"\n    ],\n    \"env\": {\n      \"development\": {\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/dermatodoc/healthone/issues\"\n  },\n  \"dependencies\": {\n    \"@aureooms/js-cardinality\": \"^2.0.0\",\n    \"@aureooms/js-itertools\": \"^4.0.0\",\n    \"date-fns\": \"^2.14.0\",\n    \"faker\": \"^4.1.0\",\n    \"lodash.mergewith\": \"^4.6.2\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"7.10.1\",\n    \"@babel/core\": \"7.10.2\",\n    \"@babel/plugin-proposal-async-generator-functions\": \"7.10.1\",\n    \"@babel/polyfill\": \"7.10.1\",\n    \"@babel/preset-env\": \"7.10.2\",\n    \"@babel/register\": \"7.10.1\",\n    \"ava\": \"3.9.0\",\n    \"chardet\": \"^1.1.0\",\n    \"coveralls\": \"3.1.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"iconv-lite\": \"^0.6.0\",\n    \"np\": \"6.2.4\",\n    \"nyc\": \"15.1.0\",\n    \"xo\": \"0.32.0\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://dermatodoc.github.io/healthone\",\n  \"keywords\": [\n    \"Health\",\n    \"One\",\n    \"format\",\n    \"parser\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/dermatodoc/healthone\"\n  },\n  \"scripts\": {\n    \"build\": \"rm -rf lib && babel src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"esdoc\": \"esdoc\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"xo && ava\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"ignores\": [\n      \"lib/**\",\n      \"doc/**\"\n    ],\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": [\n        \"error\",\n        {\n          \"case\": \"camelCase\"\n        }\n      ]\n    }\n  }\n}\n",
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add healthone\n```\n\n### npm\n```terminal\nnpm install healthone --save\n```\n\n### jspm\n```terminal\njspm install npm:healthone\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\nFirst, require the polyfill at the entry point of your application\n```js\nrequire( '@babel/polyfill' ) ;\n// or\nimport '@babel/polyfill' ;\n```\n\nThen, import the library where needed\n```js\nconst healthone = require( 'healthone' ) ;\n// or\nimport * as healthone from 'healthone' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Example\n\nMore examples in [the test files](https://github.com/dermatodoc/healthone/tree/master/test/src).\n",
+    "static": true,
+    "access": "public"
+  }
+]
