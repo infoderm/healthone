@@ -16,7 +16,7 @@ See [docs](https://dermatodoc.github.io/healthone/index.html).
 [![Downloads](https://img.shields.io/npm/dm/healthone.svg)](https://www.npmjs.org/package/healthone)
 
 [![Code issues](https://img.shields.io/codeclimate/issues/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/github/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/churn)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/github/dermatodoc/healthone.svg)](https://codecov.io/gh/dermatodoc/healthone)
 [![Code coverage (clim)](https://img.shields.io/codeclimate/coverage-letter/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/test_coverage_new_code)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/technical_debt)
