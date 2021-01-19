@@ -26,7 +26,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/dermatodoc/healthone/issues"
+    "url": "https://github.com/infoderm/healthone/issues"
   },
   "dependencies": {
     "@aureooms/js-cardinality": "^2.0.0",
@@ -58,7 +58,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://dermatodoc.github.io/healthone",
+  "homepage": "https://infoderm.github.io/healthone",
   "keywords": [
     "Health",
     "One",
@@ -69,7 +69,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dermatodoc/healthone"
+    "url": "https://github.com/infoderm/healthone"
   },
   "scripts": {
     "build": "rm -rf lib && babel src -d lib",
