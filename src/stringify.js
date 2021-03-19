@@ -1,6 +1,6 @@
-﻿import stringifyRecord from './stringifyRecord';
-import defaultStringifyOptions from './defaultStringifyOptions';
-import expandAndMergeOptions from './expandAndMergeOptions';
+﻿import stringifyRecord from './stringifyRecord.js';
+import defaultStringifyOptions from './defaultStringifyOptions.js';
+import expandAndMergeOptions from './expandAndMergeOptions.js';
 
 export default function stringify(records, options) {
 	options = expandAndMergeOptions(defaultStringifyOptions, options);

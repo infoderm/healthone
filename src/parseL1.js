@@ -1,4 +1,4 @@
-﻿import validateLineLength from './validateLineLength';
+﻿import validateLineLength from './validateLineLength.js';
 
 export default function parseL1(parts, options) {
 	validateLineLength(parts, 'L1', [7, 8], options.trailing.L1);

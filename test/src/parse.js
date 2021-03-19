@@ -1,7 +1,7 @@
 import fs from 'fs';
 import test from 'ava';
 
-import parse from '../../src/parse';
+import parse from '../../src/parse.js';
 
 function parseDates(documents) {
 	for (const document of documents) {

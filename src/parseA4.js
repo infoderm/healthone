@@ -1,8 +1,8 @@
-import validateLineLength from './validateLineLength';
-import validateRequiredField from './validateRequiredField';
+import validateLineLength from './validateLineLength.js';
+import validateRequiredField from './validateRequiredField.js';
 
-import parseDateTime from './parseDateTime';
-import parseStatus from './parseStatus';
+import parseDateTime from './parseDateTime.js';
+import parseStatus from './parseStatus.js';
 
 export default function parseA4(parts, options) {
 	validateLineLength(parts, 'A4', 6, options.trailing.A4);

@@ -1,5 +1,5 @@
-import validateLineLength from './validateLineLength';
-import validateRequiredField from './validateRequiredField';
+import validateLineLength from './validateLineLength.js';
+import validateRequiredField from './validateRequiredField.js';
 
 export default function parseA1(parts, options) {
 	validateLineLength(parts, 'A1', 3, options.trailing.A1);

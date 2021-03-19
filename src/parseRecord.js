@@ -1,11 +1,11 @@
-import parseA1 from './parseA1';
-import parseA2 from './parseA2';
-import parseA3 from './parseA3';
-import parseA4 from './parseA4';
-import parseA5 from './parseA5';
+import parseA1 from './parseA1.js';
+import parseA2 from './parseA2.js';
+import parseA3 from './parseA3.js';
+import parseA4 from './parseA4.js';
+import parseA5 from './parseA5.js';
 
-import parseL1 from './parseL1';
-import parseL5 from './parseL5';
+import parseL1 from './parseL1.js';
+import parseL5 from './parseL5.js';
 
 export default function parseRecord(parts, options) {
 	let [descriptor, ...rest] = parts;

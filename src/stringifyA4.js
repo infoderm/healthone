@@ -1,6 +1,6 @@
-import stringifyDate from './stringifyDate';
-import stringifyTime from './stringifyTime';
-import stringifyStatus from './stringifyStatus';
+import stringifyDate from './stringifyDate.js';
+import stringifyTime from './stringifyTime.js';
+import stringifyStatus from './stringifyStatus.js';
 
 export default function stringifyA4(record, options) {
 	const {reference, requestor, datetime, status} = record;

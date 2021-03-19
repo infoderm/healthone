@@ -1,8 +1,8 @@
-import validateLineLength from './validateLineLength';
-import validateRequiredField from './validateRequiredField';
+import validateLineLength from './validateLineLength.js';
+import validateRequiredField from './validateRequiredField.js';
 
-import parseSex from './parseSex';
-import parseDate from './parseDate';
+import parseSex from './parseSex.js';
+import parseDate from './parseDate.js';
 
 export default function parseA2(parts, options) {
 	validateLineLength(parts, 'A2', [6, 7], options.trailing.A2);

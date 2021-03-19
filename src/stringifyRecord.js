@@ -1,11 +1,11 @@
-import stringifyA1 from './stringifyA1';
-import stringifyA2 from './stringifyA2';
-import stringifyA3 from './stringifyA3';
-import stringifyA4 from './stringifyA4';
-import stringifyA5 from './stringifyA5';
+import stringifyA1 from './stringifyA1.js';
+import stringifyA2 from './stringifyA2.js';
+import stringifyA3 from './stringifyA3.js';
+import stringifyA4 from './stringifyA4.js';
+import stringifyA5 from './stringifyA5.js';
 
-import stringifyL1 from './stringifyL1';
-import stringifyL5 from './stringifyL5';
+import stringifyL1 from './stringifyL1.js';
+import stringifyL5 from './stringifyL5.js';
 
 export default function* stringifyRecord(record, options) {
 	yield stringifyA1(record, options);

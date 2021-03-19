@@ -1,8 +1,8 @@
 import dateParseISO from 'date-fns/parseISO';
 
-import parseDate from './parseDate';
-import sliceTime from './sliceTime';
-import sliceDate from './sliceDate';
+import parseDate from './parseDate.js';
+import sliceTime from './sliceTime.js';
+import sliceDate from './sliceDate.js';
 
 export default function parseDateTime(datestring, timestring) {
 	if (!timestring) return parseDate(datestring);

@@ -1,5 +1,5 @@
-import stringifySex from './stringifySex';
-import stringifyDate from './stringifyDate';
+import stringifySex from './stringifySex.js';
+import stringifyDate from './stringifyDate.js';
 
 export default function stringifyA2(record, options) {
 	const {

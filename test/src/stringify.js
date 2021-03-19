@@ -1,8 +1,8 @@
 import fs from 'fs';
 import test from 'ava';
 
-import stringify from '../../src/stringify';
-import defaultStringifyOptions from '../../src/defaultStringifyOptions';
+import stringify from '../../src/stringify.js';
+import defaultStringifyOptions from '../../src/defaultStringifyOptions.js';
 
 function file(t, filename, options) {
 	let expected = fs.readFileSync(`test/data/output/${filename}`).toString();

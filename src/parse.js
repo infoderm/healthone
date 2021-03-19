@@ -1,12 +1,12 @@
 ﻿import {count} from '@aureooms/js-cardinality';
 import {filter, enumerate} from '@aureooms/js-itertools';
 
-import defaultParseOptions from './defaultParseOptions';
-import expandAndMergeOptions from './expandAndMergeOptions';
+import defaultParseOptions from './defaultParseOptions.js';
+import expandAndMergeOptions from './expandAndMergeOptions.js';
 
-import parseRecord from './parseRecord';
-import insertRecord from './insertRecord';
-import insertLine from './insertLine';
+import parseRecord from './parseRecord.js';
+import insertRecord from './insertRecord.js';
+import insertLine from './insertLine.js';
 
 export default function parse(string, options) {
 	options = expandAndMergeOptions(defaultParseOptions, options);
@@ -20,11 +20,12 @@ function* parseLines(lines, options) {
 	for (const [lineno, line] of enumerate(lines, 1)) {
 		const parts = line.split(options.separator);
 
-		if (parts.length === 1) {
-			if (options.end.constructor.prototype === String.prototype)
-				if (parts[0] === options.end) break;
-				else if (options.end === undefined) break; // Accept any ending
-		}
+		if (
+			parts.length === 1 &&
+			options.end.constructor.prototype === String.prototype
+		)
+			if (parts[0] === options.end) break;
+			else if (options.end === undefined) break; // Accept any ending
 
 		if (parts.length < 3) {
 			throw new Error(

@@ -1,4 +1,4 @@
-import validateLineLength from './validateLineLength';
+import validateLineLength from './validateLineLength.js';
 
 export default function parseA5(parts, options) {
 	validateLineLength(parts, 'A5', [7, 8], options.trailing.A5);

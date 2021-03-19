@@ -13,11 +13,7 @@ export default function sliceDate(datestring) {
 		// those documents
 		// stops working 01 Jan 2100
 		// hopefully I'll be dead by then
-		if (yearNumber <= cutOff) {
-			year = `20${year}`;
-		} else {
-			year = `19${year}`;
-		}
+		year = yearNumber <= cutOff ? `20${year}` : `19${year}`;
 	}
 
 	return {year, month, day};
