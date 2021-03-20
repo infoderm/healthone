@@ -67,7 +67,8 @@
     "require": [
       "@babel/polyfill",
       "@babel/register"
-    ]
+    ],
+    "timeout": "1m"
   },
   "babel": {
     "presets": [
