@@ -2,31 +2,35 @@
   "name": "healthone",
   "description": "Health One format library for JavaScript",
   "version": "3.0.0",
+  "license": "AGPL-3.0",
   "author": "aureooms",
-  "ava": {
-    "files": [
-      "test/src/**/*"
-    ],
-    "require": [
-      "@babel/polyfill",
-      "@babel/register"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-async-generator-functions"
-    ],
-    "env": {
-      "development": {
-        "sourceMaps": "inline"
-      }
-    }
+  "homepage": "https://infoderm.github.io/healthone",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infoderm/healthone"
   },
   "bugs": {
     "url": "https://github.com/infoderm/healthone/issues"
+  },
+  "keywords": [
+    "Health",
+    "One",
+    "format",
+    "parser"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "esdoc": "esdoc",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "xo && ava"
   },
   "dependencies": {
     "@aureooms/js-cardinality": "^3.0.0",
@@ -50,37 +54,33 @@
     "esdoc-inject-script-plugin": "1.0.0",
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
     "iconv-lite": "^0.6.2",
     "np": "7.4.0",
     "nyc": "15.1.0",
-    "xo": "0.38.2",
-    "fixpack": "4.0.0"
+    "xo": "0.38.2"
   },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://infoderm.github.io/healthone",
-  "keywords": [
-    "Health",
-    "One",
-    "format",
-    "parser"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/infoderm/healthone"
+  "ava": {
+    "files": [
+      "test/src/**/*"
+    ],
+    "require": [
+      "@babel/polyfill",
+      "@babel/register"
+    ]
   },
-  "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "cover": "nyc --reporter=lcov npm test",
-    "esdoc": "esdoc",
-    "prepare": "npm run build",
-    "release": "np",
-    "test": "xo && ava",
-    "lint-config": "fixpack --dryRun",
-    "lint-config-and-fix": "fixpack || fixpack"
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-async-generator-functions"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
   },
   "xo": {
     "prettier": true,
