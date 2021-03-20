@@ -103,7 +103,8 @@
     "env": {
       "development": {
         "sourceMaps": "inline"
-      }
+      },
+      "debug": {}
     }
   },
   "xo": {
