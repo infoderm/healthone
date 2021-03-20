@@ -12,7 +12,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const healthone = require( 'healthone' ) ;
+const {parse, stringify} = require( 'healthone' ) ;
 // or
-import * as healthone from 'healthone' ;
+import {parse, stringify} from 'healthone' ;
 ```
