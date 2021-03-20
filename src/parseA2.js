@@ -19,7 +19,7 @@ export default function parseA2(parts, options) {
 		firstname,
 		sexstring,
 		datestring,
-		nn
+		nn,
 	] = parts;
 
 	const sex = parseSex(sexstring);
@@ -33,7 +33,7 @@ export default function parseA2(parts, options) {
 			lastname,
 			firstname,
 			sex,
-			birthdate
-		}
+			birthdate,
+		},
 	};
 }

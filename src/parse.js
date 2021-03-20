@@ -29,7 +29,7 @@ function* parseLines(lines, options) {
 
 		if (parts.length < 3) {
 			throw new Error(
-				`Line ${lineno} consists of less than three parts separated by '\\'`
+				`Line ${lineno} consists of less than three parts separated by '\\'`,
 			);
 		}
 
@@ -53,7 +53,7 @@ function sanitizeReport(report) {
 	if (report.kind === 'lab') {
 		return {
 			...report,
-			anomalies: count(filter((result) => result.flag === '*', report.results))
+			anomalies: count(filter((result) => result.flag === '*', report.results)),
 		};
 	}
 

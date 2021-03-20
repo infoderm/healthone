@@ -9,6 +9,6 @@ export default function parseL5(parts, options) {
 		descriptor,
 		reference,
 		speciality,
-		text: [text]
+		text: [text],
 	};
 }

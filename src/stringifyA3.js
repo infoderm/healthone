@@ -1,7 +1,7 @@
 export default function stringifyA3(record, options) {
 	const {
 		reference,
-		patient: {streetandnumber, zip, municipality}
+		patient: {streetandnumber, zip, municipality},
 	} = record;
 
 	const parts = ['A3', reference, streetandnumber, zip, municipality];

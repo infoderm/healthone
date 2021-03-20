@@ -13,10 +13,10 @@ export default function parseA5(parts, options) {
 			coverage,
 			holder,
 			kg1,
-			kg2
+			kg2,
 		},
 		patient: {
-			nn
-		}
+			nn,
+		},
 	};
 }

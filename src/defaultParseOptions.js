@@ -12,7 +12,7 @@ const options = {
 	lang: undefined,
 	end: 'END', // Specified but optional
 	nnInA2: undefined,
-	trailing: undefined
+	trailing: undefined,
 };
 
 export default options;

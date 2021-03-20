@@ -11,7 +11,7 @@ export default function parseL1(parts, options) {
 		normal,
 		unit,
 		flag,
-		measure
+		measure,
 	] = parts;
 
 	return {
@@ -24,8 +24,8 @@ export default function parseL1(parts, options) {
 				normal,
 				unit,
 				flag,
-				measure
-			}
-		]
+				measure,
+			},
+		],
 	};
 }

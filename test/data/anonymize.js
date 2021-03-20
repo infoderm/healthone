@@ -31,9 +31,9 @@ for (const filepath of testFiles) {
 	const options = {
 		nnInA2: /nnInA2/.test(filepath),
 		trailing: {
-			A5: !/ntA5/.test(filepath)
+			A5: !/ntA5/.test(filepath),
 		},
-		lang: /nl/.test(filepath) ? 'nl' : 'fr'
+		lang: /nl/.test(filepath) ? 'nl' : 'fr',
 	};
 
 	if (/yy/.test(filepath)) {

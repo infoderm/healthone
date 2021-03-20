@@ -14,7 +14,7 @@ function expandOptions(options) {
 			A4: value,
 			A5: value,
 			L1: value,
-			L5: value
+			L5: value,
 		};
 	}
 

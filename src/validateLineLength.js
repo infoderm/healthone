@@ -2,7 +2,7 @@ export default function validateLineLength(
 	parts,
 	kind,
 	validLengths,
-	trailingSlash
+	trailingSlash,
 ) {
 	if (typeof validLengths === 'number') validLengths = [validLengths];
 	let validLengthsWithTrailingSlash =
@@ -13,17 +13,17 @@ export default function validateLineLength(
 
 	const isValidLength = validLengths.has(parts.length);
 	const isValidLengthWithTrailingSlash = validLengthsWithTrailingSlash.has(
-		parts.length
+		parts.length,
 	);
 
 	if (!isValidLength && !isValidLengthWithTrailingSlash) {
 		const expectedLengths = [
-			...new Set([...validLengths, ...validLengthsWithTrailingSlash])
+			...new Set([...validLengths, ...validLengthsWithTrailingSlash]),
 		];
 		expectedLengths.sort();
 		const expected = `any of ${JSON.stringify(expectedLengths)}`;
 		throw new Error(
-			`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`
+			`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`,
 		);
 	}
 
@@ -35,7 +35,7 @@ export default function validateLineLength(
 		const last = parts.length - 1;
 		if (parts[last].trimStart() !== '') {
 			throw new Error(
-				`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`
+				`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`,
 			);
 		}
 	}

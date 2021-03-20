@@ -18,6 +18,6 @@ export default function parseA4(parts, options) {
 		reference,
 		requestor,
 		datetime,
-		status
+		status,
 	};
 }

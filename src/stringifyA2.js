@@ -4,7 +4,7 @@ import stringifyDate from './stringifyDate.js';
 export default function stringifyA2(record, options) {
 	const {
 		reference,
-		patient: {nn, lastname, firstname, sex, birthdate}
+		patient: {nn, lastname, firstname, sex, birthdate},
 	} = record;
 
 	const sexstring = stringifySex(sex, options);

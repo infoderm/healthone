@@ -8,7 +8,7 @@ export default function parseA3(parts, options) {
 		reference,
 		streetandnumber,
 		zip,
-		municipality
+		municipality,
 	] = parts.slice(0, -1);
 
 	return {
@@ -17,7 +17,7 @@ export default function parseA3(parts, options) {
 		patient: {
 			streetandnumber,
 			zip,
-			municipality
-		}
+			municipality,
+		},
 	};
 }

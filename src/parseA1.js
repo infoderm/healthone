@@ -11,6 +11,6 @@ export default function parseA1(parts, options) {
 	return {
 		descriptor,
 		reference,
-		identifier
+		identifier,
 	};
 }

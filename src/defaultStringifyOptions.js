@@ -12,7 +12,7 @@ const options = {
 	lang: 'nl',
 	end: '',
 	nnInA2: true,
-	trailing: true
+	trailing: true,
 };
 
 export default options;

@@ -11,7 +11,7 @@ function file(t, filename, options) {
 		(options.newline || defaultStringifyOptions.newline);
 
 	const json = JSON.parse(
-		fs.readFileSync(`test/data/json/${filename}`).toString()
+		fs.readFileSync(`test/data/json/${filename}`).toString(),
 	);
 
 	const text = stringify(json, options);
@@ -28,9 +28,9 @@ for (const filename of testFiles) {
 		nnInA2: /nnInA2/.test(filename),
 		trailing: {
 			A2: !/ntA2/.test(filename),
-			A5: !/ntA5/.test(filename)
+			A5: !/ntA5/.test(filename),
 		},
-		lang: /nl/.test(filename) ? 'nl' : 'fr'
+		lang: /nl/.test(filename) ? 'nl' : 'fr',
 	};
 
 	if (/yy/.test(filename)) options.dateFormat = 'ddMMyy';

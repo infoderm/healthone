@@ -19,7 +19,7 @@ function fakenn(birthdate, sex) {
 export default function anonymize(document) {
 	document.identifier = faker.company.companyName();
 	document.reference = String(
-		faker.random.number({min: 10000000, max: 99999999})
+		faker.random.number({min: 10000000, max: 99999999}),
 	);
 	document.requestor = faker.name.lastName();
 
@@ -32,7 +32,7 @@ export default function anonymize(document) {
 	document.patient.zip = faker.address.zipCode();
 	document.patient.nn = fakenn(
 		document.patient.birthdate,
-		document.patient.sex
+		document.patient.sex,
 	);
 
 	if (document.mutuality) {
