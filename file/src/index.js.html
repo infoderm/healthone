@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/parseL1.js | healthone</title>
+  <title data-ice="title">src/index.js | healthone</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -69,38 +69,43 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><h1 data-ice="title">src/parseL1.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&#xFEFF;import validateLineLength from &apos;./validateLineLength.js&apos;;
-
-export default function parseL1(parts, options) {
-	validateLineLength(parts, &apos;L1&apos;, [7, 8], options.trailing.L1);
-
-	const [
-		descriptor,
-		reference,
-		code,
-		name,
-		normal,
-		unit,
-		flag,
-		measure,
-	] = parts;
-
-	return {
-		descriptor,
-		reference,
-		results: [
-			{
-				code,
-				name,
-				normal,
-				unit,
-				flag,
-				measure,
-			},
-		],
-	};
-}
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export {default as anonymize} from &apos;./anonymize.js&apos;;
+export {default as defaultParseOptions} from &apos;./defaultParseOptions.js&apos;;
+export {default as defaultStringifyOptions} from &apos;./defaultStringifyOptions.js&apos;;
+export {default as expandAndMergeOptions} from &apos;./expandAndMergeOptions.js&apos;;
+export {default as insertLine} from &apos;./insertLine.js&apos;;
+export {default as insertRecord} from &apos;./insertRecord.js&apos;;
+export {default as parse} from &apos;./parse.js&apos;;
+export {default as parseA1} from &apos;./parseA1.js&apos;;
+export {default as parseA2} from &apos;./parseA2.js&apos;;
+export {default as parseA3} from &apos;./parseA3.js&apos;;
+export {default as parseA4} from &apos;./parseA4.js&apos;;
+export {default as parseA5} from &apos;./parseA5.js&apos;;
+export {default as parseDate} from &apos;./parseDate.js&apos;;
+export {default as parseDateTime} from &apos;./parseDateTime.js&apos;;
+export {default as parseL1} from &apos;./parseL1.js&apos;;
+export {default as parseL5} from &apos;./parseL5.js&apos;;
+export {default as parseRecord} from &apos;./parseRecord.js&apos;;
+export {default as parseSex} from &apos;./parseSex.js&apos;;
+export {default as parseStatus} from &apos;./parseStatus.js&apos;;
+export {default as sliceDate} from &apos;./sliceDate.js&apos;;
+export {default as sliceTime} from &apos;./sliceTime.js&apos;;
+export {default as stringify} from &apos;./stringify.js&apos;;
+export {default as stringifyA1} from &apos;./stringifyA1.js&apos;;
+export {default as stringifyA2} from &apos;./stringifyA2.js&apos;;
+export {default as stringifyA3} from &apos;./stringifyA3.js&apos;;
+export {default as stringifyA4} from &apos;./stringifyA4.js&apos;;
+export {default as stringifyA5} from &apos;./stringifyA5.js&apos;;
+export {default as stringifyDate} from &apos;./stringifyDate.js&apos;;
+export {default as stringifyL1} from &apos;./stringifyL1.js&apos;;
+export {default as stringifyL5} from &apos;./stringifyL5.js&apos;;
+export {default as stringifyRecord} from &apos;./stringifyRecord.js&apos;;
+export {default as stringifySex} from &apos;./stringifySex.js&apos;;
+export {default as stringifyStatus} from &apos;./stringifyStatus.js&apos;;
+export {default as stringifyTime} from &apos;./stringifyTime.js&apos;;
+export {default as validateLineLength} from &apos;./validateLineLength.js&apos;;
+export {default as validateRequiredField} from &apos;./validateRequiredField.js&apos;;
 </code></pre>
 
 </div>

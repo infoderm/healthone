@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -74,7 +74,7 @@
 	parts,
 	kind,
 	validLengths,
-	trailingSlash
+	trailingSlash,
 ) {
 	if (typeof validLengths === &apos;number&apos;) validLengths = [validLengths];
 	let validLengthsWithTrailingSlash =
@@ -85,17 +85,17 @@
 
 	const isValidLength = validLengths.has(parts.length);
 	const isValidLengthWithTrailingSlash = validLengthsWithTrailingSlash.has(
-		parts.length
+		parts.length,
 	);
 
 	if (!isValidLength &amp;&amp; !isValidLengthWithTrailingSlash) {
 		const expectedLengths = [
-			...new Set([...validLengths, ...validLengthsWithTrailingSlash])
+			...new Set([...validLengths, ...validLengthsWithTrailingSlash]),
 		];
 		expectedLengths.sort();
 		const expected = `any of ${JSON.stringify(expectedLengths)}`;
 		throw new Error(
-			`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`
+			`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`,
 		);
 	}
 
@@ -107,7 +107,7 @@
 		const last = parts.length - 1;
 		if (parts[last].trimStart() !== &apos;&apos;) {
 			throw new Error(
-				`parse${kind}: wrong last part, got ${parts[last]}, expected &apos;&apos;.`
+				`parse${kind}: wrong last part, got ${parts[last]}, expected &apos;&apos;.`,
 			);
 		}
 	}

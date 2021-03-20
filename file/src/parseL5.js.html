@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -70,7 +70,7 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/parseL5.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&#xFEFF;import validateLineLength from &apos;./validateLineLength&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&#xFEFF;import validateLineLength from &apos;./validateLineLength.js&apos;;
 
 export default function parseL5(parts, options) {
 	validateLineLength(parts, &apos;L5&apos;, 8, options.trailing.L5);
@@ -81,7 +81,7 @@ export default function parseL5(parts, options) {
 		descriptor,
 		reference,
 		speciality,
-		text: [text]
+		text: [text],
 	};
 }
 </code></pre>

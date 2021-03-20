@@ -522,6 +522,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/index.js",
+    "file/src/index.js.html",
+    "src/index.js",
+    "file"
+  ],
+  [
     "src/insertline.js",
     "file/src/insertLine.js.html",
     "src/insertLine.js",

@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -70,13 +70,13 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/stringifyA2.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import stringifySex from &apos;./stringifySex&apos;;
-import stringifyDate from &apos;./stringifyDate&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import stringifySex from &apos;./stringifySex.js&apos;;
+import stringifyDate from &apos;./stringifyDate.js&apos;;
 
 export default function stringifyA2(record, options) {
 	const {
 		reference,
-		patient: {nn, lastname, firstname, sex, birthdate}
+		patient: {nn, lastname, firstname, sex, birthdate},
 	} = record;
 
 	const sexstring = stringifySex(sex, options);

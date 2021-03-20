@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -70,7 +70,7 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/parseA5.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import validateLineLength from &apos;./validateLineLength&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import validateLineLength from &apos;./validateLineLength.js&apos;;
 
 export default function parseA5(parts, options) {
 	validateLineLength(parts, &apos;A5&apos;, [7, 8], options.trailing.A5);
@@ -85,11 +85,11 @@ export default function parseA5(parts, options) {
 			coverage,
 			holder,
 			kg1,
-			kg2
+			kg2,
 		},
 		patient: {
-			nn
-		}
+			nn,
+		},
 	};
 }
 </code></pre>

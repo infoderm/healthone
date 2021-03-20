@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -70,8 +70,8 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/parseA1.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import validateLineLength from &apos;./validateLineLength&apos;;
-import validateRequiredField from &apos;./validateRequiredField&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import validateLineLength from &apos;./validateLineLength.js&apos;;
+import validateRequiredField from &apos;./validateRequiredField.js&apos;;
 
 export default function parseA1(parts, options) {
 	validateLineLength(parts, &apos;A1&apos;, 3, options.trailing.A1);
@@ -83,7 +83,7 @@ export default function parseA1(parts, options) {
 	return {
 		descriptor,
 		reference,
-		identifier
+		identifier,
 	};
 }
 </code></pre>

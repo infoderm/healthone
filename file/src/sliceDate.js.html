@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -85,11 +85,7 @@ export default function sliceDate(datestring) {
 		// those documents
 		// stops working 01 Jan 2100
 		// hopefully I&apos;ll be dead by then
-		if (yearNumber &lt;= cutOff) {
-			year = `20${year}`;
-		} else {
-			year = `19${year}`;
-		}
+		year = yearNumber &lt;= cutOff ? `20${year}` : `19${year}`;
 	}
 
 	return {year, month, day};

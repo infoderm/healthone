@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -73,12 +73,12 @@
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&#xFEFF;import {count} from &apos;@aureooms/js-cardinality&apos;;
 import {filter, enumerate} from &apos;@aureooms/js-itertools&apos;;
 
-import defaultParseOptions from &apos;./defaultParseOptions&apos;;
-import expandAndMergeOptions from &apos;./expandAndMergeOptions&apos;;
+import defaultParseOptions from &apos;./defaultParseOptions.js&apos;;
+import expandAndMergeOptions from &apos;./expandAndMergeOptions.js&apos;;
 
-import parseRecord from &apos;./parseRecord&apos;;
-import insertRecord from &apos;./insertRecord&apos;;
-import insertLine from &apos;./insertLine&apos;;
+import parseRecord from &apos;./parseRecord.js&apos;;
+import insertRecord from &apos;./insertRecord.js&apos;;
+import insertLine from &apos;./insertLine.js&apos;;
 
 export default function parse(string, options) {
 	options = expandAndMergeOptions(defaultParseOptions, options);
@@ -92,15 +92,16 @@ function* parseLines(lines, options) {
 	for (const [lineno, line] of enumerate(lines, 1)) {
 		const parts = line.split(options.separator);
 
-		if (parts.length === 1) {
-			if (options.end.constructor.prototype === String.prototype)
-				if (parts[0] === options.end) break;
-				else if (options.end === undefined) break; // Accept any ending
-		}
+		if (
+			parts.length === 1 &amp;&amp;
+			options.end.constructor.prototype === String.prototype
+		)
+			if (parts[0] === options.end) break;
+			else if (options.end === undefined) break; // Accept any ending
 
 		if (parts.length &lt; 3) {
 			throw new Error(
-				`Line ${lineno} consists of less than three parts separated by &apos;\\&apos;`
+				`Line ${lineno} consists of less than three parts separated by &apos;\\&apos;`,
 			);
 		}
 
@@ -124,7 +125,7 @@ function sanitizeReport(report) {
 	if (report.kind === &apos;lab&apos;) {
 		return {
 			...report,
-			anomalies: count(filter((result) =&gt; result.flag === &apos;*&apos;, report.results))
+			anomalies: count(filter((result) =&gt; result.flag === &apos;*&apos;, report.results)),
 		};
 	}
 

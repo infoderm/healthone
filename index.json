@@ -567,9 +567,9 @@
     "__docId__": 48,
     "kind": "file",
     "name": "src/anonymize.js",
-    "content": "import faker from 'faker';\nimport dateformat from 'date-fns/format';\n\nconst AGE_MAX = 93;\nconst SEX_ALLOWED = ['male', 'female'];\n\nfunction fakenn(birthdate, sex) {\n\tconst yymmdd = Number.parseInt(dateformat(birthdate, 'yyMMdd'), 10);\n\tconst xxx =\n\t\tfaker.random.number({min: 0, max: 499}) * 2 + (sex === 'male' ? 1 : 0);\n\tconst yymmddxxx = yymmdd * 1000 + xxx;\n\tconst _cd = yymmddxxx % 97;\n\tconst cd = _cd === 0 ? 97 : _cd;\n\tconst yymmddxxxcd = yymmddxxx * 100 + cd;\n\tconst nn = String(yymmddxxxcd).padStart(11, '0');\n\treturn nn;\n}\n\nexport default function anonymize(document) {\n\tdocument.identifier = faker.company.companyName();\n\tdocument.reference = String(\n\t\tfaker.random.number({min: 10000000, max: 99999999})\n\t);\n\tdocument.requestor = faker.name.lastName();\n\n\tdocument.patient.lastname = faker.name.lastName();\n\tdocument.patient.firstname = faker.name.firstName();\n\tdocument.patient.sex = faker.random.arrayElement(SEX_ALLOWED);\n\tdocument.patient.birthdate = faker.date.past(AGE_MAX);\n\tdocument.patient.municipality = faker.address.city();\n\tdocument.patient.streetandnumber = faker.address.streetAddress();\n\tdocument.patient.zip = faker.address.zipCode();\n\tdocument.patient.nn = fakenn(\n\t\tdocument.patient.birthdate,\n\t\tdocument.patient.sex\n\t);\n\n\tif (document.mutuality) {\n\t\tdocument.mutuality.id = String(faker.random.number({min: 0, max: 999}));\n\t\tdocument.mutuality.coverage = '';\n\t\tdocument.mutuality.holder = '';\n\t\tdocument.mutuality.kg1 = String(faker.random.number({min: 0, max: 999}));\n\t\tdocument.mutuality.kg2 = String(faker.random.number({min: 0, max: 999}));\n\t}\n}\n",
+    "content": "import faker from 'faker';\nimport dateformat from 'date-fns/format';\n\nconst AGE_MAX = 93;\nconst SEX_ALLOWED = ['male', 'female'];\n\nfunction fakenn(birthdate, sex) {\n\tconst yymmdd = Number.parseInt(dateformat(birthdate, 'yyMMdd'), 10);\n\tconst xxx =\n\t\tfaker.random.number({min: 0, max: 499}) * 2 + (sex === 'male' ? 1 : 0);\n\tconst yymmddxxx = yymmdd * 1000 + xxx;\n\tconst _cd = yymmddxxx % 97;\n\tconst cd = _cd === 0 ? 97 : _cd;\n\tconst yymmddxxxcd = yymmddxxx * 100 + cd;\n\tconst nn = String(yymmddxxxcd).padStart(11, '0');\n\treturn nn;\n}\n\nexport default function anonymize(document) {\n\tdocument.identifier = faker.company.companyName();\n\tdocument.reference = String(\n\t\tfaker.random.number({min: 10000000, max: 99999999}),\n\t);\n\tdocument.requestor = faker.name.lastName();\n\n\tdocument.patient.lastname = faker.name.lastName();\n\tdocument.patient.firstname = faker.name.firstName();\n\tdocument.patient.sex = faker.random.arrayElement(SEX_ALLOWED);\n\tdocument.patient.birthdate = faker.date.past(AGE_MAX);\n\tdocument.patient.municipality = faker.address.city();\n\tdocument.patient.streetandnumber = faker.address.streetAddress();\n\tdocument.patient.zip = faker.address.zipCode();\n\tdocument.patient.nn = fakenn(\n\t\tdocument.patient.birthdate,\n\t\tdocument.patient.sex,\n\t);\n\n\tif (document.mutuality) {\n\t\tdocument.mutuality.id = String(faker.random.number({min: 0, max: 999}));\n\t\tdocument.mutuality.coverage = '';\n\t\tdocument.mutuality.holder = '';\n\t\tdocument.mutuality.kg1 = String(faker.random.number({min: 0, max: 999}));\n\t\tdocument.mutuality.kg2 = String(faker.random.number({min: 0, max: 999}));\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/anonymize.js",
+    "longname": "/home/runner/work/healthone/healthone/src/anonymize.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -683,9 +683,9 @@
     "__docId__": 53,
     "kind": "file",
     "name": "src/defaultParseOptions.js",
-    "content": "/**\n * True means always\n * false means never\n * undefined means optional or all\n * any other type is used as a value\n */\nconst options = {\n\tnewline: /[^\\r\\n]+/g,\n\tseparator: '\\\\',\n\tdateFormat: undefined,\n\ttimeFormat: undefined,\n\tlang: undefined,\n\tend: 'END', // Specified but optional\n\tnnInA2: undefined,\n\ttrailing: undefined\n};\n\nexport default options;\n",
+    "content": "/**\n * True means always\n * false means never\n * undefined means optional or all\n * any other type is used as a value\n */\nconst options = {\n\tnewline: /[^\\r\\n]+/g,\n\tseparator: '\\\\',\n\tdateFormat: undefined,\n\ttimeFormat: undefined,\n\tlang: undefined,\n\tend: 'END', // Specified but optional\n\tnnInA2: undefined,\n\ttrailing: undefined,\n};\n\nexport default options;\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/defaultParseOptions.js",
+    "longname": "/home/runner/work/healthone/healthone/src/defaultParseOptions.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -713,9 +713,9 @@
     "__docId__": 55,
     "kind": "file",
     "name": "src/defaultStringifyOptions.js",
-    "content": "/**\n * True means always\n * false means never\n * undefined means optional\n * any other type is used as a value\n */\nconst options = {\n\tnewline: '\\n',\n\tseparator: '\\\\',\n\tdateFormat: 'ddMMyyyy',\n\ttimeFormat: 'HHmm',\n\tlang: 'nl',\n\tend: '',\n\tnnInA2: true,\n\ttrailing: true\n};\n\nexport default options;\n",
+    "content": "/**\n * True means always\n * false means never\n * undefined means optional\n * any other type is used as a value\n */\nconst options = {\n\tnewline: '\\n',\n\tseparator: '\\\\',\n\tdateFormat: 'ddMMyyyy',\n\ttimeFormat: 'HHmm',\n\tlang: 'nl',\n\tend: '',\n\tnnInA2: true,\n\ttrailing: true,\n};\n\nexport default options;\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/defaultStringifyOptions.js",
+    "longname": "/home/runner/work/healthone/healthone/src/defaultStringifyOptions.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -743,9 +743,9 @@
     "__docId__": 57,
     "kind": "file",
     "name": "src/expandAndMergeOptions.js",
-    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction expandOptions(options) {\n\tconst copy = Object.assign({}, options);\n\tif (\n\t\tcopy.trailing === undefined ||\n\t\tcopy.trailing.constructor.prototype !== Object.prototype\n\t) {\n\t\tconst value = copy.trailing;\n\t\tcopy.trailing = {\n\t\t\tA1: value,\n\t\t\tA2: value,\n\t\t\tA3: value,\n\t\t\tA4: value,\n\t\t\tA5: value,\n\t\t\tL1: value,\n\t\t\tL5: value\n\t\t};\n\t}\n\n\treturn copy;\n}\n\nexport default function expandAndMergeOptions(...options) {\n\treturn mergeWith({}, ...options.map((x) => expandOptions(x)));\n}\n",
+    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction expandOptions(options) {\n\tconst copy = Object.assign({}, options);\n\tif (\n\t\tcopy.trailing === undefined ||\n\t\tcopy.trailing.constructor.prototype !== Object.prototype\n\t) {\n\t\tconst value = copy.trailing;\n\t\tcopy.trailing = {\n\t\t\tA1: value,\n\t\t\tA2: value,\n\t\t\tA3: value,\n\t\t\tA4: value,\n\t\t\tA5: value,\n\t\t\tL1: value,\n\t\t\tL5: value,\n\t\t};\n\t}\n\n\treturn copy;\n}\n\nexport default function expandAndMergeOptions(...options) {\n\treturn mergeWith({}, ...options.map((x) => expandOptions(x)));\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/expandAndMergeOptions.js",
+    "longname": "/home/runner/work/healthone/healthone/src/expandAndMergeOptions.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -815,16 +815,27 @@
   {
     "__docId__": 60,
     "kind": "file",
-    "name": "src/insertLine.js",
-    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction customizer(objectValue, srcValue) {\n\tif (Array.isArray(objectValue)) {\n\t\treturn objectValue.concat(srcValue);\n\t}\n}\n\nexport default function insertLine(report, line) {\n\treturn mergeWith({}, report, {source: [line]}, customizer);\n}\n",
+    "name": "src/index.js",
+    "content": "export {default as anonymize} from './anonymize.js';\nexport {default as defaultParseOptions} from './defaultParseOptions.js';\nexport {default as defaultStringifyOptions} from './defaultStringifyOptions.js';\nexport {default as expandAndMergeOptions} from './expandAndMergeOptions.js';\nexport {default as insertLine} from './insertLine.js';\nexport {default as insertRecord} from './insertRecord.js';\nexport {default as parse} from './parse.js';\nexport {default as parseA1} from './parseA1.js';\nexport {default as parseA2} from './parseA2.js';\nexport {default as parseA3} from './parseA3.js';\nexport {default as parseA4} from './parseA4.js';\nexport {default as parseA5} from './parseA5.js';\nexport {default as parseDate} from './parseDate.js';\nexport {default as parseDateTime} from './parseDateTime.js';\nexport {default as parseL1} from './parseL1.js';\nexport {default as parseL5} from './parseL5.js';\nexport {default as parseRecord} from './parseRecord.js';\nexport {default as parseSex} from './parseSex.js';\nexport {default as parseStatus} from './parseStatus.js';\nexport {default as sliceDate} from './sliceDate.js';\nexport {default as sliceTime} from './sliceTime.js';\nexport {default as stringify} from './stringify.js';\nexport {default as stringifyA1} from './stringifyA1.js';\nexport {default as stringifyA2} from './stringifyA2.js';\nexport {default as stringifyA3} from './stringifyA3.js';\nexport {default as stringifyA4} from './stringifyA4.js';\nexport {default as stringifyA5} from './stringifyA5.js';\nexport {default as stringifyDate} from './stringifyDate.js';\nexport {default as stringifyL1} from './stringifyL1.js';\nexport {default as stringifyL5} from './stringifyL5.js';\nexport {default as stringifyRecord} from './stringifyRecord.js';\nexport {default as stringifySex} from './stringifySex.js';\nexport {default as stringifyStatus} from './stringifyStatus.js';\nexport {default as stringifyTime} from './stringifyTime.js';\nexport {default as validateLineLength} from './validateLineLength.js';\nexport {default as validateRequiredField} from './validateRequiredField.js';\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/insertLine.js",
+    "longname": "/home/runner/work/healthone/healthone/src/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
     "__docId__": 61,
+    "kind": "file",
+    "name": "src/insertLine.js",
+    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction customizer(objectValue, srcValue) {\n\tif (Array.isArray(objectValue)) {\n\t\treturn objectValue.concat(srcValue);\n\t}\n}\n\nexport default function insertLine(report, line) {\n\treturn mergeWith({}, report, {source: [line]}, customizer);\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/healthone/healthone/src/insertLine.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
     "kind": "function",
     "name": "customizer",
     "memberof": "src/insertLine.js",
@@ -861,7 +872,7 @@
     "ignore": true
   },
   {
-    "__docId__": 62,
+    "__docId__": 63,
     "kind": "function",
     "name": "insertLine",
     "memberof": "src/insertLine.js",
@@ -897,18 +908,18 @@
     }
   },
   {
-    "__docId__": 63,
+    "__docId__": 64,
     "kind": "file",
     "name": "src/insertRecord.js",
-    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction customizer(objectValue, srcValue) {\n\tif (Array.isArray(objectValue)) {\n\t\treturn objectValue.concat(srcValue);\n\t}\n}\n\nexport default function insertRecord(report, record) {\n\tlet {kind} = report;\n\n\tif (record.reference !== report.reference) {\n\t\tthrow new Error(\n\t\t\t`Invalid record reference '${record.reference}'. Current reference is '${report.reference}'.`\n\t\t);\n\t}\n\n\tswitch (record.descriptor) {\n\t\tcase 'L1':\n\t\t\tif (kind === 'report')\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record descriptor '${record.descriptor}' for a report document.`\n\t\t\t\t);\n\t\t\tkind = 'lab';\n\t\t\tbreak;\n\t\tcase 'L2':\n\t\tcase 'L3':\n\t\tcase 'L5':\n\t\t\tif (kind === 'lab')\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record descriptor '${record.descriptor}' for a lab document.`\n\t\t\t\t);\n\t\t\tif (\n\t\t\t\treport.speciality !== undefined &&\n\t\t\t\trecord.speciality !== report.speciality\n\t\t\t) {\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record speciality '${record.speciality}'. Current speciality is '${report.speciality}'.`\n\t\t\t\t);\n\t\t\t}\n\n\t\t\tkind = 'report';\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tbreak; // Do nothing\n\t}\n\n\treturn {\n\t\t...mergeWith({}, report, record, customizer),\n\t\tkind\n\t};\n}\n",
+    "content": "import mergeWith from 'lodash.mergewith';\n\nfunction customizer(objectValue, srcValue) {\n\tif (Array.isArray(objectValue)) {\n\t\treturn objectValue.concat(srcValue);\n\t}\n}\n\nexport default function insertRecord(report, record) {\n\tlet {kind} = report;\n\n\tif (record.reference !== report.reference) {\n\t\tthrow new Error(\n\t\t\t`Invalid record reference '${record.reference}'. Current reference is '${report.reference}'.`,\n\t\t);\n\t}\n\n\tswitch (record.descriptor) {\n\t\tcase 'L1':\n\t\t\tif (kind === 'report')\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record descriptor '${record.descriptor}' for a report document.`,\n\t\t\t\t);\n\t\t\tkind = 'lab';\n\t\t\tbreak;\n\t\tcase 'L2':\n\t\tcase 'L3':\n\t\tcase 'L5':\n\t\t\tif (kind === 'lab')\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record descriptor '${record.descriptor}' for a lab document.`,\n\t\t\t\t);\n\t\t\tif (\n\t\t\t\treport.speciality !== undefined &&\n\t\t\t\trecord.speciality !== report.speciality\n\t\t\t) {\n\t\t\t\tthrow new Error(\n\t\t\t\t\t`Invalid record speciality '${record.speciality}'. Current speciality is '${report.speciality}'.`,\n\t\t\t\t);\n\t\t\t}\n\n\t\t\tkind = 'report';\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tbreak; // Do nothing\n\t}\n\n\treturn {\n\t\t...mergeWith({}, report, record, customizer),\n\t\tkind,\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/insertRecord.js",
+    "longname": "/home/runner/work/healthone/healthone/src/insertRecord.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 64,
+    "__docId__": 65,
     "kind": "function",
     "name": "customizer",
     "memberof": "src/insertRecord.js",
@@ -945,7 +956,7 @@
     "ignore": true
   },
   {
-    "__docId__": 65,
+    "__docId__": 66,
     "kind": "function",
     "name": "insertRecord",
     "memberof": "src/insertRecord.js",
@@ -981,18 +992,18 @@
     }
   },
   {
-    "__docId__": 66,
+    "__docId__": 67,
     "kind": "file",
     "name": "src/parse.js",
-    "content": "﻿import {count} from '@aureooms/js-cardinality';\nimport {filter, enumerate} from '@aureooms/js-itertools';\n\nimport defaultParseOptions from './defaultParseOptions';\nimport expandAndMergeOptions from './expandAndMergeOptions';\n\nimport parseRecord from './parseRecord';\nimport insertRecord from './insertRecord';\nimport insertLine from './insertLine';\n\nexport default function parse(string, options) {\n\toptions = expandAndMergeOptions(defaultParseOptions, options);\n\tconst lines = string.match(options.newline);\n\treturn [...parseLines(lines, options)];\n}\n\nfunction* parseLines(lines, options) {\n\tlet report = null;\n\n\tfor (const [lineno, line] of enumerate(lines, 1)) {\n\t\tconst parts = line.split(options.separator);\n\n\t\tif (parts.length === 1) {\n\t\t\tif (options.end.constructor.prototype === String.prototype)\n\t\t\t\tif (parts[0] === options.end) break;\n\t\t\t\telse if (options.end === undefined) break; // Accept any ending\n\t\t}\n\n\t\tif (parts.length < 3) {\n\t\t\tthrow new Error(\n\t\t\t\t`Line ${lineno} consists of less than three parts separated by '\\\\'`\n\t\t\t);\n\t\t}\n\n\t\tconst record = parseRecord(parts, options);\n\n\t\tif (record.descriptor === 'A1') {\n\t\t\tif (report !== null) yield sanitizeReport(report);\n\t\t\treport = {...record, source: [line]};\n\t\t} else if (report === null) {\n\t\t\tthrow new Error(`Document did not start with 'A1\\\\': ${lineno}`);\n\t\t} else {\n\t\t\treport = insertRecord(report, record);\n\t\t\treport = insertLine(report, line);\n\t\t}\n\t}\n\n\tif (report !== null) yield sanitizeReport(report);\n}\n\nfunction sanitizeReport(report) {\n\tif (report.kind === 'lab') {\n\t\treturn {\n\t\t\t...report,\n\t\t\tanomalies: count(filter((result) => result.flag === '*', report.results))\n\t\t};\n\t}\n\n\treturn report;\n}\n",
+    "content": "﻿import {count} from '@aureooms/js-cardinality';\nimport {filter, enumerate} from '@aureooms/js-itertools';\n\nimport defaultParseOptions from './defaultParseOptions.js';\nimport expandAndMergeOptions from './expandAndMergeOptions.js';\n\nimport parseRecord from './parseRecord.js';\nimport insertRecord from './insertRecord.js';\nimport insertLine from './insertLine.js';\n\nexport default function parse(string, options) {\n\toptions = expandAndMergeOptions(defaultParseOptions, options);\n\tconst lines = string.match(options.newline);\n\treturn [...parseLines(lines, options)];\n}\n\nfunction* parseLines(lines, options) {\n\tlet report = null;\n\n\tfor (const [lineno, line] of enumerate(lines, 1)) {\n\t\tconst parts = line.split(options.separator);\n\n\t\tif (\n\t\t\tparts.length === 1 &&\n\t\t\toptions.end.constructor.prototype === String.prototype\n\t\t)\n\t\t\tif (parts[0] === options.end) break;\n\t\t\telse if (options.end === undefined) break; // Accept any ending\n\n\t\tif (parts.length < 3) {\n\t\t\tthrow new Error(\n\t\t\t\t`Line ${lineno} consists of less than three parts separated by '\\\\'`,\n\t\t\t);\n\t\t}\n\n\t\tconst record = parseRecord(parts, options);\n\n\t\tif (record.descriptor === 'A1') {\n\t\t\tif (report !== null) yield sanitizeReport(report);\n\t\t\treport = {...record, source: [line]};\n\t\t} else if (report === null) {\n\t\t\tthrow new Error(`Document did not start with 'A1\\\\': ${lineno}`);\n\t\t} else {\n\t\t\treport = insertRecord(report, record);\n\t\t\treport = insertLine(report, line);\n\t\t}\n\t}\n\n\tif (report !== null) yield sanitizeReport(report);\n}\n\nfunction sanitizeReport(report) {\n\tif (report.kind === 'lab') {\n\t\treturn {\n\t\t\t...report,\n\t\t\tanomalies: count(filter((result) => result.flag === '*', report.results)),\n\t\t};\n\t}\n\n\treturn report;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parse.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parse.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 67,
+    "__docId__": 68,
     "kind": "function",
     "name": "parse",
     "memberof": "src/parse.js",
@@ -1028,7 +1039,7 @@
     }
   },
   {
-    "__docId__": 68,
+    "__docId__": 69,
     "kind": "function",
     "name": "parseLines",
     "memberof": "src/parse.js",
@@ -1061,7 +1072,7 @@
     "ignore": true
   },
   {
-    "__docId__": 69,
+    "__docId__": 70,
     "kind": "function",
     "name": "sanitizeReport",
     "memberof": "src/parse.js",
@@ -1074,7 +1085,7 @@
     "importPath": "healthone/src/parse.js",
     "importStyle": null,
     "description": null,
-    "lineNumber": 51,
+    "lineNumber": 52,
     "undocument": true,
     "params": [
       {
@@ -1092,18 +1103,18 @@
     "ignore": true
   },
   {
-    "__docId__": 70,
+    "__docId__": 71,
     "kind": "file",
     "name": "src/parseA1.js",
-    "content": "import validateLineLength from './validateLineLength';\nimport validateRequiredField from './validateRequiredField';\n\nexport default function parseA1(parts, options) {\n\tvalidateLineLength(parts, 'A1', 3, options.trailing.A1);\n\n\tvalidateRequiredField(parts, 'reference', 1);\n\n\tconst [descriptor, reference, identifier] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tidentifier\n\t};\n}\n",
+    "content": "import validateLineLength from './validateLineLength.js';\nimport validateRequiredField from './validateRequiredField.js';\n\nexport default function parseA1(parts, options) {\n\tvalidateLineLength(parts, 'A1', 3, options.trailing.A1);\n\n\tvalidateRequiredField(parts, 'reference', 1);\n\n\tconst [descriptor, reference, identifier] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tidentifier,\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA1.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseA1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 71,
+    "__docId__": 72,
     "kind": "function",
     "name": "parseA1",
     "memberof": "src/parseA1.js",
@@ -1139,18 +1150,18 @@
     }
   },
   {
-    "__docId__": 72,
+    "__docId__": 73,
     "kind": "file",
     "name": "src/parseA2.js",
-    "content": "import validateLineLength from './validateLineLength';\nimport validateRequiredField from './validateRequiredField';\n\nimport parseSex from './parseSex';\nimport parseDate from './parseDate';\n\nexport default function parseA2(parts, options) {\n\tvalidateLineLength(parts, 'A2', [6, 7], options.trailing.A2);\n\n\tvalidateRequiredField(parts, 'lastname', 2);\n\tvalidateRequiredField(parts, 'firstname', 3);\n\tvalidateRequiredField(parts, 'sex', 4);\n\tvalidateRequiredField(parts, 'birthdate', 5);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tlastname,\n\t\tfirstname,\n\t\tsexstring,\n\t\tdatestring,\n\t\tnn\n\t] = parts;\n\n\tconst sex = parseSex(sexstring);\n\tconst birthdate = parseDate(datestring);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tpatient: {\n\t\t\tnn: nn || undefined,\n\t\t\tlastname,\n\t\t\tfirstname,\n\t\t\tsex,\n\t\t\tbirthdate\n\t\t}\n\t};\n}\n",
+    "content": "import validateLineLength from './validateLineLength.js';\nimport validateRequiredField from './validateRequiredField.js';\n\nimport parseSex from './parseSex.js';\nimport parseDate from './parseDate.js';\n\nexport default function parseA2(parts, options) {\n\tvalidateLineLength(parts, 'A2', [6, 7], options.trailing.A2);\n\n\tvalidateRequiredField(parts, 'lastname', 2);\n\tvalidateRequiredField(parts, 'firstname', 3);\n\tvalidateRequiredField(parts, 'sex', 4);\n\tvalidateRequiredField(parts, 'birthdate', 5);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tlastname,\n\t\tfirstname,\n\t\tsexstring,\n\t\tdatestring,\n\t\tnn,\n\t] = parts;\n\n\tconst sex = parseSex(sexstring);\n\tconst birthdate = parseDate(datestring);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tpatient: {\n\t\t\tnn: nn || undefined,\n\t\t\tlastname,\n\t\t\tfirstname,\n\t\t\tsex,\n\t\t\tbirthdate,\n\t\t},\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA2.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseA2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 73,
+    "__docId__": 74,
     "kind": "function",
     "name": "parseA2",
     "memberof": "src/parseA2.js",
@@ -1186,18 +1197,18 @@
     }
   },
   {
-    "__docId__": 74,
+    "__docId__": 75,
     "kind": "file",
     "name": "src/parseA3.js",
-    "content": "import validateLineLength from './validateLineLength';\n\nexport default function parseA3(parts, options) {\n\tvalidateLineLength(parts, 'A3', [2, 3, 4, 5], options.trailing.A3);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tstreetandnumber,\n\t\tzip,\n\t\tmunicipality\n\t] = parts.slice(0, -1);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tpatient: {\n\t\t\tstreetandnumber,\n\t\t\tzip,\n\t\t\tmunicipality\n\t\t}\n\t};\n}\n",
+    "content": "import validateLineLength from './validateLineLength.js';\n\nexport default function parseA3(parts, options) {\n\tvalidateLineLength(parts, 'A3', [2, 3, 4, 5], options.trailing.A3);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tstreetandnumber,\n\t\tzip,\n\t\tmunicipality,\n\t] = parts.slice(0, -1);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tpatient: {\n\t\t\tstreetandnumber,\n\t\t\tzip,\n\t\t\tmunicipality,\n\t\t},\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA3.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseA3.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 75,
+    "__docId__": 76,
     "kind": "function",
     "name": "parseA3",
     "memberof": "src/parseA3.js",
@@ -1233,18 +1244,18 @@
     }
   },
   {
-    "__docId__": 76,
+    "__docId__": 77,
     "kind": "file",
     "name": "src/parseA4.js",
-    "content": "import validateLineLength from './validateLineLength';\nimport validateRequiredField from './validateRequiredField';\n\nimport parseDateTime from './parseDateTime';\nimport parseStatus from './parseStatus';\n\nexport default function parseA4(parts, options) {\n\tvalidateLineLength(parts, 'A4', 6, options.trailing.A4);\n\tvalidateRequiredField(parts, 'date', 4);\n\n\tconst [descriptor, reference, requestor, date, time, statusString] = parts;\n\n\tconst datetime = parseDateTime(date, time);\n\tconst status = parseStatus(statusString);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\trequestor,\n\t\tdatetime,\n\t\tstatus\n\t};\n}\n",
+    "content": "import validateLineLength from './validateLineLength.js';\nimport validateRequiredField from './validateRequiredField.js';\n\nimport parseDateTime from './parseDateTime.js';\nimport parseStatus from './parseStatus.js';\n\nexport default function parseA4(parts, options) {\n\tvalidateLineLength(parts, 'A4', 6, options.trailing.A4);\n\tvalidateRequiredField(parts, 'date', 4);\n\n\tconst [descriptor, reference, requestor, date, time, statusString] = parts;\n\n\tconst datetime = parseDateTime(date, time);\n\tconst status = parseStatus(statusString);\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\trequestor,\n\t\tdatetime,\n\t\tstatus,\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA4.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseA4.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 77,
+    "__docId__": 78,
     "kind": "function",
     "name": "parseA4",
     "memberof": "src/parseA4.js",
@@ -1280,18 +1291,18 @@
     }
   },
   {
-    "__docId__": 78,
+    "__docId__": 79,
     "kind": "file",
     "name": "src/parseA5.js",
-    "content": "import validateLineLength from './validateLineLength';\n\nexport default function parseA5(parts, options) {\n\tvalidateLineLength(parts, 'A5', [7, 8], options.trailing.A5);\n\n\tconst [descriptor, reference, id, nn, coverage, holder, kg1, kg2] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tmutuality: {\n\t\t\tid,\n\t\t\tcoverage,\n\t\t\tholder,\n\t\t\tkg1,\n\t\t\tkg2\n\t\t},\n\t\tpatient: {\n\t\t\tnn\n\t\t}\n\t};\n}\n",
+    "content": "import validateLineLength from './validateLineLength.js';\n\nexport default function parseA5(parts, options) {\n\tvalidateLineLength(parts, 'A5', [7, 8], options.trailing.A5);\n\n\tconst [descriptor, reference, id, nn, coverage, holder, kg1, kg2] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tmutuality: {\n\t\t\tid,\n\t\t\tcoverage,\n\t\t\tholder,\n\t\t\tkg1,\n\t\t\tkg2,\n\t\t},\n\t\tpatient: {\n\t\t\tnn,\n\t\t},\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseA5.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseA5.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 79,
+    "__docId__": 80,
     "kind": "function",
     "name": "parseA5",
     "memberof": "src/parseA5.js",
@@ -1327,18 +1338,18 @@
     }
   },
   {
-    "__docId__": 80,
+    "__docId__": 81,
     "kind": "file",
     "name": "src/parseDate.js",
-    "content": "import dateParseISO from 'date-fns/parseISO';\n\nimport sliceDate from './sliceDate';\n\nexport default function parseDate(datestring) {\n\tconst {year, month, day} = sliceDate(datestring);\n\n\treturn dateParseISO(`${year}-${month}-${day}`);\n}\n",
+    "content": "import dateParseISO from 'date-fns/parseISO';\n\nimport sliceDate from './sliceDate.js';\n\nexport default function parseDate(datestring) {\n\tconst {year, month, day} = sliceDate(datestring);\n\n\treturn dateParseISO(`${year}-${month}-${day}`);\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseDate.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseDate.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 81,
+    "__docId__": 82,
     "kind": "function",
     "name": "parseDate",
     "memberof": "src/parseDate.js",
@@ -1368,18 +1379,18 @@
     }
   },
   {
-    "__docId__": 82,
+    "__docId__": 83,
     "kind": "file",
     "name": "src/parseDateTime.js",
-    "content": "import dateParseISO from 'date-fns/parseISO';\n\nimport parseDate from './parseDate';\nimport sliceTime from './sliceTime';\nimport sliceDate from './sliceDate';\n\nexport default function parseDateTime(datestring, timestring) {\n\tif (!timestring) return parseDate(datestring);\n\n\tconst {year, month, day} = sliceDate(datestring);\n\tconst {hour, minute} = sliceTime(timestring);\n\n\treturn dateParseISO(`${year}-${month}-${day}T${hour}:${minute}:00`);\n}\n",
+    "content": "import dateParseISO from 'date-fns/parseISO';\n\nimport parseDate from './parseDate.js';\nimport sliceTime from './sliceTime.js';\nimport sliceDate from './sliceDate.js';\n\nexport default function parseDateTime(datestring, timestring) {\n\tif (!timestring) return parseDate(datestring);\n\n\tconst {year, month, day} = sliceDate(datestring);\n\tconst {hour, minute} = sliceTime(timestring);\n\n\treturn dateParseISO(`${year}-${month}-${day}T${hour}:${minute}:00`);\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseDateTime.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseDateTime.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 83,
+    "__docId__": 84,
     "kind": "function",
     "name": "parseDateTime",
     "memberof": "src/parseDateTime.js",
@@ -1415,18 +1426,18 @@
     }
   },
   {
-    "__docId__": 84,
+    "__docId__": 85,
     "kind": "file",
     "name": "src/parseL1.js",
-    "content": "﻿import validateLineLength from './validateLineLength';\n\nexport default function parseL1(parts, options) {\n\tvalidateLineLength(parts, 'L1', [7, 8], options.trailing.L1);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tcode,\n\t\tname,\n\t\tnormal,\n\t\tunit,\n\t\tflag,\n\t\tmeasure\n\t] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tresults: [\n\t\t\t{\n\t\t\t\tcode,\n\t\t\t\tname,\n\t\t\t\tnormal,\n\t\t\t\tunit,\n\t\t\t\tflag,\n\t\t\t\tmeasure\n\t\t\t}\n\t\t]\n\t};\n}\n",
+    "content": "﻿import validateLineLength from './validateLineLength.js';\n\nexport default function parseL1(parts, options) {\n\tvalidateLineLength(parts, 'L1', [7, 8], options.trailing.L1);\n\n\tconst [\n\t\tdescriptor,\n\t\treference,\n\t\tcode,\n\t\tname,\n\t\tnormal,\n\t\tunit,\n\t\tflag,\n\t\tmeasure,\n\t] = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tresults: [\n\t\t\t{\n\t\t\t\tcode,\n\t\t\t\tname,\n\t\t\t\tnormal,\n\t\t\t\tunit,\n\t\t\t\tflag,\n\t\t\t\tmeasure,\n\t\t\t},\n\t\t],\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseL1.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseL1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 85,
+    "__docId__": 86,
     "kind": "function",
     "name": "parseL1",
     "memberof": "src/parseL1.js",
@@ -1462,18 +1473,18 @@
     }
   },
   {
-    "__docId__": 86,
+    "__docId__": 87,
     "kind": "file",
     "name": "src/parseL5.js",
-    "content": "﻿import validateLineLength from './validateLineLength';\n\nexport default function parseL5(parts, options) {\n\tvalidateLineLength(parts, 'L5', 8, options.trailing.L5);\n\n\tconst {0: descriptor, 1: reference, 2: speciality, 7: text} = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tspeciality,\n\t\ttext: [text]\n\t};\n}\n",
+    "content": "﻿import validateLineLength from './validateLineLength.js';\n\nexport default function parseL5(parts, options) {\n\tvalidateLineLength(parts, 'L5', 8, options.trailing.L5);\n\n\tconst {0: descriptor, 1: reference, 2: speciality, 7: text} = parts;\n\n\treturn {\n\t\tdescriptor,\n\t\treference,\n\t\tspeciality,\n\t\ttext: [text],\n\t};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseL5.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseL5.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 87,
+    "__docId__": 88,
     "kind": "function",
     "name": "parseL5",
     "memberof": "src/parseL5.js",
@@ -1509,18 +1520,18 @@
     }
   },
   {
-    "__docId__": 88,
+    "__docId__": 89,
     "kind": "file",
     "name": "src/parseRecord.js",
-    "content": "import parseA1 from './parseA1';\nimport parseA2 from './parseA2';\nimport parseA3 from './parseA3';\nimport parseA4 from './parseA4';\nimport parseA5 from './parseA5';\n\nimport parseL1 from './parseL1';\nimport parseL5 from './parseL5';\n\nexport default function parseRecord(parts, options) {\n\tlet [descriptor, ...rest] = parts;\n\tdescriptor = parts[0].trim(); // To remove <feff> byte order mark\n\tparts = [descriptor, ...rest];\n\n\tswitch (descriptor) {\n\t\tcase 'A1':\n\t\t\treturn parseA1(parts, options);\n\t\tcase 'A2':\n\t\t\treturn parseA2(parts, options);\n\t\tcase 'A3':\n\t\t\treturn parseA3(parts, options);\n\t\tcase 'A4':\n\t\t\treturn parseA4(parts, options);\n\t\tcase 'A5':\n\t\t\treturn parseA5(parts, options);\n\t\tcase 'L1':\n\t\t\treturn parseL1(parts, options);\n\t\tcase 'L2':\n\t\tcase 'L3':\n\t\tcase 'L5':\n\t\t\treturn parseL5(parts, options);\n\t\tdefault:\n\t\t\tthrow new Error(`Unknown record descriptor '${descriptor}'`);\n\t}\n}\n",
+    "content": "import parseA1 from './parseA1.js';\nimport parseA2 from './parseA2.js';\nimport parseA3 from './parseA3.js';\nimport parseA4 from './parseA4.js';\nimport parseA5 from './parseA5.js';\n\nimport parseL1 from './parseL1.js';\nimport parseL5 from './parseL5.js';\n\nexport default function parseRecord(parts, options) {\n\tlet [descriptor, ...rest] = parts;\n\tdescriptor = parts[0].trim(); // To remove <feff> byte order mark\n\tparts = [descriptor, ...rest];\n\n\tswitch (descriptor) {\n\t\tcase 'A1':\n\t\t\treturn parseA1(parts, options);\n\t\tcase 'A2':\n\t\t\treturn parseA2(parts, options);\n\t\tcase 'A3':\n\t\t\treturn parseA3(parts, options);\n\t\tcase 'A4':\n\t\t\treturn parseA4(parts, options);\n\t\tcase 'A5':\n\t\t\treturn parseA5(parts, options);\n\t\tcase 'L1':\n\t\t\treturn parseL1(parts, options);\n\t\tcase 'L2':\n\t\tcase 'L3':\n\t\tcase 'L5':\n\t\t\treturn parseL5(parts, options);\n\t\tdefault:\n\t\t\tthrow new Error(`Unknown record descriptor '${descriptor}'`);\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseRecord.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseRecord.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 89,
+    "__docId__": 90,
     "kind": "function",
     "name": "parseRecord",
     "memberof": "src/parseRecord.js",
@@ -1556,18 +1567,18 @@
     }
   },
   {
-    "__docId__": 90,
+    "__docId__": 91,
     "kind": "file",
     "name": "src/parseSex.js",
     "content": "export default function parseSex(letter) {\n\tswitch (letter) {\n\t\tcase 'F':\n\t\tcase 'V':\n\t\t\treturn 'female';\n\t\tcase 'M':\n\t\t\treturn 'male';\n\t\tdefault:\n\t\t\treturn 'other';\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseSex.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseSex.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 91,
+    "__docId__": 92,
     "kind": "function",
     "name": "parseSex",
     "memberof": "src/parseSex.js",
@@ -1597,18 +1608,18 @@
     }
   },
   {
-    "__docId__": 92,
+    "__docId__": 93,
     "kind": "file",
     "name": "src/parseStatus.js",
     "content": "export default function parseStatus(letter) {\n\tswitch (letter) {\n\t\tcase 'P':\n\t\t\treturn 'partial';\n\t\tcase 'C':\n\t\t\treturn 'complete';\n\t\tdefault:\n\t\t\treturn 'unknown';\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/parseStatus.js",
+    "longname": "/home/runner/work/healthone/healthone/src/parseStatus.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 93,
+    "__docId__": 94,
     "kind": "function",
     "name": "parseStatus",
     "memberof": "src/parseStatus.js",
@@ -1638,18 +1649,18 @@
     }
   },
   {
-    "__docId__": 94,
+    "__docId__": 95,
     "kind": "file",
     "name": "src/sliceDate.js",
-    "content": "import getYear from 'date-fns/getYear';\n\nexport default function sliceDate(datestring) {\n\tconst day = datestring.slice(0, 2);\n\tconst month = datestring.slice(2, 4);\n\tlet year = datestring.slice(4, 8);\n\tif (year.length === 2) {\n\t\tconst yearNumber = Number.parseInt(year, 10);\n\t\tconst now = new Date();\n\t\tconst thisYear = getYear(now);\n\t\tconst cutOff = thisYear % 100;\n\t\t// The logic is that dates can only be in the past with\n\t\t// those documents\n\t\t// stops working 01 Jan 2100\n\t\t// hopefully I'll be dead by then\n\t\tif (yearNumber <= cutOff) {\n\t\t\tyear = `20${year}`;\n\t\t} else {\n\t\t\tyear = `19${year}`;\n\t\t}\n\t}\n\n\treturn {year, month, day};\n}\n",
+    "content": "import getYear from 'date-fns/getYear';\n\nexport default function sliceDate(datestring) {\n\tconst day = datestring.slice(0, 2);\n\tconst month = datestring.slice(2, 4);\n\tlet year = datestring.slice(4, 8);\n\tif (year.length === 2) {\n\t\tconst yearNumber = Number.parseInt(year, 10);\n\t\tconst now = new Date();\n\t\tconst thisYear = getYear(now);\n\t\tconst cutOff = thisYear % 100;\n\t\t// The logic is that dates can only be in the past with\n\t\t// those documents\n\t\t// stops working 01 Jan 2100\n\t\t// hopefully I'll be dead by then\n\t\tyear = yearNumber <= cutOff ? `20${year}` : `19${year}`;\n\t}\n\n\treturn {year, month, day};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/sliceDate.js",
+    "longname": "/home/runner/work/healthone/healthone/src/sliceDate.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 95,
+    "__docId__": 96,
     "kind": "function",
     "name": "sliceDate",
     "memberof": "src/sliceDate.js",
@@ -1679,18 +1690,18 @@
     }
   },
   {
-    "__docId__": 96,
+    "__docId__": 97,
     "kind": "file",
     "name": "src/sliceTime.js",
     "content": "export default function sliceTime(timestring) {\n\tconst hour = timestring.slice(0, 2);\n\tconst minute = timestring.slice(2, 4);\n\n\treturn {hour, minute};\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/sliceTime.js",
+    "longname": "/home/runner/work/healthone/healthone/src/sliceTime.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 97,
+    "__docId__": 98,
     "kind": "function",
     "name": "sliceTime",
     "memberof": "src/sliceTime.js",
@@ -1720,18 +1731,18 @@
     }
   },
   {
-    "__docId__": 98,
+    "__docId__": 99,
     "kind": "file",
     "name": "src/stringify.js",
-    "content": "﻿import stringifyRecord from './stringifyRecord';\nimport defaultStringifyOptions from './defaultStringifyOptions';\nimport expandAndMergeOptions from './expandAndMergeOptions';\n\nexport default function stringify(records, options) {\n\toptions = expandAndMergeOptions(defaultStringifyOptions, options);\n\treturn [...stringifyRecords(records, options), ''].join(options.newline);\n}\n\nfunction* stringifyRecords(records, options) {\n\tfor (const record of records) {\n\t\tfor (const line of stringifyRecord(record, options)) {\n\t\t\tyield line.filter((x) => x !== undefined).join(options.separator);\n\t\t}\n\t}\n\n\tif (options.end) yield options.end;\n}\n",
+    "content": "﻿import stringifyRecord from './stringifyRecord.js';\nimport defaultStringifyOptions from './defaultStringifyOptions.js';\nimport expandAndMergeOptions from './expandAndMergeOptions.js';\n\nexport default function stringify(records, options) {\n\toptions = expandAndMergeOptions(defaultStringifyOptions, options);\n\treturn [...stringifyRecords(records, options), ''].join(options.newline);\n}\n\nfunction* stringifyRecords(records, options) {\n\tfor (const record of records) {\n\t\tfor (const line of stringifyRecord(record, options)) {\n\t\t\tyield line.filter((x) => x !== undefined).join(options.separator);\n\t\t}\n\t}\n\n\tif (options.end) yield options.end;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringify.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringify.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 99,
+    "__docId__": 100,
     "kind": "function",
     "name": "stringify",
     "memberof": "src/stringify.js",
@@ -1767,7 +1778,7 @@
     }
   },
   {
-    "__docId__": 100,
+    "__docId__": 101,
     "kind": "function",
     "name": "stringifyRecords",
     "memberof": "src/stringify.js",
@@ -1800,18 +1811,18 @@
     "ignore": true
   },
   {
-    "__docId__": 101,
+    "__docId__": 102,
     "kind": "file",
     "name": "src/stringifyA1.js",
     "content": "export default function stringifyA1(record, options) {\n\tconst {reference, identifier} = record;\n\n\tconst parts = ['A1', reference, identifier];\n\n\tif (options.trailing.A1) parts.push('');\n\n\treturn parts;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA1.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyA1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 102,
+    "__docId__": 103,
     "kind": "function",
     "name": "stringifyA1",
     "memberof": "src/stringifyA1.js",
@@ -1847,18 +1858,18 @@
     }
   },
   {
-    "__docId__": 103,
+    "__docId__": 104,
     "kind": "file",
     "name": "src/stringifyA2.js",
-    "content": "import stringifySex from './stringifySex';\nimport stringifyDate from './stringifyDate';\n\nexport default function stringifyA2(record, options) {\n\tconst {\n\t\treference,\n\t\tpatient: {nn, lastname, firstname, sex, birthdate}\n\t} = record;\n\n\tconst sexstring = stringifySex(sex, options);\n\tconst datestring = stringifyDate(birthdate, options);\n\n\tconst parts = ['A2', reference, lastname, firstname, sexstring, datestring];\n\n\tif (options.nnInA2 && nn) parts.push(nn);\n\n\tif (options.trailing.A2) parts.push('');\n\n\treturn parts;\n}\n",
+    "content": "import stringifySex from './stringifySex.js';\nimport stringifyDate from './stringifyDate.js';\n\nexport default function stringifyA2(record, options) {\n\tconst {\n\t\treference,\n\t\tpatient: {nn, lastname, firstname, sex, birthdate},\n\t} = record;\n\n\tconst sexstring = stringifySex(sex, options);\n\tconst datestring = stringifyDate(birthdate, options);\n\n\tconst parts = ['A2', reference, lastname, firstname, sexstring, datestring];\n\n\tif (options.nnInA2 && nn) parts.push(nn);\n\n\tif (options.trailing.A2) parts.push('');\n\n\treturn parts;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA2.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyA2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 104,
+    "__docId__": 105,
     "kind": "function",
     "name": "stringifyA2",
     "memberof": "src/stringifyA2.js",
@@ -1894,18 +1905,18 @@
     }
   },
   {
-    "__docId__": 105,
+    "__docId__": 106,
     "kind": "file",
     "name": "src/stringifyA3.js",
-    "content": "export default function stringifyA3(record, options) {\n\tconst {\n\t\treference,\n\t\tpatient: {streetandnumber, zip, municipality}\n\t} = record;\n\n\tconst parts = ['A3', reference, streetandnumber, zip, municipality];\n\n\tif (options.trailing.A3) parts.push('');\n\n\treturn parts;\n}\n",
+    "content": "export default function stringifyA3(record, options) {\n\tconst {\n\t\treference,\n\t\tpatient: {streetandnumber, zip, municipality},\n\t} = record;\n\n\tconst parts = ['A3', reference, streetandnumber, zip, municipality];\n\n\tif (options.trailing.A3) parts.push('');\n\n\treturn parts;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA3.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyA3.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 106,
+    "__docId__": 107,
     "kind": "function",
     "name": "stringifyA3",
     "memberof": "src/stringifyA3.js",
@@ -1941,18 +1952,18 @@
     }
   },
   {
-    "__docId__": 107,
+    "__docId__": 108,
     "kind": "file",
     "name": "src/stringifyA4.js",
-    "content": "import stringifyDate from './stringifyDate';\nimport stringifyTime from './stringifyTime';\nimport stringifyStatus from './stringifyStatus';\n\nexport default function stringifyA4(record, options) {\n\tconst {reference, requestor, datetime, status} = record;\n\n\tconst date = stringifyDate(datetime, options);\n\tconst time = stringifyTime(datetime, options);\n\tconst statusString = stringifyStatus(status, options);\n\n\tconst parts = ['A4', reference, requestor, date, time, statusString];\n\n\tif (options.trailing.A4) parts.push('');\n\n\treturn parts;\n}\n",
+    "content": "import stringifyDate from './stringifyDate.js';\nimport stringifyTime from './stringifyTime.js';\nimport stringifyStatus from './stringifyStatus.js';\n\nexport default function stringifyA4(record, options) {\n\tconst {reference, requestor, datetime, status} = record;\n\n\tconst date = stringifyDate(datetime, options);\n\tconst time = stringifyTime(datetime, options);\n\tconst statusString = stringifyStatus(status, options);\n\n\tconst parts = ['A4', reference, requestor, date, time, statusString];\n\n\tif (options.trailing.A4) parts.push('');\n\n\treturn parts;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA4.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyA4.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 108,
+    "__docId__": 109,
     "kind": "function",
     "name": "stringifyA4",
     "memberof": "src/stringifyA4.js",
@@ -1988,18 +1999,18 @@
     }
   },
   {
-    "__docId__": 109,
+    "__docId__": 110,
     "kind": "file",
     "name": "src/stringifyA5.js",
-    "content": "export default function stringifyA5(record, options) {\n\tconst {\n\t\treference,\n\t\tmutuality: {id, coverage, holder, kg1, kg2},\n\t\tpatient: {nn}\n\t} = record;\n\n\tconst parts = ['A5', reference, id, nn, coverage, holder, kg1, kg2];\n\n\tif (options.trailing.A5) parts.push('');\n\n\treturn parts;\n}\n",
+    "content": "export default function stringifyA5(record, options) {\n\tconst {\n\t\treference,\n\t\tmutuality: {id, coverage, holder, kg1, kg2},\n\t\tpatient: {nn},\n\t} = record;\n\n\tconst parts = ['A5', reference, id, nn, coverage, holder, kg1, kg2];\n\n\tif (options.trailing.A5) parts.push('');\n\n\treturn parts;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyA5.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyA5.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 110,
+    "__docId__": 111,
     "kind": "function",
     "name": "stringifyA5",
     "memberof": "src/stringifyA5.js",
@@ -2035,18 +2046,18 @@
     }
   },
   {
-    "__docId__": 111,
+    "__docId__": 112,
     "kind": "file",
     "name": "src/stringifyDate.js",
     "content": "import dateFormat from 'date-fns/format';\nimport dateParseISO from 'date-fns/parseISO';\n\nexport default function stringifyDate(datestring, options) {\n\tconst date =\n\t\tdatestring instanceof Date ? datestring : dateParseISO(datestring);\n\treturn dateFormat(date, options.dateFormat);\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyDate.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyDate.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 112,
+    "__docId__": 113,
     "kind": "function",
     "name": "stringifyDate",
     "memberof": "src/stringifyDate.js",
@@ -2082,18 +2093,18 @@
     }
   },
   {
-    "__docId__": 113,
+    "__docId__": 114,
     "kind": "file",
     "name": "src/stringifyL1.js",
     "content": "﻿export default function* stringifyL1(record) {\n\tconst {reference, results} = record;\n\n\tfor (const result of results) {\n\t\tconst {code, name, normal, unit, flag, measure} = result;\n\n\t\tyield ['L1', reference, code, name, normal, unit, flag, measure, ''];\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyL1.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyL1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 114,
+    "__docId__": 115,
     "kind": "function",
     "name": "stringifyL1",
     "memberof": "src/stringifyL1.js",
@@ -2119,18 +2130,18 @@
     "return": null
   },
   {
-    "__docId__": 115,
+    "__docId__": 116,
     "kind": "file",
     "name": "src/stringifyL5.js",
     "content": "﻿export default function* stringifyL5(record, options) {\n\tconst {reference, speciality, text} = record;\n\n\tfor (const line of text) {\n\t\tconst parts = ['L5', reference, speciality, '', '', '', '', line];\n\n\t\tif (options.trailing.L5) parts.push('');\n\n\t\tyield parts;\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyL5.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyL5.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 116,
+    "__docId__": 117,
     "kind": "function",
     "name": "stringifyL5",
     "memberof": "src/stringifyL5.js",
@@ -2162,18 +2173,18 @@
     "return": null
   },
   {
-    "__docId__": 117,
+    "__docId__": 118,
     "kind": "file",
     "name": "src/stringifyRecord.js",
-    "content": "import stringifyA1 from './stringifyA1';\nimport stringifyA2 from './stringifyA2';\nimport stringifyA3 from './stringifyA3';\nimport stringifyA4 from './stringifyA4';\nimport stringifyA5 from './stringifyA5';\n\nimport stringifyL1 from './stringifyL1';\nimport stringifyL5 from './stringifyL5';\n\nexport default function* stringifyRecord(record, options) {\n\tyield stringifyA1(record, options);\n\tyield stringifyA2(record, options);\n\tyield stringifyA3(record, options);\n\tyield stringifyA4(record, options);\n\tif (record.mutuality) yield stringifyA5(record, options);\n\n\tswitch (record.kind) {\n\t\tcase 'lab':\n\t\t\tyield* stringifyL1(record, options);\n\t\t\tbreak;\n\t\tcase 'report':\n\t\t\tyield* stringifyL5(record, options);\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tthrow new Error(`Unknown record kind '${record.kind}'`);\n\t}\n}\n",
+    "content": "import stringifyA1 from './stringifyA1.js';\nimport stringifyA2 from './stringifyA2.js';\nimport stringifyA3 from './stringifyA3.js';\nimport stringifyA4 from './stringifyA4.js';\nimport stringifyA5 from './stringifyA5.js';\n\nimport stringifyL1 from './stringifyL1.js';\nimport stringifyL5 from './stringifyL5.js';\n\nexport default function* stringifyRecord(record, options) {\n\tyield stringifyA1(record, options);\n\tyield stringifyA2(record, options);\n\tyield stringifyA3(record, options);\n\tyield stringifyA4(record, options);\n\tif (record.mutuality) yield stringifyA5(record, options);\n\n\tswitch (record.kind) {\n\t\tcase 'lab':\n\t\t\tyield* stringifyL1(record, options);\n\t\t\tbreak;\n\t\tcase 'report':\n\t\t\tyield* stringifyL5(record, options);\n\t\t\tbreak;\n\t\tdefault:\n\t\t\tthrow new Error(`Unknown record kind '${record.kind}'`);\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyRecord.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyRecord.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 118,
+    "__docId__": 119,
     "kind": "function",
     "name": "stringifyRecord",
     "memberof": "src/stringifyRecord.js",
@@ -2205,18 +2216,18 @@
     "return": null
   },
   {
-    "__docId__": 119,
+    "__docId__": 120,
     "kind": "file",
     "name": "src/stringifySex.js",
     "content": "export default function stringifySex(sex, options) {\n\tswitch (sex) {\n\t\tcase 'female':\n\t\t\treturn options.lang === 'nl' ? 'V' : 'F';\n\t\tcase 'male':\n\t\t\treturn 'M';\n\t\tdefault:\n\t\t\treturn '';\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifySex.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifySex.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 120,
+    "__docId__": 121,
     "kind": "function",
     "name": "stringifySex",
     "memberof": "src/stringifySex.js",
@@ -2252,18 +2263,18 @@
     }
   },
   {
-    "__docId__": 121,
+    "__docId__": 122,
     "kind": "file",
     "name": "src/stringifyStatus.js",
     "content": "export default function stringifyStatus(status) {\n\tswitch (status) {\n\t\tcase 'partial':\n\t\t\treturn 'P';\n\t\tcase 'complete':\n\t\t\treturn 'C';\n\t\tdefault:\n\t\t\treturn '';\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyStatus.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyStatus.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 122,
+    "__docId__": 123,
     "kind": "function",
     "name": "stringifyStatus",
     "memberof": "src/stringifyStatus.js",
@@ -2293,18 +2304,18 @@
     }
   },
   {
-    "__docId__": 123,
+    "__docId__": 124,
     "kind": "file",
     "name": "src/stringifyTime.js",
     "content": "import dateFormat from 'date-fns/format';\nimport dateParseISO from 'date-fns/parseISO';\n\nexport default function stringifyTime(datestring, options) {\n\tconst date =\n\t\tdatestring instanceof Date ? datestring : dateParseISO(datestring);\n\tconst timeString = dateFormat(date, options.timeFormat);\n\n\treturn timeString === '0000' ? '' : timeString;\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/stringifyTime.js",
+    "longname": "/home/runner/work/healthone/healthone/src/stringifyTime.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 124,
+    "__docId__": 125,
     "kind": "function",
     "name": "stringifyTime",
     "memberof": "src/stringifyTime.js",
@@ -2340,18 +2351,18 @@
     }
   },
   {
-    "__docId__": 125,
+    "__docId__": 126,
     "kind": "file",
     "name": "src/validateLineLength.js",
-    "content": "export default function validateLineLength(\n\tparts,\n\tkind,\n\tvalidLengths,\n\ttrailingSlash\n) {\n\tif (typeof validLengths === 'number') validLengths = [validLengths];\n\tlet validLengthsWithTrailingSlash =\n\t\ttrailingSlash === false ? [] : validLengths.map((x) => x + 1);\n\tvalidLengths = trailingSlash === true ? [] : validLengths;\n\tvalidLengths = new Set(validLengths);\n\tvalidLengthsWithTrailingSlash = new Set(validLengthsWithTrailingSlash);\n\n\tconst isValidLength = validLengths.has(parts.length);\n\tconst isValidLengthWithTrailingSlash = validLengthsWithTrailingSlash.has(\n\t\tparts.length\n\t);\n\n\tif (!isValidLength && !isValidLengthWithTrailingSlash) {\n\t\tconst expectedLengths = [\n\t\t\t...new Set([...validLengths, ...validLengthsWithTrailingSlash])\n\t\t];\n\t\texpectedLengths.sort();\n\t\tconst expected = `any of ${JSON.stringify(expectedLengths)}`;\n\t\tthrow new Error(\n\t\t\t`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`\n\t\t);\n\t}\n\n\tif (\n\t\ttrailingSlash === true ||\n\t\t(isValidLengthWithTrailingSlash && !isValidLength)\n\t) {\n\t\t// Last part MUST be empty\n\t\tconst last = parts.length - 1;\n\t\tif (parts[last].trimStart() !== '') {\n\t\t\tthrow new Error(\n\t\t\t\t`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`\n\t\t\t);\n\t\t}\n\t}\n}\n",
+    "content": "export default function validateLineLength(\n\tparts,\n\tkind,\n\tvalidLengths,\n\ttrailingSlash,\n) {\n\tif (typeof validLengths === 'number') validLengths = [validLengths];\n\tlet validLengthsWithTrailingSlash =\n\t\ttrailingSlash === false ? [] : validLengths.map((x) => x + 1);\n\tvalidLengths = trailingSlash === true ? [] : validLengths;\n\tvalidLengths = new Set(validLengths);\n\tvalidLengthsWithTrailingSlash = new Set(validLengthsWithTrailingSlash);\n\n\tconst isValidLength = validLengths.has(parts.length);\n\tconst isValidLengthWithTrailingSlash = validLengthsWithTrailingSlash.has(\n\t\tparts.length,\n\t);\n\n\tif (!isValidLength && !isValidLengthWithTrailingSlash) {\n\t\tconst expectedLengths = [\n\t\t\t...new Set([...validLengths, ...validLengthsWithTrailingSlash]),\n\t\t];\n\t\texpectedLengths.sort();\n\t\tconst expected = `any of ${JSON.stringify(expectedLengths)}`;\n\t\tthrow new Error(\n\t\t\t`parse${kind}: wrong number of parts, got ${parts.length}, expected ${expected}.`,\n\t\t);\n\t}\n\n\tif (\n\t\ttrailingSlash === true ||\n\t\t(isValidLengthWithTrailingSlash && !isValidLength)\n\t) {\n\t\t// Last part MUST be empty\n\t\tconst last = parts.length - 1;\n\t\tif (parts[last].trimStart() !== '') {\n\t\t\tthrow new Error(\n\t\t\t\t`parse${kind}: wrong last part, got ${parts[last]}, expected ''.`,\n\t\t\t);\n\t\t}\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/validateLineLength.js",
+    "longname": "/home/runner/work/healthone/healthone/src/validateLineLength.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 126,
+    "__docId__": 127,
     "kind": "function",
     "name": "validateLineLength",
     "memberof": "src/validateLineLength.js",
@@ -2395,18 +2406,18 @@
     "return": null
   },
   {
-    "__docId__": 127,
+    "__docId__": 128,
     "kind": "file",
     "name": "src/validateRequiredField.js",
-    "content": "export default function validateRequiredField(parts, name, position) {\n\tif (parts[position - 1] === '') {\n\t\tthrow new Error(\n\t\t\t`Request ${name} is a required field on position ${position}`\n\t\t);\n\t}\n}\n",
+    "content": "export default function validateRequiredField(parts, name, position) {\n\tif (parts[position - 1] === '') {\n\t\tthrow new Error(\n\t\t\t`Request ${name} is a required field on position ${position}`,\n\t\t);\n\t}\n}\n",
     "static": true,
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/src/validateRequiredField.js",
+    "longname": "/home/runner/work/healthone/healthone/src/validateRequiredField.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 128,
+    "__docId__": 129,
     "kind": "function",
     "name": "validateRequiredField",
     "memberof": "src/validateRequiredField.js",
@@ -2445,16 +2456,16 @@
   },
   {
     "kind": "index",
-    "content": "[healthone](https://dermatodoc.github.io/healthone)\n==\n\nHealth One format library for JavaScript.\nSee [docs](https://dermatodoc.github.io/healthone/index.html).\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\n[![License](https://img.shields.io/github/license/dermatodoc/healthone.svg)](https://raw.githubusercontent.com/dermatodoc/healthone/master/LICENSE)\n[![Version](https://img.shields.io/npm/v/healthone.svg)](https://www.npmjs.org/package/healthone)\n[![Build](https://img.shields.io/travis/dermatodoc/healthone/master.svg)](https://travis-ci.org/dermatodoc/healthone/branches)\n[![Dependencies](https://img.shields.io/david/dermatodoc/healthone.svg)](https://david-dm.org/dermatodoc/healthone)\n[![Dev dependencies](https://img.shields.io/david/dev/dermatodoc/healthone.svg)](https://david-dm.org/dermatodoc/healthone?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/dermatodoc/healthone.svg)](https://github.com/dermatodoc/healthone/issues)\n[![Downloads](https://img.shields.io/npm/dm/healthone.svg)](https://www.npmjs.org/package/healthone)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/github/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/github/dermatodoc/healthone.svg)](https://codecov.io/gh/dermatodoc/healthone)\n[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage-letter/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/test_coverage_new_code)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/dermatodoc/healthone.svg)](https://codeclimate.com/github/dermatodoc/healthone/trends/technical_debt)\n[![Documentation](https://dermatodoc.github.io/healthone/badge.svg)](https://dermatodoc.github.io/healthone/source.html)\n",
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/README.md",
+    "content": ":memo: [healthone](https://infoderm.github.io/healthone)\n==\n\nHealth One format library for JavaScript.\nSee [docs](https://infoderm.github.io/healthone/index.html).\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [`regenerator-runtime/runtime`](https://babeljs.io/docs/usage/polyfill).\n\n```js\nimport {parse, stringify} from 'healthone' ;\n// parse(string, options) -> records\n// stringify(records, options) -> string\n```\n\n[![License](https://img.shields.io/github/license/infoderm/healthone.svg)](https://raw.githubusercontent.com/infoderm/healthone/main/LICENSE)\n[![Version](https://img.shields.io/npm/v/healthone.svg)](https://www.npmjs.org/package/healthone)\n[![Build](https://img.shields.io/travis/infoderm/healthone/main.svg)](https://travis-ci.com/infoderm/healthone/branches)\n[![Dependencies](https://img.shields.io/david/infoderm/healthone.svg)](https://david-dm.org/infoderm/healthone)\n[![Dev dependencies](https://img.shields.io/david/dev/infoderm/healthone.svg)](https://david-dm.org/infoderm/healthone?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/infoderm/healthone.svg)](https://github.com/infoderm/healthone/issues)\n[![Downloads](https://img.shields.io/npm/dm/healthone.svg)](https://www.npmjs.org/package/healthone)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/github/infoderm/healthone.svg)](https://codecov.io/gh/infoderm/healthone)\n[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage-letter/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/trends/test_coverage_new_code)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/trends/technical_debt)\n[![Documentation](https://infoderm.github.io/healthone/badge.svg)](https://infoderm.github.io/healthone/source.html)\n",
+    "longname": "/home/runner/work/healthone/healthone/README.md",
     "name": "./README.md",
     "static": true,
     "access": "public"
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"healthone\",\n  \"description\": \"Health One format library for JavaScript\",\n  \"version\": \"2.0.0\",\n  \"author\": \"aureooms\",\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"@babel/polyfill\",\n      \"@babel/register\"\n    ]\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n      \"@babel/plugin-proposal-async-generator-functions\"\n    ],\n    \"env\": {\n      \"development\": {\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/dermatodoc/healthone/issues\"\n  },\n  \"dependencies\": {\n    \"@aureooms/js-cardinality\": \"^2.0.0\",\n    \"@aureooms/js-itertools\": \"^4.0.0\",\n    \"date-fns\": \"^2.14.0\",\n    \"faker\": \"^4.1.0\",\n    \"lodash.mergewith\": \"^4.6.2\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"7.10.1\",\n    \"@babel/core\": \"7.10.2\",\n    \"@babel/plugin-proposal-async-generator-functions\": \"7.10.1\",\n    \"@babel/polyfill\": \"7.10.1\",\n    \"@babel/preset-env\": \"7.10.2\",\n    \"@babel/register\": \"7.10.1\",\n    \"ava\": \"3.9.0\",\n    \"chardet\": \"^1.1.0\",\n    \"coveralls\": \"3.1.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"iconv-lite\": \"^0.6.0\",\n    \"np\": \"6.2.4\",\n    \"nyc\": \"15.1.0\",\n    \"xo\": \"0.32.0\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://dermatodoc.github.io/healthone\",\n  \"keywords\": [\n    \"Health\",\n    \"One\",\n    \"format\",\n    \"parser\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/dermatodoc/healthone\"\n  },\n  \"scripts\": {\n    \"build\": \"rm -rf lib && babel src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"esdoc\": \"esdoc\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"xo && ava\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"ignores\": [\n      \"lib/**\",\n      \"doc/**\"\n    ],\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": [\n        \"error\",\n        {\n          \"case\": \"camelCase\"\n        }\n      ]\n    }\n  }\n}\n",
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/package.json",
+    "content": "{\n  \"name\": \"healthone\",\n  \"description\": \"Health One format library for JavaScript\",\n  \"version\": \"4.0.0\",\n  \"license\": \"AGPL-3.0\",\n  \"author\": \"aureooms\",\n  \"homepage\": \"https://infoderm.github.io/healthone\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/infoderm/healthone\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/infoderm/healthone/issues\"\n  },\n  \"keywords\": [\n    \"Health\",\n    \"One\",\n    \"format\",\n    \"parser\"\n  ],\n  \"sideEffects\": false,\n  \"source\": \"src/index.js\",\n  \"main\": \"dist/index.js\",\n  \"module\": \"dist/index.module.js\",\n  \"umd:main\": \"dist/index.umd.js\",\n  \"unpkg\": \"dist/index.umd.js\",\n  \"exports\": {\n    \".\": {\n      \"browser\": \"./dist/index.module.js\",\n      \"umd\": \"./dist/index.umd.js\",\n      \"require\": \"./dist/index.js\",\n      \"default\": \"./dist/index.modern.js\"\n    }\n  },\n  \"files\": [\n    \"dist\"\n  ],\n  \"scripts\": {\n    \"build\": \"NODE_ENV=production microbundle\",\n    \"build-docs\": \"esdoc\",\n    \"build-gh-pages\": \"npm run build-docs\",\n    \"commit-msg\": \"commitlint --edit\",\n    \"cover\": \"c8 --all --src src --reporter=lcov npm test\",\n    \"debug\": \"NODE_ENV=debug npm run test -- -st --fail-fast\",\n    \"dev\": \"npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast\",\n    \"install-hooks\": \"husky install\",\n    \"lint\": \"xo\",\n    \"lint-and-fix\": \"npm run lint -- --fix\",\n    \"lint-config\": \"fixpack --dryRun\",\n    \"lint-config-and-fix\": \"fixpack || fixpack\",\n    \"postinstall\": \"npm run install-hooks\",\n    \"postpublish\": \"pinst --enable\",\n    \"precommit\": \"lint-staged\",\n    \"prepare\": \"npm run build\",\n    \"prepublishOnly\": \"pinst --disable\",\n    \"release\": \"np --message ':hatching_chick: release: Bumping to v%s.'\",\n    \"test\": \"TZ=Europe/Copenhagen ava\",\n    \"travis\": \"npm run lint-config && npm run lint && npm run cover\"\n  },\n  \"dependencies\": {\n    \"@aureooms/js-cardinality\": \"^3.0.0\",\n    \"@aureooms/js-itertools\": \"^5.0.1\",\n    \"date-fns\": \"^2.19.0\",\n    \"faker\": \"^5.4.0\",\n    \"lodash.mergewith\": \"^4.6.2\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"7.13.10\",\n    \"@babel/plugin-proposal-async-generator-functions\": \"7.13.8\",\n    \"@babel/preset-env\": \"7.13.10\",\n    \"@babel/register\": \"7.13.8\",\n    \"@commitlint/cli\": \"12.0.1\",\n    \"@js-library/commitlint-config\": \"0.0.4\",\n    \"ava\": \"3.15.0\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.0.1\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"c8\": \"7.6.0\",\n    \"chardet\": \"^1.3.0\",\n    \"coveralls\": \"3.1.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"fixpack\": \"4.0.0\",\n    \"husky\": \"5.1.3\",\n    \"iconv-lite\": \"^0.6.2\",\n    \"lint-staged\": \"10.5.4\",\n    \"microbundle\": \"0.13.0\",\n    \"np\": \"7.4.0\",\n    \"pinst\": \"2.1.6\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.7\",\n    \"xo\": \"0.38.2\"\n  },\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\",\n      \"@babel/register\"\n    ],\n    \"timeout\": \"1m\"\n  },\n  \"babel\": {\n    \"sourceMaps\": true,\n    \"presets\": [\n      [\n        \"@babel/preset-env\",\n        {\n          \"targets\": [\n            \"defaults\",\n            \"maintained node versions\"\n          ]\n        }\n      ]\n    ],\n    \"plugins\": [\n      \"@babel/plugin-proposal-async-generator-functions\"\n    ],\n    \"env\": {\n      \"debug\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": \"current node\"\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"test\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": \"current node\"\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"development\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"production\": {\n        \"plugins\": [\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      }\n    }\n  },\n  \"lint-staged\": {\n    \"*.js\": [\n      \"npm run lint-and-fix\"\n    ],\n    \"package.json\": [\n      \"npm run lint-config-and-fix\"\n    ]\n  },\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"node/file-extension-in-import\": \"off\",\n      \"unicorn/filename-case\": [\n        \"error\",\n        {\n          \"case\": \"camelCase\"\n        }\n      ]\n    },\n    \"overrides\": [\n      {\n        \"files\": [\n          \"doc/**\"\n        ],\n        \"env\": \"browser\"\n      }\n    ]\n  }\n}\n",
+    "longname": "/home/runner/work/healthone/healthone/package.json",
     "name": "package.json",
     "static": true,
     "access": "public"
@@ -2469,7 +2480,7 @@
   },
   {
     "kind": "manual",
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/overview.md",
+    "longname": "/home/runner/work/healthone/healthone/doc/manual/overview.md",
     "name": "./doc/manual/overview.md",
     "content": "# Overview\n",
     "static": true,
@@ -2477,7 +2488,7 @@
   },
   {
     "kind": "manual",
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/installation.md",
+    "longname": "/home/runner/work/healthone/healthone/doc/manual/installation.md",
     "name": "./doc/manual/installation.md",
     "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add healthone\n```\n\n### npm\n```terminal\nnpm install healthone --save\n```\n\n### jspm\n```terminal\njspm install npm:healthone\n```\n",
     "static": true,
@@ -2485,17 +2496,17 @@
   },
   {
     "kind": "manual",
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/usage.md",
+    "longname": "/home/runner/work/healthone/healthone/doc/manual/usage.md",
     "name": "./doc/manual/usage.md",
-    "content": "# Usage\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\nFirst, require the polyfill at the entry point of your application\n```js\nrequire( '@babel/polyfill' ) ;\n// or\nimport '@babel/polyfill' ;\n```\n\nThen, import the library where needed\n```js\nconst healthone = require( 'healthone' ) ;\n// or\nimport * as healthone from 'healthone' ;\n```\n",
+    "content": "# Usage\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).\n\nFirst, require the polyfill at the entry point of your application\n```js\nrequire( 'regenerator-runtime/runtime' ) ;\n// or\nimport 'regenerator-runtime/runtime.js' ;\n```\n\nThen, import the library where needed\n```js\nconst {parse, stringify} = require( 'healthone' ) ;\n// or\nimport {parse, stringify} from 'healthone' ;\n```\n",
     "static": true,
     "access": "public"
   },
   {
     "kind": "manual",
-    "longname": "/home/aureooms/dev/dermatodoc/healthone/doc/manual/example.md",
+    "longname": "/home/runner/work/healthone/healthone/doc/manual/example.md",
     "name": "./doc/manual/example.md",
-    "content": "# Example\n\nMore examples in [the test files](https://github.com/dermatodoc/healthone/tree/master/test/src).\n",
+    "content": "# Example\n\nMore examples in [the test files](https://github.com/infoderm/healthone/tree/main/test/src).\n",
     "static": true,
     "access": "public"
   }

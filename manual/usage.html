@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div class="manual-toc-root">
   
@@ -60,17 +60,17 @@
 
 <div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="usage">Usage</h1><blockquote>
 <p>:warning: The code needs a ES2015+ polyfill to run (<code>regeneratorRuntime</code>),
-for instance <a href="https://babeljs.io/docs/usage/polyfill">@babel/polyfill</a>.</p>
+for instance <a href="https://babeljs.io/docs/usage/polyfill">regenerator-runtime/runtime</a>.</p>
 </blockquote>
 <p>First, require the polyfill at the entry point of your application</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">require( &apos;@babel/polyfill&apos; ) ;
+<pre><code class="lang-js"><code class="source-code prettyprint">require( &apos;regenerator-runtime/runtime&apos; ) ;
 // or
-import &apos;@babel/polyfill&apos; ;</code>
+import &apos;regenerator-runtime/runtime.js&apos; ;</code>
 </code></pre>
 <p>Then, import the library where needed</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">const healthone = require( &apos;healthone&apos; ) ;
+<pre><code class="lang-js"><code class="source-code prettyprint">const {parse, stringify} = require( &apos;healthone&apos; ) ;
 // or
-import * as healthone from &apos;healthone&apos; ;</code>
+import {parse, stringify} from &apos;healthone&apos; ;</code>
 </code></pre>
 </div>
 </div>

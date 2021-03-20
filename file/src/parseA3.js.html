@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/dermatodoc/healthone"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/infoderm/healthone"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -70,7 +70,7 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/parseA3.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import validateLineLength from &apos;./validateLineLength&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import validateLineLength from &apos;./validateLineLength.js&apos;;
 
 export default function parseA3(parts, options) {
 	validateLineLength(parts, &apos;A3&apos;, [2, 3, 4, 5], options.trailing.A3);
@@ -80,7 +80,7 @@ export default function parseA3(parts, options) {
 		reference,
 		streetandnumber,
 		zip,
-		municipality
+		municipality,
 	] = parts.slice(0, -1);
 
 	return {
@@ -89,8 +89,8 @@ export default function parseA3(parts, options) {
 		patient: {
 			streetandnumber,
 			zip,
-			municipality
-		}
+			municipality,
+		},
 	};
 }
 </code></pre>
