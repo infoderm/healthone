@@ -6,9 +6,7 @@ const path = require('path');
 const chardet = require('chardet');
 const iconv = require('iconv-lite');
 
-const parse = require('../../lib/parse').default;
-const stringify = require('../../lib/stringify').default;
-const anonymize = require('../../lib/anonymize').default;
+const {parse, stringify, anonymize} = require('../..');
 
 function anonymizeFile(filepath, options) {
 	const filename = path.basename(filepath);

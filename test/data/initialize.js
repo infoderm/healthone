@@ -3,7 +3,7 @@ require('@babel/polyfill');
 const fs = require('fs');
 const path = require('path');
 
-const parse = require('../../lib/parse').default;
+const {parse} = require('../..');
 
 function init(filepath) {
 	const filename = path.basename(filepath);
