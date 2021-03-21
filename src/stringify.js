@@ -4,7 +4,9 @@ import expandAndMergeOptions from './expandAndMergeOptions.js';
 
 export default function stringify(records, options) {
 	options = expandAndMergeOptions(defaultStringifyOptions, options);
-	return [...stringifyRecords(records, options), ''].join(options.newline);
+	const lines = Array.from(stringifyRecords(records, options));
+	lines.push(''); // For trailing newline
+	return lines.join(options.newline);
 }
 
 function* stringifyRecords(records, options) {

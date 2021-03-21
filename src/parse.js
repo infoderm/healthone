@@ -11,7 +11,7 @@ import insertLine from './insertLine.js';
 export default function parse(string, options) {
 	options = expandAndMergeOptions(defaultParseOptions, options);
 	const lines = string.match(options.newline);
-	return [...parseLines(lines, options)];
+	return Array.from(parseLines(lines, options));
 }
 
 function* parseLines(lines, options) {

@@ -17,9 +17,9 @@ export default function validateLineLength(
 	);
 
 	if (!isValidLength && !isValidLengthWithTrailingSlash) {
-		const expectedLengths = [
-			...new Set([...validLengths, ...validLengthsWithTrailingSlash]),
-		];
+		const expectedLengths = Array.from(
+			new Set([...validLengths, ...validLengthsWithTrailingSlash]),
+		);
 		expectedLengths.sort();
 		const expected = `any of ${JSON.stringify(expectedLengths)}`;
 		throw new Error(
