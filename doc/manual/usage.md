@@ -15,4 +15,7 @@ Then, import the library where needed
 const {parse, stringify} = require( 'healthone' ) ;
 // or
 import {parse, stringify} from 'healthone' ;
+// or
+import parse from 'healthone/parse';
+import stringify from 'healthone/stringify';
 ```
