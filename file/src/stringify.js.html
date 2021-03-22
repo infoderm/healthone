@@ -76,7 +76,9 @@ import expandAndMergeOptions from &apos;./expandAndMergeOptions.js&apos;;
 
 export default function stringify(records, options) {
 	options = expandAndMergeOptions(defaultStringifyOptions, options);
-	return [...stringifyRecords(records, options), &apos;&apos;].join(options.newline);
+	const lines = Array.from(stringifyRecords(records, options));
+	lines.push(&apos;&apos;); // For trailing newline
+	return lines.join(options.newline);
 }
 
 function* stringifyRecords(records, options) {
