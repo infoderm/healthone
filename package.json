@@ -21,6 +21,7 @@
   "sideEffects": false,
   "source": "src/index.js",
   "main": "dist/default/index.js",
+  "module": "dist/module/index.js",
   "exports": {
     ".": {
       "browser": "./dist/browser/index.js",
@@ -43,6 +44,7 @@
     "build-gh-pages": "npm run build-docs",
     "build:browser": "npm run build-cmd -- --env-name browser --out-dir dist/browser",
     "build:default": "npm run build-cmd -- --env-name production --out-dir dist/default",
+    "build:module": "npm run build-cmd -- --env-name module --out-dir dist/module",
     "build:node": "npm run build-cmd -- --env-name node --out-dir dist/node",
     "commit-msg": "commitlint --edit",
     "cover": "c8 --all --src src --reporter=lcov npm test",
@@ -237,6 +239,39 @@
               "targets": [
                 "maintained node versions"
               ]
+            }
+          ],
+          [
+            "minify",
+            {
+              "builtIns": false
+            }
+          ]
+        ],
+        "plugins": [
+          "babel-plugin-unassert",
+          [
+            "transform-remove-console",
+            {
+              "exclude": [
+                "log",
+                "error",
+                "warn"
+              ]
+            }
+          ]
+        ]
+      },
+      "module": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "bugfixes": true,
+              "modules": false,
+              "targets": {
+                "esmodules": true
+              }
             }
           ],
           [
