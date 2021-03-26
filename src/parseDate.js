@@ -1,4 +1,4 @@
-import dateParseISO from 'date-fns/parseISO';
+import dateParseISO from "date-fns/parseISO/index.js";
 
 import sliceDate from './sliceDate.js';
 

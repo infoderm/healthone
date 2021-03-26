@@ -1,4 +1,4 @@
-import mergeWith from 'lodash.mergewith';
+import mergeWith from "lodash.mergewith/index.js";
 
 function expandOptions(options) {
 	const copy = Object.assign({}, options);
