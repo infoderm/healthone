@@ -26,3 +26,4 @@ import {parse, stringify} from 'healthone' ;
 [![Code coverage (cov)](https://img.shields.io/codecov/c/github/infoderm/healthone.svg)](https://codecov.io/gh/infoderm/healthone)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/trends/technical_debt)
 [![Documentation](https://infoderm.github.io/healthone/badge.svg)](https://infoderm.github.io/healthone/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/healthone)](https://bundlephobia.com/result?p=healthone)
