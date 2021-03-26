@@ -24,6 +24,5 @@ import {parse, stringify} from 'healthone' ;
 [![Code issues](https://img.shields.io/codeclimate/issues/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/github/infoderm/healthone.svg)](https://codecov.io/gh/infoderm/healthone)
-[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage-letter/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/trends/test_coverage_new_code)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/infoderm/healthone.svg)](https://codeclimate.com/github/infoderm/healthone/trends/technical_debt)
 [![Documentation](https://infoderm.github.io/healthone/badge.svg)](https://infoderm.github.io/healthone/source.html)
