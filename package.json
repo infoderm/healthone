@@ -22,6 +22,7 @@
   "source": "src/index.js",
   "main": "dist/default/index.js",
   "module": "dist/module/index.js",
+  "esmodule": "dist/module/index.js",
   "exports": {
     ".": {
       "browser": "./dist/browser/index.js",
@@ -297,7 +298,6 @@
       }
     }
   },
-  "esmodule": "dist/module/index.js",
   "lint-staged": {
     "*.js": [
       "npm run lint-and-fix"
