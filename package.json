@@ -297,6 +297,7 @@
       }
     }
   },
+  "esmodule": "dist/module/index.js",
   "lint-staged": {
     "*.js": [
       "npm run lint-and-fix"
