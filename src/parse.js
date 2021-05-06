@@ -1,5 +1,6 @@
-﻿import {count} from '@aureooms/js-cardinality';
-import {filter, enumerate} from '@aureooms/js-itertools';
+﻿import {count} from '@iterable-iterator/cardinality';
+import {filter} from '@iterable-iterator/filter';
+import {enumerate} from '@iterable-iterator/zip';
 
 import defaultParseOptions from './defaultParseOptions.js';
 import expandAndMergeOptions from './expandAndMergeOptions.js';

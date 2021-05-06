@@ -66,8 +66,9 @@
     "test": "TZ=Europe/Copenhagen ava"
   },
   "dependencies": {
-    "@aureooms/js-cardinality": "^3.0.1",
-    "@aureooms/js-itertools": "^5.1.1",
+    "@iterable-iterator/cardinality": "^3.0.4",
+    "@iterable-iterator/filter": "^0.1.2",
+    "@iterable-iterator/zip": "^0.0.2",
     "date-fns": "^2.21.2",
     "faker": "^5.5.3",
     "lodash.mergewith": "^4.6.2"
