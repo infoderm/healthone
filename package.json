@@ -66,7 +66,7 @@
     "test": "TZ=Europe/Copenhagen ava"
   },
   "dependencies": {
-    "@iterable-iterator/cardinality": "^3.0.4",
+    "@iterable-iterator/cardinality": "^4.0.0",
     "@iterable-iterator/filter": "^0.1.2",
     "@iterable-iterator/zip": "^0.0.2",
     "date-fns": "^2.21.2",
