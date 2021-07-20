@@ -68,7 +68,7 @@
   "dependencies": {
     "@iterable-iterator/cardinality": "^4.0.0",
     "@iterable-iterator/filter": "^1.0.0",
-    "@iterable-iterator/zip": "^0.0.2",
+    "@iterable-iterator/zip": "^1.0.0",
     "date-fns": "^2.21.2",
     "faker": "^5.5.3",
     "lodash.mergewith": "^4.6.2"
