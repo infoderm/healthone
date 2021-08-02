@@ -67,7 +67,7 @@
   },
   "dependencies": {
     "@iterable-iterator/cardinality": "^4.0.0",
-    "@iterable-iterator/filter": "^1.0.0",
+    "@iterable-iterator/filter": "^1.0.1",
     "@iterable-iterator/zip": "^1.0.1",
     "date-fns": "^2.23.0",
     "faker": "^5.5.3",
