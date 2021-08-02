@@ -3,7 +3,7 @@ require('@babel/polyfill');
 const fs = require('fs');
 const path = require('path');
 
-const {parse} = require('../..');
+const {parse} = require('../../src/index.js');
 
 function init(filepath) {
 	const filename = path.basename(filepath);
