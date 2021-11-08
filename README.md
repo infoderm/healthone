@@ -4,8 +4,9 @@
 Health One format library for JavaScript.
 See [docs](https://infoderm.github.io/healthone/index.html).
 
-> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),
-> for instance [`regenerator-runtime/runtime`](https://babeljs.io/docs/usage/polyfill).
+> :warning: Depending on your environment, the code may require
+> `regeneratorRuntime` to be defined, for instance by importing
+> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js
 import {parse, stringify} from 'healthone' ;
