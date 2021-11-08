@@ -1,12 +1,13 @@
-require('@babel/polyfill');
+import '@babel/polyfill';
 
-const fs = require('fs');
-const path = require('path');
+import process from 'node:process';
+import fs from 'node:fs';
+import path from 'node:path';
 
-const chardet = require('chardet');
-const iconv = require('iconv-lite');
+import chardet from 'chardet';
+import iconv from 'iconv-lite';
 
-const {parse, stringify, anonymize} = require('../../src/index.js');
+import {parse, stringify, anonymize} from '../../src/index.js';
 
 function anonymizeFile(filepath, options) {
 	const filename = path.basename(filepath);

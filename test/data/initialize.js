@@ -1,9 +1,10 @@
-require('@babel/polyfill');
+import '@babel/polyfill';
 
-const fs = require('fs');
-const path = require('path');
+import process from 'node:process';
+import fs from 'node:fs';
+import path from 'node:path';
 
-const {parse} = require('../../src/index.js');
+import {parse} from '../../src/index.js';
 
 function init(filepath) {
 	const filename = path.basename(filepath);

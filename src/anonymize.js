@@ -19,7 +19,7 @@ function fakenn(birthdate, sex) {
 export default function anonymize(document) {
 	document.identifier = faker.company.companyName();
 	document.reference = String(
-		faker.random.number({min: 10000000, max: 99999999}),
+		faker.random.number({min: 10_000_000, max: 99_999_999}),
 	);
 	document.requestor = faker.name.lastName();
 
