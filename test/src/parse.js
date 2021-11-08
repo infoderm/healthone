@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import test from 'ava';
 
+import {zip} from '@iterable-iterator/zip';
+
 import {parse} from '../../src/index.js';
 
 function parseDates(documents) {
@@ -12,16 +14,21 @@ function parseDates(documents) {
 
 function file(t, filename, options) {
 	const source = fs.readFileSync(`test/data/input/${filename}`).toString();
-	const expected = JSON.parse(
+	const expectedDocuments = JSON.parse(
 		fs.readFileSync(`test/data/json/${filename}`).toString(),
 	);
 
 	const documents = JSON.parse(JSON.stringify(parse(source, options)));
 
-	parseDates(expected);
+	parseDates(expectedDocuments);
 	parseDates(documents);
 
-	t.deepEqual(expected, documents);
+	for (const [document, expectedDocument] of zip(
+		documents,
+		expectedDocuments,
+	)) {
+		t.deepEqual(document, expectedDocument);
+	}
 }
 
 file.title = (title, filename) => filename;
