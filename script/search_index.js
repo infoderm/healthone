@@ -1,11 +1,5 @@
 window.esdocSearchIndex = [
   [
-    "healthone/src/anonymize.js~anonymize",
-    "function/index.html#static-function-anonymize",
-    "<span>anonymize</span> <span class=\"search-result-import-path\">healthone/src/anonymize.js</span>",
-    "function"
-  ],
-  [
     "healthone/src/expandandmergeoptions.js~expandandmergeoptions",
     "function/index.html#static-function-expandAndMergeOptions",
     "<span>expandAndMergeOptions</span> <span class=\"search-result-import-path\">healthone/src/expandAndMergeOptions.js</span>",
@@ -496,12 +490,6 @@ window.esdocSearchIndex = [
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
     "src/.external-ecmascript.js~undefined",
     "external"
-  ],
-  [
-    "src/anonymize.js",
-    "file/src/anonymize.js.html",
-    "src/anonymize.js",
-    "file"
   ],
   [
     "src/defaultparseoptions.js",

@@ -1,18 +1,8 @@
 {
-  "coverage": "4.44%",
-  "expectCount": 45,
+  "coverage": "4.87%",
+  "expectCount": 41,
   "actualCount": 2,
   "files": {
-    "src/anonymize.js": {
-      "expectCount": 4,
-      "actualCount": 0,
-      "undocumentLines": [
-        4,
-        5,
-        7,
-        19
-      ]
-    },
     "src/defaultParseOptions.js": {
       "expectCount": 1,
       "actualCount": 1,

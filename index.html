@@ -29,8 +29,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-anonymize">anonymize</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-expandAndMergeOptions">expandAndMergeOptions</a></span></span></li>
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-expandAndMergeOptions">expandAndMergeOptions</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-insertLine">insertLine</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-insertRecord">insertRecord</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parse">parse</a></span></span></li>
@@ -72,8 +71,9 @@
 <div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-memo---a-href--https---infoderm-github-io-healthone--healthone--a-">:memo: <a href="https://infoderm.github.io/healthone">healthone</a></h1><p>Health One format library for JavaScript.
 See <a href="https://infoderm.github.io/healthone/index.html">docs</a>.</p>
 <blockquote>
-<p>:warning: The code needs a ES2015+ polyfill to run (<code>regeneratorRuntime</code>),
-for instance <a href="https://babeljs.io/docs/usage/polyfill"><code>regenerator-runtime/runtime</code></a>.</p>
+<p>:warning: Depending on your environment, the code may require
+<code>regeneratorRuntime</code> to be defined, for instance by importing
+<a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime/runtime</a>.</p>
 </blockquote>
 <pre><code class="lang-js"><code class="source-code prettyprint">import {parse, stringify} from &apos;healthone&apos; ;
 // parse(string, options) -&gt; records
