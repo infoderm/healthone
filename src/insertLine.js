@@ -7,5 +7,5 @@ function customizer(objectValue, srcValue) {
 }
 
 export default function insertLine(report, line) {
-	return mergeWith({}, report, {source: [line]}, customizer);
+	return mergeWith({}, report, {lines: [line]}, customizer);
 }

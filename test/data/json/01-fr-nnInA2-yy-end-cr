@@ -3,7 +3,7 @@
     "descriptor": "L5",
     "reference": "65859278",
     "identifier": "Marks and Sons",
-    "source": [
+    "lines": [
       "A1\\65859278\\Marks and Sons\\",
       "A2\\65859278\\Hammes\\Douglas\\F\\190843\\43081943647\\",
       "A3\\65859278\\1692 Fay Inlet\\10319-2315\\Lenoremouth\\",
@@ -93,7 +93,7 @@
     "descriptor": "L5",
     "reference": "48486755",
     "identifier": "Mann and Sons",
-    "source": [
+    "lines": [
       "A1\\48486755\\Mann and Sons\\",
       "A2\\48486755\\Donnelly\\Cletus\\F\\151039\\39101590477\\",
       "A3\\48486755\\185 Wolff Lakes\\76737-6772\\South Loganfurt\\",
@@ -193,7 +193,7 @@
     "descriptor": "L5",
     "reference": "38922719",
     "identifier": "Wyman, Cassin and Cartwright",
-    "source": [
+    "lines": [
       "A1\\38922719\\Wyman, Cassin and Cartwright\\",
       "A2\\38922719\\Berge\\Augusta\\M\\241298\\98122428527\\",
       "A3\\38922719\\542 Eliane Avenue\\82921-6358\\South Herbert\\",
@@ -265,7 +265,7 @@
     "descriptor": "L5",
     "reference": "69694136",
     "identifier": "Koss - Jaskolski",
-    "source": [
+    "lines": [
       "A1\\69694136\\Koss - Jaskolski\\",
       "A2\\69694136\\Rice\\Marty\\M\\070706\\06070739744\\",
       "A3\\69694136\\1686 Muriel Fall\\47379-7304\\Murrayton\\",
@@ -341,7 +341,7 @@
     "descriptor": "L5",
     "reference": "41085527",
     "identifier": "Crooks, Bogisich and Hirthe",
-    "source": [
+    "lines": [
       "A1\\41085527\\Crooks, Bogisich and Hirthe\\",
       "A2\\41085527\\Parisian\\Mittie\\M\\150959\\59091560948\\",
       "A3\\41085527\\94695 Kavon Turnpike\\93675-6161\\Alibury\\",
@@ -417,7 +417,7 @@
     "descriptor": "L5",
     "reference": "84911319",
     "identifier": "Botsford, Christiansen and Becker",
-    "source": [
+    "lines": [
       "A1\\84911319\\Botsford, Christiansen and Becker\\",
       "A2\\84911319\\Ankunding\\Telly\\M\\070435\\35040743576\\",
       "A3\\84911319\\0542 Kshlerin River\\96229\\South Giannifurt\\",
@@ -487,7 +487,7 @@
     "descriptor": "L5",
     "reference": "82448040",
     "identifier": "Jacobs and Sons",
-    "source": [
+    "lines": [
       "A1\\82448040\\Jacobs and Sons\\",
       "A2\\82448040\\Runte\\Anthony\\F\\101160\\60111022258\\",
       "A3\\82448040\\9215 O'Kon Brook\\58809\\Alexaville\\",
@@ -557,7 +557,7 @@
     "descriptor": "L5",
     "reference": "88759533",
     "identifier": "Feest, Hoppe and Mante",
-    "source": [
+    "lines": [
       "A1\\88759533\\Feest, Hoppe and Mante\\",
       "A2\\88759533\\Stracke\\Johnathan\\M\\251245\\45122569124\\",
       "A3\\88759533\\8800 Heloise Mission\\33704-5176\\Lake Abdul\\",
