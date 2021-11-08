@@ -63,7 +63,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "pinst --disable",
     "release": "np --message ':hatching_chick: release: Bumping to v%s.'",
-    "test": "TZ=Europe/Copenhagen ava"
+    "test": "TZ=Europe/Brussels ava"
   },
   "dependencies": {
     "@iterable-iterator/cardinality": "^4.0.0",
