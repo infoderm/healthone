@@ -1,4 +1,4 @@
-import '@babel/polyfill';
+import 'regenerator-runtime/runtime.js';
 
 import process from 'node:process';
 import fs from 'node:fs';
@@ -9,8 +9,7 @@ import iconv from 'iconv-lite';
 
 import {parse, stringify, anonymize} from '../../src/index.js';
 
-function anonymizeFile(filepath, options) {
-	const filename = path.basename(filepath);
+function anonymizeFile(filepath, options, outfilepath) {
 	const array = fs.readFileSync(filepath);
 	// Const source = array.toString();
 	const encoding = chardet.detect(array).toLowerCase();
@@ -22,30 +21,35 @@ function anonymizeFile(filepath, options) {
 	}
 
 	const modified = stringify(documents, options);
-	fs.writeFileSync(`input/${filename}`, modified);
+	fs.writeFileSync(outfilepath, modified);
 }
 
 const testFiles = process.argv.slice(2);
 for (const filepath of testFiles) {
+	const filename = path.basename(filepath);
+
 	const options = {
-		nnInA2: /nnInA2/.test(filepath),
+		nnInA2: /nnInA2/.test(filename),
 		trailing: {
-			A5: !/ntA5/.test(filepath),
+			A2: !/ntA2/.test(filename),
+			A5: !/ntA5/.test(filename),
+			L1: undefined,
 		},
-		lang: /nl/.test(filepath) ? 'nl' : 'fr',
+		lang: /nl/.test(filename) ? 'nl' : 'fr',
 	};
 
-	if (/yy/.test(filepath)) {
+	if (/yy/.test(filename)) {
 		options.dateFormat = 'ddMMyy';
 	}
 
-	if (/end/.test(filepath)) {
+	if (/end/.test(filename)) {
 		options.end = 'END';
 	}
 
-	if (/cr/.test(filepath)) {
+	if (/cr/.test(filename)) {
 		options.newline = '\r\n';
 	}
 
-	anonymizeFile(filepath, options);
+	const outfilepath = `input/${filename}`;
+	anonymizeFile(filepath, options, outfilepath);
 }
