@@ -17,7 +17,7 @@ const options = {
 		reference: true,
 		lastname: true,
 		firstname: true,
-		sex: true,
+		sex: false,
 		birthdate: true,
 		date: true,
 	},
