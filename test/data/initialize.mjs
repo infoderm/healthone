@@ -1,4 +1,4 @@
-import '@babel/polyfill';
+import 'regenerator-runtime/runtime.js';
 
 import process from 'node:process';
 import fs from 'node:fs';
