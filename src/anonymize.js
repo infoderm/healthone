@@ -7,7 +7,7 @@ const SEX_ALLOWED = ['male', 'female'];
 function fakenn(birthdate, sex) {
 	const yymmdd = Number.parseInt(dateformat(birthdate, 'yyMMdd'), 10);
 	const xxx =
-		faker.random.number({min: 0, max: 499}) * 2 + (sex === 'male' ? 1 : 0);
+		faker.datatype.number({min: 0, max: 499}) * 2 + (sex === 'male' ? 1 : 0);
 	const yymmddxxx = yymmdd * 1000 + xxx;
 	const _cd = yymmddxxx % 97;
 	const cd = _cd === 0 ? 97 : _cd;
@@ -19,7 +19,7 @@ function fakenn(birthdate, sex) {
 export default function anonymize(document) {
 	document.identifier = faker.company.companyName();
 	document.reference = String(
-		faker.random.number({min: 10_000_000, max: 99_999_999}),
+		faker.datatype.number({min: 10_000_000, max: 99_999_999}),
 	);
 	document.requestor = faker.name.lastName();
 
@@ -36,10 +36,10 @@ export default function anonymize(document) {
 	);
 
 	if (document.mutuality) {
-		document.mutuality.id = String(faker.random.number({min: 0, max: 999}));
+		document.mutuality.id = String(faker.datatype.number({min: 0, max: 999}));
 		document.mutuality.coverage = '';
 		document.mutuality.holder = '';
-		document.mutuality.kg1 = String(faker.random.number({min: 0, max: 999}));
-		document.mutuality.kg2 = String(faker.random.number({min: 0, max: 999}));
+		document.mutuality.kg1 = String(faker.datatype.number({min: 0, max: 999}));
+		document.mutuality.kg2 = String(faker.datatype.number({min: 0, max: 999}));
 	}
 }
