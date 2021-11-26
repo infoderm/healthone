@@ -299,7 +299,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.?mjs": [
       "npm run lint-and-fix"
     ],
     "package.json": [
