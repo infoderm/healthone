@@ -13,6 +13,14 @@ const options = {
 	end: 'END', // Specified but optional
 	nnInA2: undefined,
 	trailing: undefined,
+	required: {
+		reference: true,
+		lastname: true,
+		firstname: true,
+		sex: true,
+		birthdate: true,
+		date: true,
+	},
 };
 
 export default options;

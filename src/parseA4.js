@@ -6,7 +6,7 @@ import parseStatus from './parseStatus.js';
 
 export default function parseA4(parts, options) {
 	validateLineLength(parts, 'A4', 6, options.trailing.A4);
-	validateRequiredField(parts, 'date', 4);
+	validateRequiredField(parts, 'date', 4, options.required.date);
 
 	const [descriptor, reference, requestor, date, time, statusString] = parts;
 
