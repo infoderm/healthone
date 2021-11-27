@@ -82,6 +82,7 @@
     "@commitlint/cli": "16.0.2",
     "@js-library/commitlint-config": "0.0.4",
     "ava": "4.0.1",
+    "babel-plugin-replace-import-extension": "1.1.2",
     "babel-plugin-transform-remove-console": "6.9.4",
     "babel-plugin-unassert": "3.2.0",
     "babel-preset-minify": "0.5.1",
@@ -199,6 +200,14 @@
           ]
         ],
         "plugins": [
+          [
+            "replace-import-extension",
+            {
+              "extMapping": {
+                ".js": ".cjs"
+              }
+            }
+          ],
           "babel-plugin-unassert"
         ]
       },
@@ -220,6 +229,14 @@
           ]
         ],
         "plugins": [
+          [
+            "replace-import-extension",
+            {
+              "extMapping": {
+                ".js": ".cjs"
+              }
+            }
+          ],
           "babel-plugin-unassert",
           [
             "transform-remove-console",
@@ -284,6 +301,14 @@
           ]
         ],
         "plugins": [
+          [
+            "replace-import-extension",
+            {
+              "extMapping": {
+                ".js": ".cjs"
+              }
+            }
+          ],
           "babel-plugin-unassert",
           [
             "transform-remove-console",
