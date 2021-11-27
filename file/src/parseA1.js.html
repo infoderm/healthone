@@ -75,7 +75,7 @@ import validateRequiredField from &apos;./validateRequiredField.js&apos;;
 export default function parseA1(parts, options) {
 	validateLineLength(parts, &apos;A1&apos;, 3, options.trailing.A1);
 
-	validateRequiredField(parts, &apos;reference&apos;, 1);
+	validateRequiredField(parts, &apos;reference&apos;, 2, options.required.reference);
 
 	const [descriptor, reference, identifier] = parts;
 

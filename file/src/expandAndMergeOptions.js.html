@@ -89,6 +89,21 @@ function expandOptions(options) {
 		};
 	}
 
+	if (
+		copy.required === undefined ||
+		copy.required.constructor.prototype !== Object.prototype
+	) {
+		const value = copy.required;
+		copy.required = {
+			reference: value,
+			lastname: value,
+			firstname: value,
+			sex: value,
+			birthdate: value,
+			date: value,
+		};
+	}
+
 	return copy;
 }
 

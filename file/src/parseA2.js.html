@@ -78,10 +78,10 @@ import parseDate from &apos;./parseDate.js&apos;;
 export default function parseA2(parts, options) {
 	validateLineLength(parts, &apos;A2&apos;, [6, 7], options.trailing.A2);
 
-	validateRequiredField(parts, &apos;lastname&apos;, 2);
-	validateRequiredField(parts, &apos;firstname&apos;, 3);
-	validateRequiredField(parts, &apos;sex&apos;, 4);
-	validateRequiredField(parts, &apos;birthdate&apos;, 5);
+	validateRequiredField(parts, &apos;lastname&apos;, 3, options.required.lastname);
+	validateRequiredField(parts, &apos;firstname&apos;, 4, options.required.firstname);
+	validateRequiredField(parts, &apos;sex&apos;, 5, options.required.sex);
+	validateRequiredField(parts, &apos;birthdate&apos;, 6, options.required.birthdate);
 
 	const [
 		descriptor,

@@ -69,8 +69,13 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/validateRequiredField.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default function validateRequiredField(parts, name, position) {
-	if (parts[position - 1] === &apos;&apos;) {
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default function validateRequiredField(
+	parts,
+	name,
+	position,
+	isRequired,
+) {
+	if (isRequired &amp;&amp; parts[position - 1] === &apos;&apos;) {
 		throw new Error(
 			`Request ${name} is a required field on position ${position}`,
 		);
