@@ -48,7 +48,6 @@
     "build:default": "npm run build-cmd -- --env-name production --out-dir dist/default --out-file-extension .cjs",
     "build:module": "npm run build-cmd -- --env-name module --out-dir dist/module --out-file-extension .js",
     "build:node": "npm run build-cmd -- --env-name node --out-dir dist/node --out-file-extension .cjs",
-    "ci:test": "npm run lint-config && npm run lint && npm run cover",
     "commit-msg": "commitlint --edit",
     "cover": "NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test",
     "debug": "NODE_ENV=debug npm run test -- -st --fail-fast",
@@ -64,7 +63,14 @@
     "prepare": "npm run build",
     "prepublishOnly": "pinst --disable",
     "release": "np --message ':hatching_chick: release: Bumping to v%s.'",
-    "test": "TZ=Europe/Brussels ava"
+    "test": "npm run test:src",
+    "test-cmd": "NODE_LOADER_CONFIG=test/node-loader.config.js TZ=Europe/Brussels ava",
+    "test:browser": "IMPORT_MAP_PATH=test/import-maps/dist/browser/index.json npm run test-cmd",
+    "test:default": "IMPORT_MAP_PATH=test/import-maps/dist/default/index.json npm run test-cmd",
+    "test:dist": "npm run test:browser && npm run test:default && npm run test:module && npm run test:node",
+    "test:module": "IMPORT_MAP_PATH=test/import-maps/dist/module/index.json npm run test-cmd",
+    "test:node": "IMPORT_MAP_PATH=test/import-maps/dist/node/index.json npm run test-cmd",
+    "test:src": "IMPORT_MAP_PATH=test/import-maps/src/index.json npm run test-cmd"
   },
   "dependencies": {
     "@faker-js/faker": "^5.5.3",
@@ -81,6 +87,9 @@
     "@babel/register": "7.16.9",
     "@commitlint/cli": "16.0.2",
     "@js-library/commitlint-config": "0.0.4",
+    "@node-loader/babel": "^2.0.0",
+    "@node-loader/core": "^2.0.0",
+    "@node-loader/import-maps": "^1.0.3",
     "ava": "4.0.1",
     "babel-plugin-replace-import-extension": "1.1.2",
     "babel-plugin-transform-remove-console": "6.9.4",
@@ -109,11 +118,13 @@
     "files": [
       "test/src/**/*"
     ],
-    "require": [
-      "regenerator-runtime/runtime",
-      "@babel/register"
+    "nodeArguments": [
+      "--experimental-loader=@node-loader/core"
     ],
-    "timeout": "1m"
+    "require": [
+      "regenerator-runtime/runtime"
+    ],
+    "timeout": "3m"
   },
   "babel": {
     "sourceMaps": true,
@@ -121,7 +132,11 @@
       [
         "@babel/preset-env",
         {
-          "targets": "current node"
+          "bugfixes": true,
+          "modules": false,
+          "targets": {
+            "esmodules": true
+          }
         }
       ]
     ],
