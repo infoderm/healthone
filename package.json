@@ -71,7 +71,7 @@
     "@iterable-iterator/filter": "^1.0.1",
     "@iterable-iterator/zip": "^1.0.1",
     "date-fns": "^2.25.0",
-    "faker": "^5.5.3",
+    "faker": "^6.0.0",
     "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {
