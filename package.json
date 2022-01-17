@@ -1,7 +1,7 @@
 {
   "name": "healthone",
   "description": "Health One format library for JavaScript",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://infoderm.github.io/healthone",
