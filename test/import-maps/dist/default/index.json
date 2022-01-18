@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "#module": "./dist/default/index.cjs"
+  }
+}

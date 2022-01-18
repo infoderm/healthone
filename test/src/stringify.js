@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import test from 'ava';
 
-import {stringify, defaultStringifyOptions} from '../../src/index.js';
+import {stringify, defaultStringifyOptions} from '#module';
 
 function file(t, filename, options) {
 	let expected = fs.readFileSync(`test/data/output/${filename}`).toString();
@@ -18,7 +18,7 @@ function file(t, filename, options) {
 	t.deepEqual(expected, text);
 }
 
-file.title = (title, filename) => filename;
+file.title = (title, filename) => title ?? filename;
 
 const testFileDir = 'test/data/json';
 const testFiles = fs.readdirSync(testFileDir);

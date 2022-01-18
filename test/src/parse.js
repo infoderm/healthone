@@ -3,7 +3,7 @@ import test from 'ava';
 
 import {zip} from '@iterable-iterator/zip';
 
-import {parse} from '../../src/index.js';
+import {parse} from '#module';
 
 function parseDates(documents) {
 	for (const document of documents) {
@@ -31,7 +31,7 @@ function file(t, filename, options) {
 	}
 }
 
-file.title = (title, filename) => filename;
+file.title = (title, filename) => title ?? filename;
 
 const testFileDir = 'test/data/input';
 const testFiles = fs.readdirSync(testFileDir);
