@@ -1,4 +1,4 @@
-import faker from '@faker-js/faker';
+import {faker} from '@faker-js/faker';
 import dateformat from 'date-fns/format/index.js';
 
 const AGE_MAX = 93;
