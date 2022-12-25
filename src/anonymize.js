@@ -25,7 +25,7 @@ export default function anonymize(document) {
 
 	document.patient.lastname = faker.name.lastName();
 	document.patient.firstname = faker.name.firstName();
-	document.patient.sex = faker.random.arrayElement(SEX_ALLOWED);
+	document.patient.sex = faker.helpers.arrayElement(SEX_ALLOWED);
 	document.patient.birthdate = faker.date.past(AGE_MAX);
 	document.patient.municipality = faker.address.city();
 	document.patient.streetandnumber = faker.address.streetAddress();
