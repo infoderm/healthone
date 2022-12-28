@@ -87,16 +87,18 @@ export default function insertRecord(report, record) {
 	}
 
 	switch (record.descriptor) {
-		case &apos;L1&apos;:
+		case &apos;L1&apos;: {
 			if (kind === &apos;report&apos;)
 				throw new Error(
 					`Invalid record descriptor &apos;${record.descriptor}&apos; for a report document.`,
 				);
 			kind = &apos;lab&apos;;
 			break;
+		}
+
 		case &apos;L2&apos;:
 		case &apos;L3&apos;:
-		case &apos;L5&apos;:
+		case &apos;L5&apos;: {
 			if (kind === &apos;lab&apos;)
 				throw new Error(
 					`Invalid record descriptor &apos;${record.descriptor}&apos; for a lab document.`,
@@ -112,8 +114,11 @@ export default function insertRecord(report, record) {
 
 			kind = &apos;report&apos;;
 			break;
-		default:
-			break; // Do nothing
+		}
+
+		default: {
+			break;
+		} // Do nothing
 	}
 
 	return {

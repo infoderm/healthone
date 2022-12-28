@@ -86,14 +86,19 @@ export default function* stringifyRecord(record, options) {
 	if (record.mutuality) yield stringifyA5(record, options);
 
 	switch (record.kind) {
-		case &apos;lab&apos;:
+		case &apos;lab&apos;: {
 			yield* stringifyL1(record, options);
 			break;
-		case &apos;report&apos;:
+		}
+
+		case &apos;report&apos;: {
 			yield* stringifyL5(record, options);
 			break;
-		default:
+		}
+
+		default: {
 			throw new Error(`Unknown record kind &apos;${record.kind}&apos;`);
+		}
 	}
 }
 </code></pre>

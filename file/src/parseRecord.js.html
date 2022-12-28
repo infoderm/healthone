@@ -79,29 +79,45 @@ import parseL1 from &apos;./parseL1.js&apos;;
 import parseL5 from &apos;./parseL5.js&apos;;
 
 export default function parseRecord(parts, options) {
-	let [descriptor, ...rest] = parts;
-	descriptor = parts[0].trim(); // To remove &lt;feff&gt; byte order mark
-	parts = [descriptor, ...rest];
+	let [descriptor, reference, ...rest] = parts;
+	descriptor = descriptor.trim(); // To remove &lt;feff&gt; byte order mark
+	reference = reference.trim(); // To remove leading and trailing spaces
+	parts = [descriptor, reference, ...rest];
 
 	switch (descriptor) {
-		case &apos;A1&apos;:
+		case &apos;A1&apos;: {
 			return parseA1(parts, options);
-		case &apos;A2&apos;:
+		}
+
+		case &apos;A2&apos;: {
 			return parseA2(parts, options);
-		case &apos;A3&apos;:
+		}
+
+		case &apos;A3&apos;: {
 			return parseA3(parts, options);
-		case &apos;A4&apos;:
+		}
+
+		case &apos;A4&apos;: {
 			return parseA4(parts, options);
-		case &apos;A5&apos;:
+		}
+
+		case &apos;A5&apos;: {
 			return parseA5(parts, options);
-		case &apos;L1&apos;:
+		}
+
+		case &apos;L1&apos;: {
 			return parseL1(parts, options);
+		}
+
 		case &apos;L2&apos;:
 		case &apos;L3&apos;:
-		case &apos;L5&apos;:
+		case &apos;L5&apos;: {
 			return parseL5(parts, options);
-		default:
+		}
+
+		default: {
 			throw new Error(`Unknown record descriptor &apos;${descriptor}&apos;`);
+		}
 	}
 }
 </code></pre>

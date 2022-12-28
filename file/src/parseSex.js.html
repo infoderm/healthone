@@ -72,12 +72,17 @@
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default function parseSex(letter) {
 	switch (letter) {
 		case &apos;F&apos;:
-		case &apos;V&apos;:
+		case &apos;V&apos;: {
 			return &apos;female&apos;;
-		case &apos;M&apos;:
+		}
+
+		case &apos;M&apos;: {
 			return &apos;male&apos;;
-		default:
+		}
+
+		default: {
 			return &apos;other&apos;;
+		}
 	}
 }
 </code></pre>

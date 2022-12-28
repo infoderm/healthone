@@ -71,12 +71,17 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/stringifySex.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default function stringifySex(sex, options) {
 	switch (sex) {
-		case &apos;female&apos;:
+		case &apos;female&apos;: {
 			return options.lang === &apos;nl&apos; ? &apos;V&apos; : &apos;F&apos;;
-		case &apos;male&apos;:
+		}
+
+		case &apos;male&apos;: {
 			return &apos;M&apos;;
-		default:
+		}
+
+		default: {
 			return &apos;&apos;;
+		}
 	}
 }
 </code></pre>

@@ -71,12 +71,17 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/parseStatus.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default function parseStatus(letter) {
 	switch (letter) {
-		case &apos;P&apos;:
+		case &apos;P&apos;: {
 			return &apos;partial&apos;;
-		case &apos;C&apos;:
+		}
+
+		case &apos;C&apos;: {
 			return &apos;complete&apos;;
-		default:
+		}
+
+		default: {
 			return &apos;unknown&apos;;
+		}
 	}
 }
 </code></pre>

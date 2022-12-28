@@ -71,12 +71,17 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/stringifyStatus.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default function stringifyStatus(status) {
 	switch (status) {
-		case &apos;partial&apos;:
+		case &apos;partial&apos;: {
 			return &apos;P&apos;;
-		case &apos;complete&apos;:
+		}
+
+		case &apos;complete&apos;: {
 			return &apos;C&apos;;
-		default:
+		}
+
+		default: {
 			return &apos;&apos;;
+		}
 	}
 }
 </code></pre>
