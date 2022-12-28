@@ -8,9 +8,10 @@ import parseL1 from './parseL1.js';
 import parseL5 from './parseL5.js';
 
 export default function parseRecord(parts, options) {
-	let [descriptor, ...rest] = parts;
-	descriptor = parts[0].trim(); // To remove <feff> byte order mark
-	parts = [descriptor, ...rest];
+	let [descriptor, reference, ...rest] = parts;
+	descriptor = descriptor.trim(); // To remove <feff> byte order mark
+	reference = reference.trim(); // To remove leading and trailing spaces
+	parts = [descriptor, reference, ...rest];
 
 	switch (descriptor) {
 		case 'A1':

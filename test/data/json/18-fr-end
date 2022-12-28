@@ -1,0 +1,380 @@
+[
+  {
+    "descriptor": "L1",
+    "reference": "120-018439",
+    "identifier": "Parisian - Nicolas",
+    "lines": [
+      "A1\\120-018439 \\Parisian - Nicolas\\",
+      "A2\\120-018439 \\Purdy\\Marisol\\M\\25011950\\",
+      "A3\\120-018439 \\4157 Oberbrunner Island\\31443\\Glennaton\\",
+      "A4\\120-018439 \\Wiza\\27092019\\\\P\\",
+      "L1\\120-018439 \\HEMA\\HEMATOLOGIE\\\\\\\\\\",
+      "L1\\120-018439 \\RODE\\RODE BLOEDCELLEN\\\\\\\\\\",
+      "L1\\120-018439 \\HB\\Hemoglobine\\11.5-15.0\\g/dL\\\\13.8\\",
+      "L1\\120-018439 \\HT\\Hematocriet\\36.0-45.0\\%\\\\41.4\\",
+      "L1\\120-018439 \\RBC\\Rode bloedcellen\\4.00-5.40\\x10*6/µL\\\\4.82\\",
+      "L1\\120-018439 \\RBC \\RBC indexen\\\\\\\\\\",
+      "L1\\120-018439 \\MCV\\MCV\\78.0-98.0\\fL RBC\\\\85.9\\",
+      "L1\\120-018439 \\MCH\\MCH\\25.0-35.0\\pg/RBC\\\\28.6\\",
+      "L1\\120-018439 \\MCHC\\MCHC\\30.0-37.0\\g/dL RBC\\\\33.3\\",
+      "L1\\120-018439 \\Reti\\Reticulocyten\\\\\\\\\\",
+      "L1\\120-018439 \\RETI\\Reticulocyten\\2.0-18.0\\/10*3 RBC\\*\\19.0\\",
+      "L1\\120-018439 \\BSE\\Bezinkingssnelheid\\0-20\\mm/uur\\\\3\\",
+      "L1\\120-018439 \\WITT\\WITTE BLOEDCELLEN\\\\\\\\\\",
+      "L1\\120-018439 \\WBC\\Witte bloedcellen\\4500-13500\\/µL\\\\5460\\",
+      "L1\\120-018439 \\BLOE\\BLOEDPLAATJES\\\\\\\\\\",
+      "L1\\120-018439 \\BLP\\Bloedplaatjes\\150000-400000\\/µL\\\\259000\\",
+      "L1\\120-018439 \\WBC \\WBC formule\\\\\\\\\\",
+      "L1\\120-018439 \\WBC \\WBC Formule procentueel\\\\\\\\\\",
+      "L1\\120-018439 \\NEUT.SEGM.pc\\Neutrofielen segmentkernig\\40.0-65.0\\%\\\\42.5\\",
+      "L1\\120-018439 \\EOS.pc\\Eosinofielen\\0.0-5.0\\%\\*\\6.0\\",
+      "L1\\120-018439 \\BASO.pc\\Basofielen\\0.0-2.0\\%\\\\0.2\\",
+      "L1\\120-018439 \\LYMF.pc\\Lymfocyten\\23.0-48.0\\%\\\\43.8\\",
+      "L1\\120-018439 \\MONO.pc\\Monocyten\\3.0-13.0\\%\\\\7.5\\",
+      "L1\\120-018439 \\CHEM\\CHEMIE\\\\\\\\\\",
+      "L1\\120-018439 \\SUIK\\SUIKERS\\\\\\\\\\",
+      "L1\\120-018439 \\GLU\\Glucose nuchter\\60-110\\mg/dL\\\\90\\",
+      "L1\\120-018439 \\NIER\\NIER\\\\\\\\\\",
+      "L1\\120-018439 \\KREA\\Creatinine\\0.39-0.73\\mg/dL\\\\0.43\\",
+      "L1\\120-018439 \\LEVE\\LEVER-GAL\\\\\\\\\\",
+      "L1\\120-018439 \\Bili\\Bilirubine fracties\\\\\\\\\\",
+      "L1\\120-018439 \\BILI\\Bilirubine\\0.20-1.10\\mg/dL\\\\0.63\\",
+      "L1\\120-018439 \\ALAT\\ALAT (GPT)\\<39.0\\U/L\\\\14.6\\",
+      "L1\\120-018439 \\GGT\\Gamma GT\\5-36\\U/L\\\\10\\",
+      "L1\\120-018439 \\PANC\\PANCREAS\\\\\\\\\\",
+      "L1\\120-018439 \\LIPA\\Lipase\\13-60\\U/L\\\\20\\",
+      "L1\\120-018439 \\EIWI\\EIWITTEN\\\\\\\\\\",
+      "L1\\120-018439 \\Spec\\Specifieke eiwitten\\\\\\\\\\",
+      "L1\\120-018439 \\CRP\\CRP\\0.00-0.50\\mg/dL\\\\<0.03\\",
+      "L1\\120-018439 \\CRP.\\CRP\\0.0-5.0\\mg/L\\*\\<0.3\\"
+    ],
+    "patient": {
+      "lastname": "Purdy",
+      "firstname": "Marisol",
+      "sex": "male",
+      "birthdate": "1950-01-24T23:00:00.000Z",
+      "streetandnumber": "4157 Oberbrunner Island",
+      "zip": "31443",
+      "municipality": "Glennaton"
+    },
+    "kind": "lab",
+    "requestor": "Wiza",
+    "datetime": "2019-09-26T22:00:00.000Z",
+    "status": "partial",
+    "results": [
+      {
+        "code": "HEMA",
+        "name": "HEMATOLOGIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "RODE",
+        "name": "RODE BLOEDCELLEN",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "HB",
+        "name": "Hemoglobine",
+        "normal": "11.5-15.0",
+        "unit": "g/dL",
+        "flag": "",
+        "measure": "13.8"
+      },
+      {
+        "code": "HT",
+        "name": "Hematocriet",
+        "normal": "36.0-45.0",
+        "unit": "%",
+        "flag": "",
+        "measure": "41.4"
+      },
+      {
+        "code": "RBC",
+        "name": "Rode bloedcellen",
+        "normal": "4.00-5.40",
+        "unit": "x10*6/µL",
+        "flag": "",
+        "measure": "4.82"
+      },
+      {
+        "code": "RBC ",
+        "name": "RBC indexen",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "MCV",
+        "name": "MCV",
+        "normal": "78.0-98.0",
+        "unit": "fL RBC",
+        "flag": "",
+        "measure": "85.9"
+      },
+      {
+        "code": "MCH",
+        "name": "MCH",
+        "normal": "25.0-35.0",
+        "unit": "pg/RBC",
+        "flag": "",
+        "measure": "28.6"
+      },
+      {
+        "code": "MCHC",
+        "name": "MCHC",
+        "normal": "30.0-37.0",
+        "unit": "g/dL RBC",
+        "flag": "",
+        "measure": "33.3"
+      },
+      {
+        "code": "Reti",
+        "name": "Reticulocyten",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "RETI",
+        "name": "Reticulocyten",
+        "normal": "2.0-18.0",
+        "unit": "/10*3 RBC",
+        "flag": "*",
+        "measure": "19.0"
+      },
+      {
+        "code": "BSE",
+        "name": "Bezinkingssnelheid",
+        "normal": "0-20",
+        "unit": "mm/uur",
+        "flag": "",
+        "measure": "3"
+      },
+      {
+        "code": "WITT",
+        "name": "WITTE BLOEDCELLEN",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "WBC",
+        "name": "Witte bloedcellen",
+        "normal": "4500-13500",
+        "unit": "/µL",
+        "flag": "",
+        "measure": "5460"
+      },
+      {
+        "code": "BLOE",
+        "name": "BLOEDPLAATJES",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "BLP",
+        "name": "Bloedplaatjes",
+        "normal": "150000-400000",
+        "unit": "/µL",
+        "flag": "",
+        "measure": "259000"
+      },
+      {
+        "code": "WBC ",
+        "name": "WBC formule",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "WBC ",
+        "name": "WBC Formule procentueel",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "NEUT.SEGM.pc",
+        "name": "Neutrofielen segmentkernig",
+        "normal": "40.0-65.0",
+        "unit": "%",
+        "flag": "",
+        "measure": "42.5"
+      },
+      {
+        "code": "EOS.pc",
+        "name": "Eosinofielen",
+        "normal": "0.0-5.0",
+        "unit": "%",
+        "flag": "*",
+        "measure": "6.0"
+      },
+      {
+        "code": "BASO.pc",
+        "name": "Basofielen",
+        "normal": "0.0-2.0",
+        "unit": "%",
+        "flag": "",
+        "measure": "0.2"
+      },
+      {
+        "code": "LYMF.pc",
+        "name": "Lymfocyten",
+        "normal": "23.0-48.0",
+        "unit": "%",
+        "flag": "",
+        "measure": "43.8"
+      },
+      {
+        "code": "MONO.pc",
+        "name": "Monocyten",
+        "normal": "3.0-13.0",
+        "unit": "%",
+        "flag": "",
+        "measure": "7.5"
+      },
+      {
+        "code": "CHEM",
+        "name": "CHEMIE",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "SUIK",
+        "name": "SUIKERS",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "GLU",
+        "name": "Glucose nuchter",
+        "normal": "60-110",
+        "unit": "mg/dL",
+        "flag": "",
+        "measure": "90"
+      },
+      {
+        "code": "NIER",
+        "name": "NIER",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "KREA",
+        "name": "Creatinine",
+        "normal": "0.39-0.73",
+        "unit": "mg/dL",
+        "flag": "",
+        "measure": "0.43"
+      },
+      {
+        "code": "LEVE",
+        "name": "LEVER-GAL",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "Bili",
+        "name": "Bilirubine fracties",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "BILI",
+        "name": "Bilirubine",
+        "normal": "0.20-1.10",
+        "unit": "mg/dL",
+        "flag": "",
+        "measure": "0.63"
+      },
+      {
+        "code": "ALAT",
+        "name": "ALAT (GPT)",
+        "normal": "<39.0",
+        "unit": "U/L",
+        "flag": "",
+        "measure": "14.6"
+      },
+      {
+        "code": "GGT",
+        "name": "Gamma GT",
+        "normal": "5-36",
+        "unit": "U/L",
+        "flag": "",
+        "measure": "10"
+      },
+      {
+        "code": "PANC",
+        "name": "PANCREAS",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "LIPA",
+        "name": "Lipase",
+        "normal": "13-60",
+        "unit": "U/L",
+        "flag": "",
+        "measure": "20"
+      },
+      {
+        "code": "EIWI",
+        "name": "EIWITTEN",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "Spec",
+        "name": "Specifieke eiwitten",
+        "normal": "",
+        "unit": "",
+        "flag": "",
+        "measure": ""
+      },
+      {
+        "code": "CRP",
+        "name": "CRP",
+        "normal": "0.00-0.50",
+        "unit": "mg/dL",
+        "flag": "",
+        "measure": "<0.03"
+      },
+      {
+        "code": "CRP.",
+        "name": "CRP",
+        "normal": "0.0-5.0",
+        "unit": "mg/L",
+        "flag": "*",
+        "measure": "<0.3"
+      }
+    ],
+    "anomalies": 3
+  }
+]
