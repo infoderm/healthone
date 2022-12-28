@@ -1,10 +1,15 @@
 export default function stringifyStatus(status) {
 	switch (status) {
-		case 'partial':
+		case 'partial': {
 			return 'P';
-		case 'complete':
+		}
+
+		case 'complete': {
 			return 'C';
-		default:
+		}
+
+		default: {
 			return '';
+		}
 	}
 }

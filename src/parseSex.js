@@ -1,11 +1,16 @@
 export default function parseSex(letter) {
 	switch (letter) {
 		case 'F':
-		case 'V':
+		case 'V': {
 			return 'female';
-		case 'M':
+		}
+
+		case 'M': {
 			return 'male';
-		default:
+		}
+
+		default: {
 			return 'other';
+		}
 	}
 }

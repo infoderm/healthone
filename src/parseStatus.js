@@ -1,10 +1,15 @@
 export default function parseStatus(letter) {
 	switch (letter) {
-		case 'P':
+		case 'P': {
 			return 'partial';
-		case 'C':
+		}
+
+		case 'C': {
 			return 'complete';
-		default:
+		}
+
+		default: {
 			return 'unknown';
+		}
 	}
 }

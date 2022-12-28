@@ -15,13 +15,18 @@ export default function* stringifyRecord(record, options) {
 	if (record.mutuality) yield stringifyA5(record, options);
 
 	switch (record.kind) {
-		case 'lab':
+		case 'lab': {
 			yield* stringifyL1(record, options);
 			break;
-		case 'report':
+		}
+
+		case 'report': {
 			yield* stringifyL5(record, options);
 			break;
-		default:
+		}
+
+		default: {
 			throw new Error(`Unknown record kind '${record.kind}'`);
+		}
 	}
 }

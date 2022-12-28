@@ -14,23 +14,38 @@ export default function parseRecord(parts, options) {
 	parts = [descriptor, reference, ...rest];
 
 	switch (descriptor) {
-		case 'A1':
+		case 'A1': {
 			return parseA1(parts, options);
-		case 'A2':
+		}
+
+		case 'A2': {
 			return parseA2(parts, options);
-		case 'A3':
+		}
+
+		case 'A3': {
 			return parseA3(parts, options);
-		case 'A4':
+		}
+
+		case 'A4': {
 			return parseA4(parts, options);
-		case 'A5':
+		}
+
+		case 'A5': {
 			return parseA5(parts, options);
-		case 'L1':
+		}
+
+		case 'L1': {
 			return parseL1(parts, options);
+		}
+
 		case 'L2':
 		case 'L3':
-		case 'L5':
+		case 'L5': {
 			return parseL5(parts, options);
-		default:
+		}
+
+		default: {
 			throw new Error(`Unknown record descriptor '${descriptor}'`);
+		}
 	}
 }

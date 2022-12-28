@@ -67,11 +67,11 @@
     "test": "TZ=Europe/Brussels ava"
   },
   "dependencies": {
-    "@faker-js/faker": "^7.1.0",
+    "@faker-js/faker": "^7.6.0",
     "@iterable-iterator/cardinality": "^4.0.0",
     "@iterable-iterator/filter": "^1.0.1",
     "@iterable-iterator/zip": "^1.0.1",
-    "date-fns": "^2.28.0",
+    "date-fns": "^2.29.3",
     "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {
@@ -103,7 +103,7 @@
     "pinst": "3.0.0",
     "power-assert": "1.6.1",
     "regenerator-runtime": "0.13.11",
-    "xo": "0.52.4"
+    "xo": "0.53.1"
   },
   "ava": {
     "files": [

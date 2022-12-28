@@ -1,10 +1,15 @@
 export default function stringifySex(sex, options) {
 	switch (sex) {
-		case 'female':
+		case 'female': {
 			return options.lang === 'nl' ? 'V' : 'F';
-		case 'male':
+		}
+
+		case 'male': {
 			return 'M';
-		default:
+		}
+
+		default: {
 			return '';
+		}
 	}
 }
