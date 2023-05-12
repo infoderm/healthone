@@ -1310,10 +1310,10 @@
   resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-6.0.1.tgz#ab6929395c7ed3ec74d86db2976e74e31f9569e2"
   integrity sha512-KvIHhvwfrgbUduQbk55WRDGL2XcXjDLwleId+pSnK7mUUIY7zMGMy3N+ouDcOFymme48tKDlarKsYj5mEEd3fg==
 
-"@faker-js/faker@^7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-7.6.0.tgz#9ea331766084288634a9247fcd8b84f16ff4ba07"
-  integrity sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==
+"@faker-js/faker@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.0.0.tgz#2749d224c612321b17d8cb59f58d91196cea3da7"
+  integrity sha512-XDR8sApuf78GHx8mLXl3KL/q7eB52A963UGejVbdbj3OZtfGlNwp0J78b7apVzqRi0GF8l9g3eSkkaL2UmU9Aw==
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"

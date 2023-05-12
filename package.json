@@ -67,7 +67,7 @@
     "test": "TZ=Europe/Brussels ava"
   },
   "dependencies": {
-    "@faker-js/faker": "^7.6.0",
+    "@faker-js/faker": "^8.0.0",
     "@iterable-iterator/cardinality": "^4.0.0",
     "@iterable-iterator/filter": "^1.0.1",
     "@iterable-iterator/zip": "^1.0.1",
