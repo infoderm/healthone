@@ -2709,10 +2709,10 @@ char-to-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/char-to-string/-/char-to-string-1.0.0.tgz#3e1d11c33a004930e8552966c066741ac67e2f1e"
   integrity sha512-9WeQ+l5COfnFkuDmTJ5zXzMhb4xpMPDu24pD50cMvWT+Br9Sni1hlpvdPK/YpZl1+QI15f4pMWfyEzyyIHJr2Q==
 
-chardet@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/chardet/-/chardet-1.5.1.tgz#2a15770a46ce15e25a99f2741c949f43f9925dd5"
-  integrity sha512-0XMOtA52igKDOIfvJZJ6v0+J9yMF3IuYyEa5oFUxBXA01G6mwCNKpul3bgbFf7lmZuqwN/oyg/zQ1cGS7NyJkQ==
+chardet@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/chardet/-/chardet-1.6.0.tgz#d04ea6e254916770c0e15ab678cbc7864c967fd1"
+  integrity sha512-+QOTw3otC4+FxdjK9RopGpNOglADbr4WPFi0SonkO99JbpkTPbMxmdm4NenhF5Zs+4gPXLI1+y2uazws5TMe8w==
 
 chardet@^0.7.0:
   version "0.7.0"
