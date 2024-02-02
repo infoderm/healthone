@@ -1,6 +1,5 @@
 import validateLineLength from './validateLineLength.js';
 import validateRequiredField from './validateRequiredField.js';
-
 import parseDateTime from './parseDateTime.js';
 import parseStatus from './parseStatus.js';
 

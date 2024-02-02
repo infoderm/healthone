@@ -103,7 +103,7 @@
     "pinst": "3.0.0",
     "power-assert": "1.6.1",
     "regenerator-runtime": "0.14.1",
-    "xo": "0.53.1"
+    "xo": "0.56.0"
   },
   "ava": {
     "files": [
@@ -346,6 +346,20 @@
         "error",
         {
           "case": "camelCase"
+        }
+      ],
+      "import/order": [
+        "error",
+        {
+          "groups": [
+            "builtin",
+            "external",
+            "parent",
+            "sibling",
+            "index"
+          ],
+          "newlines-between": "always",
+          "warnOnUnassignedImports": true
         }
       ]
     },

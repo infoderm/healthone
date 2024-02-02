@@ -4,7 +4,6 @@ import {enumerate} from '@iterable-iterator/zip';
 
 import defaultParseOptions from './defaultParseOptions.js';
 import expandAndMergeOptions from './expandAndMergeOptions.js';
-
 import parseRecord from './parseRecord.js';
 import insertRecord from './insertRecord.js';
 import insertLine from './insertLine.js';

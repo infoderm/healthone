@@ -1,10 +1,9 @@
-// eslint-disable-next-line import/no-unassigned-import
-import 'regenerator-runtime/runtime.js';
-
 import process from 'node:process';
 import fs from 'node:fs';
 import path from 'node:path';
 
+// eslint-disable-next-line import/no-unassigned-import
+import 'regenerator-runtime/runtime.js';
 import chardet from 'chardet';
 import iconv from 'iconv-lite';
 

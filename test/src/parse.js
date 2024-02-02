@@ -1,6 +1,6 @@
 import fs from 'node:fs';
-import test from 'ava';
 
+import test from 'ava';
 import {zip} from '@iterable-iterator/zip';
 
 import {parse} from '../../src/index.js';
