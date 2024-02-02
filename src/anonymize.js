@@ -1,5 +1,5 @@
 import {faker} from '@faker-js/faker';
-import dateformat from 'date-fns/format/index.js';
+import {format as dateformat} from 'date-fns';
 
 const AGE_MAX = 93;
 const SEX_ALLOWED = ['male', 'female'];

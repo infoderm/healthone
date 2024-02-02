@@ -71,7 +71,7 @@
     "@iterable-iterator/cardinality": "^4.0.0",
     "@iterable-iterator/filter": "^1.0.1",
     "@iterable-iterator/zip": "^1.0.1",
-    "date-fns": "^2.29.3",
+    "date-fns": "^3.3.1",
     "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-import getYear from 'date-fns/getYear/index.js';
+import {getYear} from 'date-fns';
 
 export default function sliceDate(datestring) {
 	const day = datestring.slice(0, 2);

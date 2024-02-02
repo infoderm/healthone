@@ -1,5 +1,4 @@
-import dateFormat from 'date-fns/format/index.js';
-import dateParseISO from 'date-fns/parseISO/index.js';
+import {format as dateFormat, parseISO as dateParseISO} from 'date-fns';
 
 export default function stringifyDate(datestring, options) {
 	const date =
