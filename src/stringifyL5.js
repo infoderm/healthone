@@ -1,4 +1,4 @@
-﻿export default function* stringifyL5(record, options) {
+export default function* stringifyL5(record, options) {
 	const {reference, speciality, text} = record;
 
 	for (const line of text) {

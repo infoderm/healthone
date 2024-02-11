@@ -1,4 +1,4 @@
-﻿import {count} from '@iterable-iterator/cardinality';
+import {count} from '@iterable-iterator/cardinality';
 import {filter} from '@iterable-iterator/filter';
 import {enumerate} from '@iterable-iterator/zip';
 

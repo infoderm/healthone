@@ -1,4 +1,4 @@
-﻿export default function* stringifyL1(record) {
+export default function* stringifyL1(record) {
 	const {reference, results} = record;
 
 	for (const result of results) {

@@ -1,4 +1,4 @@
-﻿import stringifyRecord from './stringifyRecord.js';
+import stringifyRecord from './stringifyRecord.js';
 import defaultStringifyOptions from './defaultStringifyOptions.js';
 import expandAndMergeOptions from './expandAndMergeOptions.js';
 
