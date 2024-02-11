@@ -1190,7 +1190,7 @@
   resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-6.0.1.tgz#ab6929395c7ed3ec74d86db2976e74e31f9569e2"
   integrity sha512-KvIHhvwfrgbUduQbk55WRDGL2XcXjDLwleId+pSnK7mUUIY7zMGMy3N+ouDcOFymme48tKDlarKsYj5mEEd3fg==
 
-"@faker-js/faker@^8.0.0":
+"@faker-js/faker@^8.4.1":
   version "8.4.1"
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.4.1.tgz#5d5e8aee8fce48f5e189bf730ebd1f758f491451"
   integrity sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==
