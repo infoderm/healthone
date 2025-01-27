@@ -76,10 +76,10 @@
     "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.25.6",
-    "@babel/core": "7.25.2",
-    "@babel/preset-env": "7.25.4",
-    "@babel/register": "7.24.6",
+    "@babel/cli": "7.26.4",
+    "@babel/core": "7.26.7",
+    "@babel/preset-env": "7.26.7",
+    "@babel/register": "7.25.9",
     "@commitlint/cli": "19.2.1",
     "@js-library/commitlint-config": "0.0.4",
     "ava": "6.2.0",
