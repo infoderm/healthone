@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L5",
     "reference": "53666903",
     "identifier": "Parisian - Nicolas",
     "lines": [
@@ -22,16 +21,20 @@
       "zip": "31443",
       "municipality": "Glennaton"
     },
-    "kind": "report",
     "requestor": "Wiza",
     "datetime": "2019-09-26T22:00:00.000Z",
     "status": "partial",
-    "speciality": "DIVER",
-    "text": [
-      "",
-      "",
-      "",
-      ""
+    "kind": "report",
+    "sections": [
+      {
+        "speciality": "DIVER",
+        "text": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
     ]
   }
 ]

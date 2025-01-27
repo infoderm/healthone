@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "99667696",
     "identifier": "Renner, Schroeder and Spencer",
     "lines": [
@@ -39,7 +38,6 @@
       "zip": "05254-8909",
       "municipality": "Justusstad"
     },
-    "kind": "lab",
     "requestor": "Bartell",
     "datetime": "2019-01-08T08:13:00.000Z",
     "status": "complete",
@@ -205,6 +203,7 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   }
 ]

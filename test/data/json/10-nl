@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L5",
     "reference": "36325773",
     "identifier": "Crist - Satterfield",
     "lines": [
@@ -54,7 +53,6 @@
       "zip": "30745",
       "municipality": "Johnnietown"
     },
-    "kind": "report",
     "requestor": "Konopelski",
     "datetime": "2014-12-14T23:00:00.000Z",
     "status": "complete",
@@ -65,42 +63,47 @@
       "kg1": "130",
       "kg2": "671"
     },
-    "speciality": "URO_M+R",
-    "text": [
-      "Geachte Collega,",
-      "",
-      "Betreft uw patiënt :\tDelamillieure Ronny ",
-      "Franky (° 18/09/1966)\t",
-      "\tGentsesteenweg 208, 8650 Houthulst",
-      "",
-      "Onze ref: LG/DS",
-      "",
-      "Ik zag uw patiënt op de raadpleging Urologie op 27/11/2014. ",
-      "ACTUELE PROBLEMATIEK:",
-      "Patiënt door u verwezen omwille van intermittente lumbalgie links ",
-      "en microscopische hematurie. ",
-      "KLINISCH ONDERZOEK:",
-      "CT kon geen hydronefrose noch nefro of ureterolithiasis weerhouden. ",
-      "Alleen de gekende rugproblematiek in het bijzonder op niveau L5 S1. ",
-      "PSA via uw goede zorgen toont een waarde van 0.31 ng/ ml. ",
-      "De flow is normaal, geen residu na mictie. ",
-      "Echografie toont prostaat van 35 ml met mogelijk beginnende ",
-      "inflammatie aan de rechter zijde. ",
-      "Klinisch onderzoek toont voornamelijk last ter hoogte van de psoas ",
-      "op niveau L3 L2 en ook eventueel drukpijn ter hoogte van C6/C7. ",
-      "BESLUIT:",
-      "We vermoeden inderdaad dat de lumbalgie eerder van musculoskeletale ",
-      "oorsprong is. Hiervoor kan eventueel het advies ingewonnen worden ",
-      "op uw verwijzing bij de dienst fysische geneeskunde. ",
-      "Gezien zijn microscopische hematurie, gezien de bevindingen van de ",
-      "prostaat kan eventueel gedacht worden aan prostatitis. Hiervoor ",
-      "werd Levofloxacine en Urofyt voorgeschreven met klinische ",
-      "herevaluatie zo nodig.",
-      "  ",
-      "     ",
-      "             ",
-      "",
-      ""
+    "kind": "report",
+    "sections": [
+      {
+        "speciality": "URO_M+R",
+        "text": [
+          "Geachte Collega,",
+          "",
+          "Betreft uw patiënt :\tDelamillieure Ronny ",
+          "Franky (° 18/09/1966)\t",
+          "\tGentsesteenweg 208, 8650 Houthulst",
+          "",
+          "Onze ref: LG/DS",
+          "",
+          "Ik zag uw patiënt op de raadpleging Urologie op 27/11/2014. ",
+          "ACTUELE PROBLEMATIEK:",
+          "Patiënt door u verwezen omwille van intermittente lumbalgie links ",
+          "en microscopische hematurie. ",
+          "KLINISCH ONDERZOEK:",
+          "CT kon geen hydronefrose noch nefro of ureterolithiasis weerhouden. ",
+          "Alleen de gekende rugproblematiek in het bijzonder op niveau L5 S1. ",
+          "PSA via uw goede zorgen toont een waarde van 0.31 ng/ ml. ",
+          "De flow is normaal, geen residu na mictie. ",
+          "Echografie toont prostaat van 35 ml met mogelijk beginnende ",
+          "inflammatie aan de rechter zijde. ",
+          "Klinisch onderzoek toont voornamelijk last ter hoogte van de psoas ",
+          "op niveau L3 L2 en ook eventueel drukpijn ter hoogte van C6/C7. ",
+          "BESLUIT:",
+          "We vermoeden inderdaad dat de lumbalgie eerder van musculoskeletale ",
+          "oorsprong is. Hiervoor kan eventueel het advies ingewonnen worden ",
+          "op uw verwijzing bij de dienst fysische geneeskunde. ",
+          "Gezien zijn microscopische hematurie, gezien de bevindingen van de ",
+          "prostaat kan eventueel gedacht worden aan prostatitis. Hiervoor ",
+          "werd Levofloxacine en Urofyt voorgeschreven met klinische ",
+          "herevaluatie zo nodig.",
+          "  ",
+          "     ",
+          "             ",
+          "",
+          ""
+        ]
+      }
     ]
   }
 ]

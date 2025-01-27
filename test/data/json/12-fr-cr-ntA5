@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L5",
     "reference": "15583713",
     "identifier": "Tillman - Armstrong",
     "lines": [
@@ -37,7 +36,6 @@
       "zip": "31521",
       "municipality": "Pollichmouth"
     },
-    "kind": "report",
     "requestor": "Daniel",
     "datetime": "2019-11-07T23:00:00.000Z",
     "status": "unknown",
@@ -48,25 +46,30 @@
       "kg1": "721",
       "kg2": "47"
     },
-    "speciality": "DIVER",
-    "text": [
-      "Hospitalisation - Dr Tillman - Armstrong",
-      "\t\t\t\t\t\t\t\t\t\t\tHalle, 08/11/2019",
-      "Destinataire : Au Docteur DODO Laflute",
-      "Chère Consoeur,",
-      "Je vous remercie de m'avoir adressé votre patient Grady Blake né le",
-      "17/04/2004 , pour avis ORL.",
-      "Des tests allergiques cutanés sont demandé pour prurigo au niveau des bras",
-      "depuis plusieurs années.",
-      "Poly-médication suite à un trauma/accident.",
-      "Prurigo va mieux avec Dermovate et Xyzall.",
-      "Les tests allergiques cutanés sont négatifs pour les aéro-allergènes les",
-      "plus courants (il y a une réaction discrète pour armois et frêne mais pas",
-      "significant).",
-      "Je remplace Xyzall par Aerius comme il est fatigué avec le Xyzall.",
-      "Je vous prie de recevoir, Chère Consoeur,l'expression de mes salutations",
-      "distinguées.",
-      "Dr. Tillman - Armstrong"
+    "kind": "report",
+    "sections": [
+      {
+        "speciality": "DIVER",
+        "text": [
+          "Hospitalisation - Dr Tillman - Armstrong",
+          "\t\t\t\t\t\t\t\t\t\t\tHalle, 08/11/2019",
+          "Destinataire : Au Docteur DODO Laflute",
+          "Chère Consoeur,",
+          "Je vous remercie de m'avoir adressé votre patient Grady Blake né le",
+          "17/04/2004 , pour avis ORL.",
+          "Des tests allergiques cutanés sont demandé pour prurigo au niveau des bras",
+          "depuis plusieurs années.",
+          "Poly-médication suite à un trauma/accident.",
+          "Prurigo va mieux avec Dermovate et Xyzall.",
+          "Les tests allergiques cutanés sont négatifs pour les aéro-allergènes les",
+          "plus courants (il y a une réaction discrète pour armois et frêne mais pas",
+          "significant).",
+          "Je remplace Xyzall par Aerius comme il est fatigué avec le Xyzall.",
+          "Je vous prie de recevoir, Chère Consoeur,l'expression de mes salutations",
+          "distinguées.",
+          "Dr. Tillman - Armstrong"
+        ]
+      }
     ]
   }
 ]

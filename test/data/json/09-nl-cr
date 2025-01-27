@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "33983850",
     "identifier": "Schuppe Group",
     "lines": [
@@ -92,7 +91,6 @@
       "zip": "55712",
       "municipality": "Port Aiyanastad"
     },
-    "kind": "lab",
     "requestor": "Reynolds",
     "datetime": "2018-10-03T10:34:00.000Z",
     "status": "complete",
@@ -681,6 +679,7 @@
         "measure": "                                              Avec l'expression de nos sentiments confraternellement devoues"
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   }
 ]
