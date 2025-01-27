@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "18090144",
     "identifier": "Williamson and Sons",
     "lines": [
@@ -84,7 +83,6 @@
       "zip": "02648-6815",
       "municipality": "Eltastad"
     },
-    "kind": "lab",
     "requestor": "Rodriguez",
     "datetime": "2020-01-09T23:00:00.000Z",
     "status": "complete",
@@ -610,6 +608,7 @@
         "measure": ""
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   }
 ]

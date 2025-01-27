@@ -1,3 +1,5 @@
+import assert from 'node:assert';
+
 import mergeWith from 'lodash.mergewith/index.js';
 
 function customizer(objectValue, srcValue) {
@@ -6,8 +8,8 @@ function customizer(objectValue, srcValue) {
 	}
 }
 
-export default function insertRecord(report, record) {
-	let {kind} = report;
+export default function insertRecord(report, {descriptor, ...record}) {
+	const {kind} = report;
 
 	if (record.reference !== report.reference) {
 		throw new Error(
@@ -15,14 +17,16 @@ export default function insertRecord(report, record) {
 		);
 	}
 
-	switch (record.descriptor) {
+	switch (descriptor) {
 		case 'L1': {
 			if (kind === 'report')
 				throw new Error(
-					`Invalid record descriptor '${record.descriptor}' for a report document.`,
+					`Invalid record descriptor '${descriptor}' for a report document.`,
 				);
-			kind = 'lab';
-			break;
+			return {
+				...mergeWith({}, report, record, customizer),
+				kind: 'lab',
+			};
 		}
 
 		case 'L2':
@@ -30,7 +34,7 @@ export default function insertRecord(report, record) {
 		case 'L5': {
 			if (kind === 'lab')
 				throw new Error(
-					`Invalid record descriptor '${record.descriptor}' for a lab document.`,
+					`Invalid record descriptor '${descriptor}' for a lab document.`,
 				);
 			if (
 				report.speciality !== undefined &&
@@ -41,17 +45,52 @@ export default function insertRecord(report, record) {
 				);
 			}
 
-			kind = 'report';
-			break;
+			const {speciality, text, ...rest} = record;
+
+			if (report.sections !== undefined) {
+				const {sections, ...metadata} = report;
+				assert(sections.length > 0);
+
+				const head = sections.slice(0, -1);
+				const last = sections.at(-1);
+
+				if (speciality === last.speciality) {
+					return {
+						...mergeWith(
+							{},
+							metadata,
+							rest,
+							{
+								sections: [...head, mergeWith({}, last, {text}, customizer)],
+							},
+							customizer,
+						),
+						kind: 'report',
+					};
+				}
+			}
+
+			return {
+				...mergeWith(
+					{},
+					report,
+					rest,
+					{
+						sections: [
+							{
+								speciality,
+								text,
+							},
+						],
+					},
+					customizer,
+				),
+				kind: 'report',
+			};
 		}
 
 		default: {
-			break;
-		} // Do nothing
+			return mergeWith({}, report, record, customizer);
+		}
 	}
-
-	return {
-		...mergeWith({}, report, record, customizer),
-		kind,
-	};
 }

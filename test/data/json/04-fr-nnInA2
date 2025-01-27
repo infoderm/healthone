@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "58472766",
     "identifier": "Raynor, Roob and Maggio",
     "lines": [
@@ -89,7 +88,6 @@
       "zip": "19198-3415",
       "municipality": "Shaniashire"
     },
-    "kind": "lab",
     "requestor": "Batz",
     "datetime": "2019-02-02T10:52:00.000Z",
     "status": "complete",
@@ -655,10 +653,10 @@
         "measure": "                                                                        En aucun cas,  le sang ne peut etre expose au gel."
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "53636930",
     "identifier": "Harris, Gulgowski and Donnelly",
     "lines": [
@@ -760,7 +758,6 @@
       "zip": "55814-9561",
       "municipality": "New Nicolamouth"
     },
-    "kind": "lab",
     "requestor": "Walter",
     "datetime": "2019-02-05T10:08:00.000Z",
     "status": "complete",
@@ -1430,6 +1427,7 @@
         "measure": "                                                                        En aucun cas,  le sang ne peut etre expose au gel."
       }
     ],
+    "kind": "lab",
     "anomalies": 4
   }
 ]

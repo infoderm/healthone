@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "51239077",
     "identifier": "Bernier, Lakin and Sanford",
     "lines": [
@@ -31,7 +30,6 @@
       "zip": "56321",
       "municipality": "Cheyanneton"
     },
-    "kind": "lab",
     "requestor": "Collins",
     "datetime": "2019-01-19T08:13:00.000Z",
     "status": "complete",
@@ -133,6 +131,7 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   }
 ]

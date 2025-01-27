@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "120-018439",
     "identifier": "Parisian - Nicolas",
     "lines": [
@@ -57,7 +56,6 @@
       "zip": "31443",
       "municipality": "Glennaton"
     },
-    "kind": "lab",
     "requestor": "Wiza",
     "datetime": "2019-09-26T22:00:00.000Z",
     "status": "partial",
@@ -375,6 +373,7 @@
         "measure": "<0.3"
       }
     ],
+    "kind": "lab",
     "anomalies": 3
   }
 ]

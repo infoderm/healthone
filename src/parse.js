@@ -37,7 +37,11 @@ function* parseLines(lines, options) {
 
 		if (record.descriptor === 'A1') {
 			if (report !== null) yield sanitizeReport(report);
-			report = {...record, lines: [line]};
+			report = {
+				reference: record.reference,
+				identifier: record.identifier,
+				lines: [line],
+			};
 		} else if (report === null) {
 			throw new Error(`Document did not start with 'A1\\': ${lineno}`);
 		} else {

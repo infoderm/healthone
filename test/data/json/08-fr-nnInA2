@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "18651560",
     "identifier": "Effertz - Grimes",
     "lines": [
@@ -77,7 +76,6 @@
       "zip": "78998-3152",
       "municipality": "Dawsonberg"
     },
-    "kind": "lab",
     "requestor": "Lubowitz",
     "datetime": "2018-01-03T14:21:00.000Z",
     "status": "unknown",
@@ -547,10 +545,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "23395524",
     "identifier": "Hamill - Mosciski",
     "lines": [
@@ -578,7 +576,6 @@
       "zip": "82622",
       "municipality": "Lake Ivaland"
     },
-    "kind": "lab",
     "requestor": "Franecki",
     "datetime": "2018-01-04T07:59:00.000Z",
     "status": "complete",
@@ -656,10 +653,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "13523024",
     "identifier": "Von, Hoppe and Goldner",
     "lines": [
@@ -694,7 +691,6 @@
       "zip": "30459-6864",
       "municipality": "Turnerbury"
     },
-    "kind": "lab",
     "requestor": "Altenwerth",
     "datetime": "2018-01-12T09:40:00.000Z",
     "status": "complete",
@@ -828,10 +824,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "68086071",
     "identifier": "Rempel Inc",
     "lines": [
@@ -908,7 +904,6 @@
       "zip": "84593",
       "municipality": "Jalenton"
     },
-    "kind": "lab",
     "requestor": "Durgan",
     "datetime": "2018-01-24T10:31:00.000Z",
     "status": "complete",
@@ -1378,10 +1373,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "69068881",
     "identifier": "Casper, Kunze and Quitzon",
     "lines": [
@@ -1487,7 +1482,6 @@
       "zip": "88240-1404",
       "municipality": "South Odessaport"
     },
-    "kind": "lab",
     "requestor": "Sipes",
     "datetime": "2018-02-08T10:06:00.000Z",
     "status": "complete",
@@ -2189,10 +2183,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 7
   },
   {
-    "descriptor": "L1",
     "reference": "68053308",
     "identifier": "Cole - Johnston",
     "lines": [
@@ -2268,7 +2262,6 @@
       "zip": "64080-9036",
       "municipality": "Beiertown"
     },
-    "kind": "lab",
     "requestor": "Grady",
     "datetime": "2018-02-09T10:33:00.000Z",
     "status": "complete",
@@ -2730,10 +2723,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "83114035",
     "identifier": "Langworth - McCullough",
     "lines": [
@@ -2829,7 +2822,6 @@
       "zip": "28041-9975",
       "municipality": "Gislasonfurt"
     },
-    "kind": "lab",
     "requestor": "Stokes",
     "datetime": "2018-02-16T10:15:00.000Z",
     "status": "complete",
@@ -3451,10 +3443,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "25343722",
     "identifier": "Kiehn - Koch",
     "lines": [
@@ -3542,7 +3534,6 @@
       "zip": "72042-7699",
       "municipality": "Royalburgh"
     },
-    "kind": "lab",
     "requestor": "Fisher",
     "datetime": "2018-02-16T11:38:00.000Z",
     "status": "complete",
@@ -4100,10 +4091,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   },
   {
-    "descriptor": "L1",
     "reference": "25358333",
     "identifier": "McLaughlin LLC",
     "lines": [
@@ -4164,7 +4155,6 @@
       "zip": "79435",
       "municipality": "East Virgil"
     },
-    "kind": "lab",
     "requestor": "Johns",
     "datetime": "2018-03-01T13:20:00.000Z",
     "status": "complete",
@@ -4506,10 +4496,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 6
   },
   {
-    "descriptor": "L1",
     "reference": "38979082",
     "identifier": "Steuber - Morar",
     "lines": [
@@ -4591,7 +4581,6 @@
       "zip": "26502",
       "municipality": "East Dakota"
     },
-    "kind": "lab",
     "requestor": "Shanahan",
     "datetime": "2018-03-05T09:37:00.000Z",
     "status": "complete",
@@ -5101,10 +5090,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   },
   {
-    "descriptor": "L1",
     "reference": "92989080",
     "identifier": "Prosacco and Sons",
     "lines": [
@@ -5193,7 +5182,6 @@
       "zip": "38926",
       "municipality": "Garryland"
     },
-    "kind": "lab",
     "requestor": "Howe",
     "datetime": "2018-03-14T09:36:00.000Z",
     "status": "complete",
@@ -5759,10 +5747,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "68582342",
     "identifier": "Greenholt, Waters and Gerlach",
     "lines": [
@@ -5798,7 +5786,6 @@
       "zip": "59698",
       "municipality": "South Vergieshire"
     },
-    "kind": "lab",
     "requestor": "Sporer",
     "datetime": "2018-04-26T07:06:00.000Z",
     "status": "complete",
@@ -5940,10 +5927,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "72274514",
     "identifier": "Feeney - Keeling",
     "lines": [
@@ -6022,7 +6009,6 @@
       "zip": "66486",
       "municipality": "Farrellside"
     },
-    "kind": "lab",
     "requestor": "Pouros",
     "datetime": "2018-04-27T08:17:00.000Z",
     "status": "complete",
@@ -6508,10 +6494,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "61724003",
     "identifier": "Volkman - Kertzmann",
     "lines": [
@@ -6589,7 +6575,6 @@
       "zip": "78171-7813",
       "municipality": "Yostport"
     },
-    "kind": "lab",
     "requestor": "Frami",
     "datetime": "2018-05-23T09:20:00.000Z",
     "status": "complete",
@@ -7067,10 +7052,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "91797847",
     "identifier": "Kirlin Group",
     "lines": [
@@ -7104,7 +7089,6 @@
       "zip": "68146",
       "municipality": "West Doviemouth"
     },
-    "kind": "lab",
     "requestor": "Gulgowski",
     "datetime": "2018-05-24T13:07:00.000Z",
     "status": "complete",
@@ -7230,10 +7214,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "30817991",
     "identifier": "Feil - Nolan",
     "lines": [
@@ -7321,7 +7305,6 @@
       "zip": "06624",
       "municipality": "Koelpinborough"
     },
-    "kind": "lab",
     "requestor": "Tillman",
     "datetime": "2018-05-31T06:52:00.000Z",
     "status": "complete",
@@ -7879,10 +7862,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "68508319",
     "identifier": "Christiansen - Braun",
     "lines": [
@@ -7925,7 +7908,6 @@
       "zip": "59788-3965",
       "municipality": "Oberbrunnerborough"
     },
-    "kind": "lab",
     "requestor": "Nicolas",
     "datetime": "2018-06-23T13:17:00.000Z",
     "status": "complete",
@@ -8123,10 +8105,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "62352625",
     "identifier": "Hickle Group",
     "lines": [
@@ -8186,7 +8168,6 @@
       "zip": "98770",
       "municipality": "New Abigail"
     },
-    "kind": "lab",
     "requestor": "Johns",
     "datetime": "2018-06-26T06:30:00.000Z",
     "status": "complete",
@@ -8520,10 +8501,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "52897179",
     "identifier": "Waelchi and Sons",
     "lines": [
@@ -8595,7 +8576,6 @@
       "zip": "72962",
       "municipality": "North Noemie"
     },
-    "kind": "lab",
     "requestor": "Morissette",
     "datetime": "2018-07-03T08:41:00.000Z",
     "status": "complete",
@@ -9025,10 +9005,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "11884206",
     "identifier": "Barrows - Murazik",
     "lines": [
@@ -9070,7 +9050,6 @@
       "zip": "31600",
       "municipality": "Donnellychester"
     },
-    "kind": "lab",
     "requestor": "Hyatt",
     "datetime": "2018-07-03T13:30:00.000Z",
     "status": "complete",
@@ -9260,10 +9239,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "26408939",
     "identifier": "Pacocha - Bergnaum",
     "lines": [
@@ -9294,7 +9273,6 @@
       "zip": "62812-5841",
       "municipality": "Richmondside"
     },
-    "kind": "lab",
     "requestor": "Green",
     "datetime": "2018-07-04T08:24:00.000Z",
     "status": "complete",
@@ -9396,10 +9374,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "73720548",
     "identifier": "Herzog, Corwin and Lindgren",
     "lines": [
@@ -9444,7 +9422,6 @@
       "zip": "87143",
       "municipality": "New Rebecca"
     },
-    "kind": "lab",
     "requestor": "Graham",
     "datetime": "2018-07-11T13:04:00.000Z",
     "status": "complete",
@@ -9658,10 +9635,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "94560468",
     "identifier": "Bosco and Sons",
     "lines": [
@@ -9692,7 +9669,6 @@
       "zip": "56259",
       "municipality": "Viviannebury"
     },
-    "kind": "lab",
     "requestor": "Fisher",
     "datetime": "2018-07-19T07:07:00.000Z",
     "status": "complete",
@@ -9794,10 +9770,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "69935790",
     "identifier": "Oberbrunner Inc",
     "lines": [
@@ -9829,7 +9805,6 @@
       "zip": "71320-1907",
       "municipality": "West Urielberg"
     },
-    "kind": "lab",
     "requestor": "Stamm",
     "datetime": "2018-07-23T07:26:00.000Z",
     "status": "complete",
@@ -9939,10 +9914,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "95535447",
     "identifier": "Labadie Inc",
     "lines": [
@@ -9976,7 +9951,6 @@
       "zip": "65468-8395",
       "municipality": "Modestaview"
     },
-    "kind": "lab",
     "requestor": "Brakus",
     "datetime": "2018-08-04T07:23:00.000Z",
     "status": "complete",
@@ -10102,10 +10076,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "83102401",
     "identifier": "Schultz, Reilly and Hintz",
     "lines": [
@@ -10147,7 +10121,6 @@
       "zip": "71709-5948",
       "municipality": "South Jillian"
     },
-    "kind": "lab",
     "requestor": "Herman",
     "datetime": "2018-08-10T07:31:00.000Z",
     "status": "complete",
@@ -10337,10 +10310,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "31346634",
     "identifier": "D'Amore - Marquardt",
     "lines": [
@@ -10435,7 +10408,6 @@
       "zip": "46943-1440",
       "municipality": "Lake Alia"
     },
-    "kind": "lab",
     "requestor": "Osinski",
     "datetime": "2018-08-13T07:55:00.000Z",
     "status": "complete",
@@ -11049,10 +11021,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 3
   },
   {
-    "descriptor": "L1",
     "reference": "26559587",
     "identifier": "Green, Marks and Hand",
     "lines": [
@@ -11115,7 +11087,6 @@
       "zip": "68386-2671",
       "municipality": "North Eudoraland"
     },
-    "kind": "lab",
     "requestor": "Kohler",
     "datetime": "2018-08-13T08:50:00.000Z",
     "status": "complete",
@@ -11473,10 +11444,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   },
   {
-    "descriptor": "L1",
     "reference": "32605228",
     "identifier": "Dooley - Medhurst",
     "lines": [
@@ -11547,7 +11518,6 @@
       "zip": "37851-4498",
       "municipality": "New Enriquefurt"
     },
-    "kind": "lab",
     "requestor": "Kovacek",
     "datetime": "2018-08-31T09:26:00.000Z",
     "status": "complete",
@@ -11969,10 +11939,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "26862200",
     "identifier": "Dietrich, Effertz and Hilll",
     "lines": [
@@ -12054,7 +12024,6 @@
       "zip": "72598",
       "municipality": "Lake Eleazarfurt"
     },
-    "kind": "lab",
     "requestor": "Fisher",
     "datetime": "2018-09-08T09:20:00.000Z",
     "status": "complete",
@@ -12564,10 +12533,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 3
   },
   {
-    "descriptor": "L1",
     "reference": "94526588",
     "identifier": "Franecki - Orn",
     "lines": [
@@ -12625,7 +12594,6 @@
       "zip": "97506",
       "municipality": "West Cynthia"
     },
-    "kind": "lab",
     "requestor": "Dickens",
     "datetime": "2018-09-08T09:21:00.000Z",
     "status": "complete",
@@ -12943,10 +12911,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "70513521",
     "identifier": "Balistreri, Crooks and Blanda",
     "lines": [
@@ -13012,7 +12980,6 @@
       "zip": "01411-8677",
       "municipality": "Damianport"
     },
-    "kind": "lab",
     "requestor": "Mosciski",
     "datetime": "2018-09-13T13:08:00.000Z",
     "status": "complete",
@@ -13394,10 +13361,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "69585545",
     "identifier": "Skiles, Marks and Harvey",
     "lines": [
@@ -13457,7 +13424,6 @@
       "zip": "74920",
       "municipality": "Caspermouth"
     },
-    "kind": "lab",
     "requestor": "Jacobi",
     "datetime": "2018-09-29T09:47:00.000Z",
     "status": "complete",
@@ -13791,10 +13757,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "99432257",
     "identifier": "Jones - Herzog",
     "lines": [
@@ -13887,7 +13853,6 @@
       "zip": "57359",
       "municipality": "New Felicita"
     },
-    "kind": "lab",
     "requestor": "Carter",
     "datetime": "2018-10-02T13:19:00.000Z",
     "status": "complete",
@@ -14485,10 +14450,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 3
   },
   {
-    "descriptor": "L1",
     "reference": "84359078",
     "identifier": "Weissnat Inc",
     "lines": [
@@ -14598,7 +14563,6 @@
       "zip": "14901-4630",
       "municipality": "South Jose"
     },
-    "kind": "lab",
     "requestor": "O'Conner",
     "datetime": "2018-10-04T08:43:00.000Z",
     "status": "complete",
@@ -15332,10 +15296,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 3
   },
   {
-    "descriptor": "L1",
     "reference": "40084941",
     "identifier": "Hane LLC",
     "lines": [
@@ -15377,7 +15341,6 @@
       "zip": "70164-1701",
       "municipality": "Albaville"
     },
-    "kind": "lab",
     "requestor": "Lesch",
     "datetime": "2018-10-18T06:41:00.000Z",
     "status": "complete",
@@ -15567,10 +15530,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "57197554",
     "identifier": "Pollich Inc",
     "lines": [
@@ -15605,7 +15568,6 @@
       "zip": "77855-8019",
       "municipality": "Port Baby"
     },
-    "kind": "lab",
     "requestor": "Friesen",
     "datetime": "2018-10-19T08:00:00.000Z",
     "status": "complete",
@@ -15739,10 +15701,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "86993132",
     "identifier": "Welch and Sons",
     "lines": [
@@ -15774,7 +15736,6 @@
       "zip": "55338-4722",
       "municipality": "Port Myrticemouth"
     },
-    "kind": "lab",
     "requestor": "Kihn",
     "datetime": "2018-10-23T07:02:00.000Z",
     "status": "complete",
@@ -15884,10 +15845,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "69430062",
     "identifier": "McGlynn - Goodwin",
     "lines": [
@@ -15948,7 +15909,6 @@
       "zip": "81764",
       "municipality": "Macejkovicmouth"
     },
-    "kind": "lab",
     "requestor": "Jones",
     "datetime": "2018-10-23T07:20:00.000Z",
     "status": "complete",
@@ -16290,10 +16250,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "80152779",
     "identifier": "Wisoky and Sons",
     "lines": [
@@ -16325,7 +16285,6 @@
       "zip": "75902",
       "municipality": "South Aimeeland"
     },
-    "kind": "lab",
     "requestor": "Bins",
     "datetime": "2018-11-02T08:47:00.000Z",
     "status": "complete",
@@ -16435,10 +16394,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "67955070",
     "identifier": "Luettgen Inc",
     "lines": [
@@ -16562,7 +16521,6 @@
       "zip": "58510-7147",
       "municipality": "Kaylahfort"
     },
-    "kind": "lab",
     "requestor": "Windler",
     "datetime": "2018-11-02T13:54:00.000Z",
     "status": "complete",
@@ -17408,10 +17366,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   },
   {
-    "descriptor": "L1",
     "reference": "30307223",
     "identifier": "Schowalter, Baumbach and Watsica",
     "lines": [
@@ -17504,7 +17462,6 @@
       "zip": "26832-4583",
       "municipality": "Eulaliaborough"
     },
-    "kind": "lab",
     "requestor": "Rutherford",
     "datetime": "2018-11-08T14:24:00.000Z",
     "status": "complete",
@@ -18102,10 +18059,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "80340097",
     "identifier": "Turcotte and Sons",
     "lines": [
@@ -18215,7 +18172,6 @@
       "zip": "70888-4378",
       "municipality": "Goyetteside"
     },
-    "kind": "lab",
     "requestor": "Jaskolski",
     "datetime": "2018-11-13T10:08:00.000Z",
     "status": "complete",
@@ -18949,10 +18905,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 6
   },
   {
-    "descriptor": "L1",
     "reference": "74007016",
     "identifier": "Eichmann LLC",
     "lines": [
@@ -19027,7 +18983,6 @@
       "zip": "40630",
       "municipality": "Port Turner"
     },
-    "kind": "lab",
     "requestor": "Marvin",
     "datetime": "2018-11-17T10:30:00.000Z",
     "status": "complete",
@@ -19481,10 +19436,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "24345879",
     "identifier": "Luettgen Group",
     "lines": [
@@ -19576,7 +19531,6 @@
       "zip": "50086",
       "municipality": "West Brionnamouth"
     },
-    "kind": "lab",
     "requestor": "Leffler",
     "datetime": "2018-11-17T10:39:00.000Z",
     "status": "complete",
@@ -20166,10 +20120,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   },
   {
-    "descriptor": "L1",
     "reference": "38499558",
     "identifier": "Conroy, Hartmann and Kunze",
     "lines": [
@@ -20204,7 +20158,6 @@
       "zip": "80381-7476",
       "municipality": "Dwightborough"
     },
-    "kind": "lab",
     "requestor": "Schulist",
     "datetime": "2018-11-24T08:35:00.000Z",
     "status": "complete",
@@ -20338,10 +20291,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "37015607",
     "identifier": "Kunde, Maggio and Hilpert",
     "lines": [
@@ -20441,7 +20394,6 @@
       "zip": "80599-9267",
       "municipality": "Lowemouth"
     },
-    "kind": "lab",
     "requestor": "Windler",
     "datetime": "2018-11-27T10:18:00.000Z",
     "status": "complete",
@@ -21095,10 +21047,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 4
   },
   {
-    "descriptor": "L1",
     "reference": "74086552",
     "identifier": "Kuvalis, Altenwerth and West",
     "lines": [
@@ -21182,7 +21134,6 @@
       "zip": "83264-2121",
       "municipality": "Raphaelletown"
     },
-    "kind": "lab",
     "requestor": "Paucek",
     "datetime": "2018-11-27T10:24:00.000Z",
     "status": "complete",
@@ -21708,10 +21659,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 3
   },
   {
-    "descriptor": "L1",
     "reference": "56452894",
     "identifier": "Dibbert and Sons",
     "lines": [
@@ -21782,7 +21733,6 @@
       "zip": "20144",
       "municipality": "Kubchester"
     },
-    "kind": "lab",
     "requestor": "Cruickshank",
     "datetime": "2018-12-08T10:08:00.000Z",
     "status": "complete",
@@ -22204,10 +22154,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   },
   {
-    "descriptor": "L1",
     "reference": "98108279",
     "identifier": "Torphy Group",
     "lines": [
@@ -22248,7 +22198,6 @@
       "zip": "39162",
       "municipality": "Fabianfurt"
     },
-    "kind": "lab",
     "requestor": "Carter",
     "datetime": "2018-12-11T07:45:00.000Z",
     "status": "complete",
@@ -22430,10 +22379,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   },
   {
-    "descriptor": "L1",
     "reference": "40701500",
     "identifier": "Lynch - Moen",
     "lines": [
@@ -22509,7 +22458,6 @@
       "zip": "34095-3695",
       "municipality": "South Adeliahaven"
     },
-    "kind": "lab",
     "requestor": "Kiehn",
     "datetime": "2018-12-12T09:42:00.000Z",
     "status": "complete",
@@ -22971,10 +22919,10 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   },
   {
-    "descriptor": "L1",
     "reference": "33918462",
     "identifier": "Hansen, Gutkowski and Labadie",
     "lines": [
@@ -23054,7 +23002,6 @@
       "zip": "46917-7816",
       "municipality": "East Urbanfurt"
     },
-    "kind": "lab",
     "requestor": "Swift",
     "datetime": "2018-12-13T09:42:00.000Z",
     "status": "complete",
@@ -23548,6 +23495,7 @@
         "measure": "                                       "
       }
     ],
+    "kind": "lab",
     "anomalies": 0
   }
 ]

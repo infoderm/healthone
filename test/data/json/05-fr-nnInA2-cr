@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "33685173",
     "identifier": "Satterfield, Rogahn and Bernier",
     "lines": [
@@ -88,7 +87,6 @@
       "zip": "37368",
       "municipality": "New Ewald"
     },
-    "kind": "lab",
     "requestor": "Keebler",
     "datetime": "2019-02-02T10:52:00.000Z",
     "status": "partial",
@@ -646,6 +644,7 @@
         "measure": "                                                                        En aucun cas,  le sang ne peut etre expose au gel."
       }
     ],
+    "kind": "lab",
     "anomalies": 1
   }
 ]

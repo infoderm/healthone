@@ -1,6 +1,5 @@
 [
   {
-    "descriptor": "L1",
     "reference": "26464071",
     "identifier": "Collins and Sons",
     "lines": [
@@ -129,7 +128,6 @@
       "zip": "08762-0133",
       "municipality": "Gulgowskishire"
     },
-    "kind": "lab",
     "requestor": "Botsford",
     "datetime": "2019-02-06T14:12:00.000Z",
     "status": "complete",
@@ -1015,6 +1013,7 @@
         "measure": "                                                                           En aucun cas,  le sang ne peut etre expose au gel."
       }
     ],
+    "kind": "lab",
     "anomalies": 2
   }
 ]
