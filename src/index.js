@@ -1,4 +1,3 @@
-export {default as anonymize} from './anonymize.js';
 export {default as defaultParseOptions} from './defaultParseOptions.js';
 export {default as defaultStringifyOptions} from './defaultStringifyOptions.js';
 export {default as expandAndMergeOptions} from './expandAndMergeOptions.js';
