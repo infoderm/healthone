@@ -9,6 +9,7 @@
   ],
   "requiredOnPrivate": [],
   "sortToTop": [
+    "packageManager",
     "name",
     "description",
     "version",
