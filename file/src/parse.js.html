@@ -69,13 +69,12 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/parse.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&#xFEFF;import {count} from &apos;@iterable-iterator/cardinality&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {count} from &apos;@iterable-iterator/cardinality&apos;;
 import {filter} from &apos;@iterable-iterator/filter&apos;;
 import {enumerate} from &apos;@iterable-iterator/zip&apos;;
 
 import defaultParseOptions from &apos;./defaultParseOptions.js&apos;;
 import expandAndMergeOptions from &apos;./expandAndMergeOptions.js&apos;;
-
 import parseRecord from &apos;./parseRecord.js&apos;;
 import insertRecord from &apos;./insertRecord.js&apos;;
 import insertLine from &apos;./insertLine.js&apos;;
@@ -109,7 +108,11 @@ function* parseLines(lines, options) {
 
 		if (record.descriptor === &apos;A1&apos;) {
 			if (report !== null) yield sanitizeReport(report);
-			report = {...record, lines: [line]};
+			report = {
+				reference: record.reference,
+				identifier: record.identifier,
+				lines: [line],
+			};
 		} else if (report === null) {
 			throw new Error(`Document did not start with &apos;A1\\&apos;: ${lineno}`);
 		} else {

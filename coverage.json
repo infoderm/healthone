@@ -33,17 +33,17 @@
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        3,
-        9
+        5,
+        11
       ]
     },
     "src/parse.js": {
       "expectCount": 3,
       "actualCount": 0,
       "undocumentLines": [
-        12,
-        18,
-        53
+        11,
+        17,
+        56
       ]
     },
     "src/parseA1.js": {
@@ -57,7 +57,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        7
+        6
       ]
     },
     "src/parseA3.js": {
@@ -71,7 +71,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        7
+        6
       ]
     },
     "src/parseA5.js": {
@@ -113,7 +113,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        10
+        9
       ]
     },
     "src/parseSex.js": {
@@ -191,7 +191,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        4
+        3
       ]
     },
     "src/stringifyL1.js": {
@@ -212,7 +212,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        10
+        9
       ]
     },
     "src/stringifySex.js": {
@@ -233,7 +233,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        4
+        3
       ]
     },
     "src/validateLineLength.js": {

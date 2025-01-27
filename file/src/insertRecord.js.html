@@ -69,7 +69,9 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/insertRecord.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import mergeWith from &apos;lodash.mergewith/index.js&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assert from &apos;node:assert&apos;;
+
+import mergeWith from &apos;lodash.mergewith/index.js&apos;;
 
 function customizer(objectValue, srcValue) {
 	if (Array.isArray(objectValue)) {
@@ -77,8 +79,8 @@ function customizer(objectValue, srcValue) {
 	}
 }
 
-export default function insertRecord(report, record) {
-	let {kind} = report;
+export default function insertRecord(report, {descriptor, ...record}) {
+	const {kind} = report;
 
 	if (record.reference !== report.reference) {
 		throw new Error(
@@ -86,14 +88,16 @@ export default function insertRecord(report, record) {
 		);
 	}
 
-	switch (record.descriptor) {
+	switch (descriptor) {
 		case &apos;L1&apos;: {
 			if (kind === &apos;report&apos;)
 				throw new Error(
-					`Invalid record descriptor &apos;${record.descriptor}&apos; for a report document.`,
+					`Invalid record descriptor &apos;${descriptor}&apos; for a report document.`,
 				);
-			kind = &apos;lab&apos;;
-			break;
+			return {
+				...mergeWith({}, report, record, customizer),
+				kind: &apos;lab&apos;,
+			};
 		}
 
 		case &apos;L2&apos;:
@@ -101,7 +105,7 @@ export default function insertRecord(report, record) {
 		case &apos;L5&apos;: {
 			if (kind === &apos;lab&apos;)
 				throw new Error(
-					`Invalid record descriptor &apos;${record.descriptor}&apos; for a lab document.`,
+					`Invalid record descriptor &apos;${descriptor}&apos; for a lab document.`,
 				);
 			if (
 				report.speciality !== undefined &amp;&amp;
@@ -112,19 +116,54 @@ export default function insertRecord(report, record) {
 				);
 			}
 
-			kind = &apos;report&apos;;
-			break;
+			const {speciality, text, ...rest} = record;
+
+			if (report.sections !== undefined) {
+				const {sections, ...metadata} = report;
+				assert(sections.length &gt; 0);
+
+				const head = sections.slice(0, -1);
+				const last = sections.at(-1);
+
+				if (speciality === last.speciality) {
+					return {
+						...mergeWith(
+							{},
+							metadata,
+							rest,
+							{
+								sections: [...head, mergeWith({}, last, {text}, customizer)],
+							},
+							customizer,
+						),
+						kind: &apos;report&apos;,
+					};
+				}
+			}
+
+			return {
+				...mergeWith(
+					{},
+					report,
+					rest,
+					{
+						sections: [
+							{
+								speciality,
+								text,
+							},
+						],
+					},
+					customizer,
+				),
+				kind: &apos;report&apos;,
+			};
 		}
 
 		default: {
-			break;
-		} // Do nothing
+			return mergeWith({}, report, record, customizer);
+		}
 	}
-
-	return {
-		...mergeWith({}, report, record, customizer),
-		kind,
-	};
 }
 </code></pre>
 

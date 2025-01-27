@@ -69,15 +69,17 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/stringifyL5.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&#xFEFF;export default function* stringifyL5(record, options) {
-	const {reference, speciality, text} = record;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default function* stringifyL5(record, options) {
+	const {reference, sections} = record;
 
-	for (const line of text) {
-		const parts = [&apos;L5&apos;, reference, speciality, &apos;&apos;, &apos;&apos;, &apos;&apos;, &apos;&apos;, line];
+	for (const {speciality, text} of sections) {
+		for (const line of text) {
+			const parts = [&apos;L5&apos;, reference, speciality, &apos;&apos;, &apos;&apos;, &apos;&apos;, &apos;&apos;, line];
 
-		if (options.trailing.L5) parts.push(&apos;&apos;);
+			if (options.trailing.L5) parts.push(&apos;&apos;);
 
-		yield parts;
+			yield parts;
+		}
 	}
 }
 </code></pre>
