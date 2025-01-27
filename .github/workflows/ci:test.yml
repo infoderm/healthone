@@ -28,6 +28,8 @@ jobs:
           retention-days: 1
 
   test-coverage-upload:
+    name: Continuous integration (tests coverage upload)
+
     needs:
       - test
 
