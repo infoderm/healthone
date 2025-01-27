@@ -19,7 +19,33 @@ jobs:
       - name: Test 🔬
         run: yarn ci:test
 
-      - name: Publish coverage report 📃
-        uses: codecov/codecov-action@v3
+      - name: Archive coverage data 💽
+        uses: actions/upload-artifact@v4
         with:
+          name: coverage
+          path: .coverage
+          include-hidden-files: true
+          retention-days: 1
+
+  test-coverage-upload:
+    needs:
+      - test
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 1
+
+    steps:
+      - name: Load coverage data 💽
+        uses: actions/download-artifact@v4
+        with:
+          name: coverage
+          path: .coverage
+
+      - name: Publish coverage report 📰
+        uses: codecov/codecov-action@v4
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        with:
+          directory: ./.coverage/
           fail_ci_if_error: true
