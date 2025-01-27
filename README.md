@@ -16,7 +16,7 @@ import {parse, stringify} from 'healthone' ;
 
 [![License](https://img.shields.io/github/license/infoderm/healthone.svg)](https://raw.githubusercontent.com/infoderm/healthone/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/healthone.svg)](https://www.npmjs.org/package/healthone)
-[![Tests](https://img.shields.io/github/workflow/status/infoderm/healthone/ci:test?event=push&label=tests)](https://github.com/infoderm/healthone/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/infoderm/healthone/ci:test.yml?branch=main&event=push&label=tests)](https://github.com/infoderm/healthone/actions/workflows/ci:test.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/david/infoderm/healthone.svg)](https://david-dm.org/infoderm/healthone)
 [![Dev dependencies](https://img.shields.io/david/dev/infoderm/healthone.svg)](https://david-dm.org/infoderm/healthone?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/infoderm/healthone.svg)](https://github.com/infoderm/healthone/issues)
