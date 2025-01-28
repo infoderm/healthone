@@ -1,6 +1,3 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
 function ask () {
 
 	# This is a general-purpose function to ask Yes/No questions in Bash, either
