@@ -12,13 +12,20 @@ function parseDates(documents) {
 	}
 }
 
+function structuredCloneWithoutUndefinedProps(object) {
+	// eslint-disable-next-line unicorn/prefer-structured-clone
+	return JSON.parse(JSON.stringify(object));
+}
+
 function file(t, filename, options) {
 	const source = fs.readFileSync(`test/data/input/${filename}`).toString();
 	const expectedDocuments = JSON.parse(
 		fs.readFileSync(`test/data/json/${filename}`).toString(),
 	);
 
-	const documents = JSON.parse(JSON.stringify(parse(source, options)));
+	const documents = structuredCloneWithoutUndefinedProps(
+		parse(source, options),
+	);
 
 	parseDates(expectedDocuments);
 	parseDates(documents);
