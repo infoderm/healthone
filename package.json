@@ -75,9 +75,9 @@
     "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.27.1",
+    "@babel/cli": "7.27.2",
     "@babel/core": "7.27.1",
-    "@babel/preset-env": "7.27.1",
+    "@babel/preset-env": "7.27.2",
     "@babel/register": "7.27.1",
     "@commitlint/cli": "19.8.0",
     "@faker-js/faker": "^9.0.0",
