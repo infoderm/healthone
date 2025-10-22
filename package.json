@@ -98,7 +98,7 @@
     "fixpack": "4.0.0",
     "husky": "9.1.7",
     "iconv-lite": "0.7.0",
-    "lint-staged": "16.2.5",
+    "lint-staged": "16.2.6",
     "np": "10.2.0",
     "npm-run-all2": "8.0.4",
     "pinst": "3.0.0",
