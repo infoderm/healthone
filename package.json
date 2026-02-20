@@ -79,7 +79,7 @@
     "@babel/core": "7.29.0",
     "@babel/preset-env": "7.29.0",
     "@babel/register": "7.28.6",
-    "@commitlint/cli": "20.4.1",
+    "@commitlint/cli": "20.4.2",
     "@faker-js/faker": "^10.0.0",
     "@js-library/commitlint-config": "0.0.4",
     "ava": "6.4.1",
