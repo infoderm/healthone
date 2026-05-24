@@ -100,7 +100,7 @@
     "iconv-lite": "0.7.2",
     "lint-staged": "17.0.5",
     "np": "11.2.1",
-    "npm-run-all2": "8.0.4",
+    "npm-run-all2": "9.0.1",
     "pinst": "3.0.0",
     "power-assert": "1.6.1",
     "regenerator-runtime": "0.14.1",
