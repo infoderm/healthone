@@ -75,10 +75,10 @@
     "lodash.mergewith": "^4.6.2"
   },
   "devDependencies": {
-    "@babel/cli": "8.0.0",
-    "@babel/core": "8.0.0",
-    "@babel/preset-env": "8.0.0",
-    "@babel/register": "8.0.0",
+    "@babel/cli": "8.0.1",
+    "@babel/core": "8.0.1",
+    "@babel/preset-env": "8.0.1",
+    "@babel/register": "8.0.1",
     "@commitlint/cli": "21.0.2",
     "@faker-js/faker": "^10.0.0",
     "@js-library/commitlint-config": "0.0.4",
