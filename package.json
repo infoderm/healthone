@@ -76,8 +76,8 @@
   },
   "devDependencies": {
     "@babel/cli": "8.0.6",
-    "@babel/core": "8.0.6",
-    "@babel/preset-env": "8.0.6",
+    "@babel/core": "8.0.7",
+    "@babel/preset-env": "8.0.7",
     "@babel/register": "8.0.6",
     "@commitlint/cli": "21.2.3",
     "@faker-js/faker": "^10.0.0",
